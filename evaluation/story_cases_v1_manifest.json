@@ -1,0 +1,21 @@
+{
+  "protocol_version": "story-cases-v1",
+  "private_cases_sha256": "fa0f47905413faae20eb2863f0ea2b5889f758c42f5c08d63dc8f0ff18eb8a5b",
+  "case_count": 12,
+  "languages": {
+    "zh": 6,
+    "en": 6
+  },
+  "source_kinds": {
+    "single": 2,
+    "event": 8,
+    "date": 2
+  },
+  "event_size_buckets": {
+    "2-3": 3,
+    "4-7": 3,
+    "8+": 2
+  },
+  "includes_2026_07_12_regression": true,
+  "private_content_committed": false
+}

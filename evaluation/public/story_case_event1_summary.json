@@ -1,0 +1,82 @@
+{
+  "event_id": "9fb2f2af-ebb4-5f2b-8e7b-d380b898f043",
+  "variants": [
+    "S-F",
+    "S-C0",
+    "S-C1"
+  ],
+  "statuses": {
+    "S-F": "ok",
+    "S-C0": "repaired",
+    "S-C1": "repaired"
+  },
+  "review_scores": {
+    "SF_vs_SC0": {
+      "S-F": {
+        "coherence": 4,
+        "evidence_consistency": 3,
+        "first_person": 1,
+        "imaginative_content": 2,
+        "unsupported_claims": 2
+      },
+      "S-C0": {
+        "coherence": 5,
+        "evidence_consistency": 5,
+        "first_person": 5,
+        "imaginative_content": 4,
+        "unsupported_claims": 1
+      }
+    },
+    "SC0_vs_SC1": {
+      "S-C1": {
+        "coherence": 5,
+        "personalization": 5,
+        "mood_usage": 5,
+        "mood_credibility": 5,
+        "invents_emotion_cause": 1
+      },
+      "S-C0": {
+        "coherence": 4,
+        "personalization": 3,
+        "mood_usage": 1,
+        "mood_credibility": 1,
+        "invents_emotion_cause": 1
+      }
+    }
+  },
+  "claim_audit_counts": {
+    "SF_vs_SC0": {
+      "S-F": {
+        "supported": 10,
+        "unsupported": 2,
+        "creative": 1,
+        "non_factual": 1
+      },
+      "S-C0": {
+        "supported": 12,
+        "unsupported": 0,
+        "creative": 2,
+        "non_factual": 0
+      }
+    },
+    "SC0_vs_SC1": {
+      "S-C1": {
+        "supported": 10,
+        "unsupported": 2,
+        "creative": 3,
+        "non_factual": 0
+      },
+      "S-C0": {
+        "supported": 14,
+        "unsupported": 0,
+        "creative": 3,
+        "non_factual": 1
+      }
+    }
+  },
+  "diff_notes": {
+    "SF_vs_SC0": "Story B correctly identifies the savory galette and adopts a first-person perspective that aligns with the prompt's mood labels. Story A uses a detached third-person voice, misidentifies the food as a sweet pancake, and spatially conflates the carousel location with the cathedral.",
+    "SC0_vs_SC1": "Story A successfully integrates specific mood labels into the narrative flow, adhering to constraints. Story B provides accurate visual descriptions but fails to include any mood data, rendering it incomplete per instructions."
+  },
+  "order_hash": "93f0f6529a30ea6cd29096ec1c154570361aaa654dc458f5da57bb7d44d9f2f4"
+}

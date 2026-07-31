@@ -1,0 +1,37 @@
+{
+  "album_root": "D:\\code\\vscode\\Msc-code\\smart-photo-narrative\\photos",
+  "album_snapshot_sha256": "56d492c4be35b8ddbf407631d61a3d4834a188e156a05ff9c66c942fac636b26",
+  "batch_relative_root": "pic2",
+  "blocking_issues": 0,
+  "counts": {
+    "album_image_files": 1223,
+    "album_uncovered": 0,
+    "checksum_conflict": 0,
+    "covered_album_paths": 1223,
+    "duplicate": 0,
+    "empty": 0,
+    "extra_result_path": 0,
+    "failed": 0,
+    "local_missing": 0,
+    "malformed": 0,
+    "modified_after_generation": 0,
+    "recovered": 1223,
+    "storage_missing": 0,
+    "total_rows": 1223,
+    "unsafe_path": 0,
+    "unsupported_source": 0
+  },
+  "database": "D:\\code\\vscode\\Msc-code\\smart-photo-narrative\\data\\smart_photo.db",
+  "dataset_id": "personal-pic2-v1",
+  "generation_sha256_verified": false,
+  "issues": [],
+  "provenance": "legacy_path_time_recovered",
+  "recovered_at": "2026-07-25T09:53:23.044654+00:00",
+  "source_counts": {
+    "remote": 1216,
+    "remote_repaired": 7
+  },
+  "source_file": "D:\\code\\vscode\\Msc-code\\smart-photo-narrative\\outputs\\scene_graph\\raw\\qwen_scene_graph_pic2_success.pic2paths.jsonl",
+  "source_file_sha256": "685e29ba1b765f776d5791ddcec780cf1b7b67c22ec30272d9320e4c7b12de80",
+  "user_confirmed_current_album_source": true
+}

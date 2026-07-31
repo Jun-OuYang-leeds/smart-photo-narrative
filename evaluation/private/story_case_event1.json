@@ -1,0 +1,542 @@
+{
+  "event_id": "9fb2f2af-ebb4-5f2b-8e7b-d380b898f043",
+  "mood_set": "paris_20251218_mood_v1",
+  "frozen": {
+    "photo_ids": [
+      "230a6ec1-d740-4bef-8005-0d0b7de8eb4e",
+      "2903d342-a88f-4adf-9443-74e38a9728d0",
+      "065aa239-ccda-40d4-858d-282e654163f1",
+      "ce908de3-d496-46cd-be67-827c03df7514",
+      "a92c780d-1fa0-46d8-9acd-60d18f30cc45",
+      "f1ac6c4a-c4d0-41bb-8e08-3c5e15416190",
+      "aa233ad8-8b5d-4f9d-b6e4-3f36e2dad1d8",
+      "7d5c61a4-da0b-4aee-88cf-201e84ca0350",
+      "8ec16837-37c2-461a-ab5c-d9feb43c3646",
+      "f61eee72-0a48-40c3-a74a-06a9182b7997",
+      "519be45f-a557-4be6-80df-753d415b3fcd",
+      "959c3fa6-a437-470b-a2e5-8e585fdd3f45"
+    ],
+    "photo_hashes": {
+      "230a6ec1-d740-4bef-8005-0d0b7de8eb4e": "a1d3e20cd1e9e8843247b70c6d4ee5d3907f7a20bc70a031da4de732b809eff2",
+      "2903d342-a88f-4adf-9443-74e38a9728d0": "cbe24d4e8d386ffadf9c5dde21c98cac1c3b293cddf0f597d0d6292fd1fa465d",
+      "065aa239-ccda-40d4-858d-282e654163f1": "5ad9450e695383c0eccb225d697d239f401039b1e90450f37a43d6bdc7c48520",
+      "ce908de3-d496-46cd-be67-827c03df7514": "f46e1e2a8dcfb738ca3f6c9babe5a38aa74000926ed02efedf40bdf033056726",
+      "a92c780d-1fa0-46d8-9acd-60d18f30cc45": "3a10de67c06ce65674d7779e372ee2ccfcf1ac23614775283a15176eb65a3375",
+      "f1ac6c4a-c4d0-41bb-8e08-3c5e15416190": "daeb902c86884ccf79ff1be7064aa71a5b79ad9a1b09d1c1ed354e50e399201e",
+      "aa233ad8-8b5d-4f9d-b6e4-3f36e2dad1d8": "a8469de1df8784ed4f143738ed888141b508f3f151d7dc6878d1c63e29c837dc",
+      "7d5c61a4-da0b-4aee-88cf-201e84ca0350": "13e421ff121b28cdc630cef30a50d6ab5b4a816ed37a24d02b1359307a5d0648",
+      "8ec16837-37c2-461a-ab5c-d9feb43c3646": "df4b0358527a0e1a5b46d31e5c45cb2e38d2489a176adbd04edec9642a71e0a5",
+      "f61eee72-0a48-40c3-a74a-06a9182b7997": "4564ecbcea505e226e9e3fb8a6fb2aada38cfbc74bb6086ba385dda5076b9ab2",
+      "519be45f-a557-4be6-80df-753d415b3fcd": "86e9c56d9ec0527e5b3b194e6b3ed043c7ce16655ce259d0fdd32a8d9d21193f",
+      "959c3fa6-a437-470b-a2e5-8e585fdd3f45": "c1c0d487d1e7149f892a111600afba211f16de6e1bd682770e867ffc545f9aa6"
+    },
+    "order_hash": "93f0f6529a30ea6cd29096ec1c154570361aaa654dc458f5da57bb7d44d9f2f4"
+  },
+  "generation": {
+    "model": "qwen3.5-27b",
+    "temperature": 0.25,
+    "max_tokens": 2048,
+    "language": "en"
+  },
+  "moods": {
+    "230a6ec1-d740-4bef-8005-0d0b7de8eb4e": "neutral",
+    "2903d342-a88f-4adf-9443-74e38a9728d0": "happy",
+    "065aa239-ccda-40d4-858d-282e654163f1": "calm",
+    "ce908de3-d496-46cd-be67-827c03df7514": "excited",
+    "a92c780d-1fa0-46d8-9acd-60d18f30cc45": "happy",
+    "f1ac6c4a-c4d0-41bb-8e08-3c5e15416190": "happy",
+    "aa233ad8-8b5d-4f9d-b6e4-3f36e2dad1d8": "excited",
+    "7d5c61a4-da0b-4aee-88cf-201e84ca0350": "happy",
+    "8ec16837-37c2-461a-ab5c-d9feb43c3646": "excited",
+    "f61eee72-0a48-40c3-a74a-06a9182b7997": "calm",
+    "519be45f-a557-4be6-80df-753d415b3fcd": "neutral",
+    "959c3fa6-a437-470b-a2e5-8e585fdd3f45": "calm"
+  },
+  "stories": {
+    "S-F": {
+      "status": "ok",
+      "mode": "faithful",
+      "use_photographer_mood": false,
+      "title": "A Day in Paris: Dining, Landmarks, and Reflections",
+      "text": "A Day in Paris: Dining, Landmarks, and Reflections\n\nIn a Parisian setting, a person wearing a jacket, hat, and glasses sits at a table. The individual holds a pizza topped with strawberries and blueberries while also touching a smoothie. A second view shows a plate on the table containing a pancake with a visible filling, alongside a fork and knife resting on the surface.\n\nLooking upward from a street level, a French tricolor flag hangs from a pole against a blue sky filled with clouds. Contrails stretch across the sky, connecting cloud formations above the urban environment.\n\nInside a cathedral, statues stand on pillars and pedestals; one figure wears a robe and looks downward, while another is clad in armor holding a sword and helmet. Large stained glass windows reflect light, displaying colorful patterns and religious scenes within arched frames. Outside, crowds gather on the sidewalk before the large historical building, which features towers, arches, and a rose window. Nearby, a carousel stands in front of the structure.\n\nA person holds up a smartphone displaying an image of a woman walking along a tree-lined path toward a sunset. In another scene, an individual sits on a chair or bench near water where ducks swim and birds fly overhead. A fountain sprays water nearby, with buildings and trees visible in the background under a cloudy sky.",
+      "paragraphs": [
+        "In a Parisian setting, a person wearing a jacket, hat, and glasses sits at a table. The individual holds a pizza topped with strawberries and blueberries while also touching a smoothie. A second view shows a plate on the table containing a pancake with a visible filling, alongside a fork and knife resting on the surface.",
+        "Looking upward from a street level, a French tricolor flag hangs from a pole against a blue sky filled with clouds. Contrails stretch across the sky, connecting cloud formations above the urban environment.",
+        "Inside a cathedral, statues stand on pillars and pedestals; one figure wears a robe and looks downward, while another is clad in armor holding a sword and helmet. Large stained glass windows reflect light, displaying colorful patterns and religious scenes within arched frames. Outside, crowds gather on the sidewalk before the large historical building, which features towers, arches, and a rose window. Nearby, a carousel stands in front of the structure.",
+        "A person holds up a smartphone displaying an image of a woman walking along a tree-lined path toward a sunset. In another scene, an individual sits on a chair or bench near water where ducks swim and birds fly overhead. A fountain sprays water nearby, with buildings and trees visible in the background under a cloudy sky."
+      ],
+      "creative_transitions": [],
+      "mood_reflections": [],
+      "photographer_moods": [],
+      "warnings": []
+    },
+    "S-C0": {
+      "status": "repaired",
+      "mode": "creative",
+      "use_photographer_mood": false,
+      "title": "Traces of a City",
+      "text": "Traces of a City\n\nA table holds a plate with a broken pancake containing egg and meat filling, alongside an empty glass and cutlery. Nearby, someone sits wearing a jacket and hat, holding a slice of pizza topped with strawberries and blueberries while drinking from a smoothie cup. The person looks toward a window, touching the drink.\n\nAbove a street, a tricolor flag hangs from a pole against a blue sky filled with clouds. White trails stretch across the heavens, connecting and fading among the cloud formations.\n\nInside a cathedral, a statue of a woman in robes stands on a pillar, looking downward. Stained glass windows illuminate the space, reflecting light through colorful patterns and religious scenes framed by Gothic arches. Another statue depicts a figure in armor holding a sword and helmet, posed heroically on a pedestal. Outside, crowds gather before the large historical building, walking along sidewalks and looking up at towers. A carousel stands nearby where people wear coats and hats.\n\nA person holds up a smartphone displaying an image of a woman walking along a tree-lined path extending into the distance under a cloudy sunset sky. Someone sits on a chair wearing a jacket, looking toward water where ducks swim near a fountain. Birds fly overhead while trees grow beside buildings in the background.\n\nAs I move from the meal, I see open skies and distant movement above the streets.\n\nFrom the street view, I turn my attention inward to stone and light within the cathedral.\n\nI carry these images as quiet witnesses to places I have passed through. They hold the rhythm of days spent moving between meals, monuments, and moments of stillness.\n\nThese fragments remain as they were captured: food on plates, flags in wind, statues in shadow, and people in motion. I return to them not to claim ownership, but to remember what was there when I looked.",
+      "paragraphs": [
+        "A table holds a plate with a broken pancake containing egg and meat filling, alongside an empty glass and cutlery. Nearby, someone sits wearing a jacket and hat, holding a slice of pizza topped with strawberries and blueberries while drinking from a smoothie cup. The person looks toward a window, touching the drink.",
+        "Above a street, a tricolor flag hangs from a pole against a blue sky filled with clouds. White trails stretch across the heavens, connecting and fading among the cloud formations.",
+        "Inside a cathedral, a statue of a woman in robes stands on a pillar, looking downward. Stained glass windows illuminate the space, reflecting light through colorful patterns and religious scenes framed by Gothic arches. Another statue depicts a figure in armor holding a sword and helmet, posed heroically on a pedestal. Outside, crowds gather before the large historical building, walking along sidewalks and looking up at towers. A carousel stands nearby where people wear coats and hats.",
+        "A person holds up a smartphone displaying an image of a woman walking along a tree-lined path extending into the distance under a cloudy sunset sky. Someone sits on a chair wearing a jacket, looking toward water where ducks swim near a fountain. Birds fly overhead while trees grow beside buildings in the background."
+      ],
+      "creative_transitions": [
+        "As I move from the meal, I see open skies and distant movement above the streets.",
+        "From the street view, I turn my attention inward to stone and light within the cathedral."
+      ],
+      "mood_reflections": [],
+      "photographer_moods": [],
+      "warnings": [
+        "E_FIRST_PERSON_VOICE: transition 1 must use explicit first-person narration in English",
+        "E_FIRST_PERSON_VOICE: transition 2 must use explicit first-person narration in English"
+      ]
+    },
+    "S-C1": {
+      "status": "repaired",
+      "mode": "creative",
+      "use_photographer_mood": true,
+      "title": "Paris Through My Lens",
+      "text": "Paris Through My Lens\n\nA person sits at a table with pizza topped with strawberries and blueberries, holding a slice while looking toward a window. Nearby, another plate holds a broken pancake with egg and meat filling beside a fork and knife. Capturing this scene, I felt neutral at first, then happy as the light softened across the food.\n\nAbove a street, a French flag hangs from a pole against a blue sky streaked with clouds and faint trails. The tricolor fabric displays clearly in daylight. While photographing this view, I felt calm watching the stillness of the flag against the moving sky.\n\nInside a cathedral, a statue of a woman in a robe stands near a pillar with hands visible and face looking downward. Stained glass windows illuminate the space with colorful religious scenes, their arches framing the high ceiling. Another statue depicts a figure in armor holding a sword on a pedestal. Outside, crowds gather before large cathedral towers. A carousel stands in front of a building where people in coats stand nearby. Taking these photos, I felt excited by the architecture, happy observing details, and calm when focusing on the carousel.\n\nA person holds up a smartphone displaying an image of a woman walking along a tree-lined path toward sunset under cloudy skies. In another view, someone sits on a chair wearing a jacket, looking toward water where ducks swim near a fountain. Birds fly overhead while buildings form the background. Photographing these moments, I felt neutral capturing the phone screen, then calm as I framed the seated figure by the water.\n\nThe meal gives way to open sky, and I shift my focus from indoor warmth to outdoor stillness.\n\nLeaving the streets, I turn inward to stone and stained glass.\n\nI carry a camera to capture the rhythm of Paris, not as a participant but as an observer. Each frame holds a quiet moment where I felt something specific while pressing the shutter.\n\nThese images remain separate yet connected by my presence behind the lens. I return to that same quiet observation, letting each mood settle without explanation.",
+      "paragraphs": [
+        "A person sits at a table with pizza topped with strawberries and blueberries, holding a slice while looking toward a window. Nearby, another plate holds a broken pancake with egg and meat filling beside a fork and knife. Capturing this scene, I felt neutral at first, then happy as the light softened across the food.",
+        "Above a street, a French flag hangs from a pole against a blue sky streaked with clouds and faint trails. The tricolor fabric displays clearly in daylight. While photographing this view, I felt calm watching the stillness of the flag against the moving sky.",
+        "Inside a cathedral, a statue of a woman in a robe stands near a pillar with hands visible and face looking downward. Stained glass windows illuminate the space with colorful religious scenes, their arches framing the high ceiling. Another statue depicts a figure in armor holding a sword on a pedestal. Outside, crowds gather before large cathedral towers. A carousel stands in front of a building where people in coats stand nearby. Taking these photos, I felt excited by the architecture, happy observing details, and calm when focusing on the carousel.",
+        "A person holds up a smartphone displaying an image of a woman walking along a tree-lined path toward sunset under cloudy skies. In another view, someone sits on a chair wearing a jacket, looking toward water where ducks swim near a fountain. Birds fly overhead while buildings form the background. Photographing these moments, I felt neutral capturing the phone screen, then calm as I framed the seated figure by the water."
+      ],
+      "creative_transitions": [
+        "The meal gives way to open sky, and I shift my focus from indoor warmth to outdoor stillness.",
+        "Leaving the streets, I turn inward to stone and stained glass."
+      ],
+      "mood_reflections": [],
+      "photographer_moods": [
+        {
+          "evidence_id": "P001",
+          "photo_id": "230a6ec1-d740-4bef-8005-0d0b7de8eb4e",
+          "mood_label": "neutral",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        },
+        {
+          "evidence_id": "P002",
+          "photo_id": "2903d342-a88f-4adf-9443-74e38a9728d0",
+          "mood_label": "happy",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        },
+        {
+          "evidence_id": "P003",
+          "photo_id": "065aa239-ccda-40d4-858d-282e654163f1",
+          "mood_label": "calm",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        },
+        {
+          "evidence_id": "P004",
+          "photo_id": "ce908de3-d496-46cd-be67-827c03df7514",
+          "mood_label": "excited",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        },
+        {
+          "evidence_id": "P005",
+          "photo_id": "a92c780d-1fa0-46d8-9acd-60d18f30cc45",
+          "mood_label": "happy",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        },
+        {
+          "evidence_id": "P006",
+          "photo_id": "f1ac6c4a-c4d0-41bb-8e08-3c5e15416190",
+          "mood_label": "happy",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        },
+        {
+          "evidence_id": "P007",
+          "photo_id": "aa233ad8-8b5d-4f9d-b6e4-3f36e2dad1d8",
+          "mood_label": "excited",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        },
+        {
+          "evidence_id": "P008",
+          "photo_id": "7d5c61a4-da0b-4aee-88cf-201e84ca0350",
+          "mood_label": "happy",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        },
+        {
+          "evidence_id": "P009",
+          "photo_id": "8ec16837-37c2-461a-ab5c-d9feb43c3646",
+          "mood_label": "excited",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        },
+        {
+          "evidence_id": "P010",
+          "photo_id": "f61eee72-0a48-40c3-a74a-06a9182b7997",
+          "mood_label": "calm",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        },
+        {
+          "evidence_id": "P011",
+          "photo_id": "519be45f-a557-4be6-80df-753d415b3fcd",
+          "mood_label": "neutral",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        },
+        {
+          "evidence_id": "P012",
+          "photo_id": "959c3fa6-a437-470b-a2e5-8e585fdd3f45",
+          "mood_label": "calm",
+          "source": "manual",
+          "subject_role": "photographer",
+          "confirmed": true,
+          "annotation_set": "paris_20251218_mood_v1"
+        }
+      ],
+      "warnings": [
+        "E_FIRST_PERSON_VOICE: transition 1 must use explicit first-person narration in English",
+        "E_FIRST_PERSON_VOICE: transition 2 must use explicit first-person narration in English"
+      ]
+    }
+  },
+  "reviews": [
+    {
+      "comparison_id": "SF_vs_SC0",
+      "keys": [
+        "S-F",
+        "S-C0"
+      ],
+      "dimensions": [
+        "coherence",
+        "evidence_consistency",
+        "first_person",
+        "imaginative_content",
+        "unsupported_claims"
+      ],
+      "scores": {
+        "S-F": {
+          "coherence": 4,
+          "evidence_consistency": 3,
+          "first_person": 1,
+          "imaginative_content": 2,
+          "unsupported_claims": 2
+        },
+        "S-C0": {
+          "coherence": 5,
+          "evidence_consistency": 5,
+          "first_person": 5,
+          "imaginative_content": 4,
+          "unsupported_claims": 1
+        }
+      },
+      "claim_audit": {
+        "S-F": {
+          "supported": [
+            "Person wearing jacket, hat, and glasses",
+            "Pizza topped with strawberries and blueberries",
+            "Smoothie on table",
+            "French tricolor flag against blue sky with contrails",
+            "Statue of woman in robes looking downward",
+            "Stained glass windows with religious scenes",
+            "Statue of figure in armor holding sword",
+            "Crowds gathering before large historical building (Notre Dame)",
+            "Smartphone displaying image of woman on tree-lined path",
+            "Person sitting on chair near water with ducks"
+          ],
+          "unsupported": [
+            "Plate containing a pancake (Image shows a broken galette/crepe)",
+            "Carousel stands in front of the structure (Carousel is at Hotel de Ville, not Notre Dame)"
+          ],
+          "creative": [
+            "Narrative grouping of disparate locations into a single 'day' flow without transitional context"
+          ],
+          "non_factual": [
+            "Identifying the savory galette as a 'pancake with visible filling' (misidentification of food type)"
+          ]
+        },
+        "S-C0": {
+          "supported": [
+            "Broken pancake/galette containing egg and meat filling",
+            "Empty glass and cutlery",
+            "Person holding slice of pizza with berries",
+            "Drinking from smoothie cup",
+            "Tricolor flag and white trails in sky",
+            "Statue of woman in robes on pillar",
+            "Gothic arches and stained glass",
+            "Armor statue posed heroically",
+            "Crowds walking along sidewalks",
+            "Carousel nearby with people in coats",
+            "Smartphone image of woman on path under cloudy sunset",
+            "Person sitting on chair looking toward water/fountain"
+          ],
+          "unsupported": [],
+          "creative": [
+            "First-person reflective monologue connecting the images ('quiet witnesses', 'rhythm of days')",
+            "Interpretation of the phone screen content as a memory or specific moment"
+          ],
+          "non_factual": []
+        }
+      },
+      "diff_note": "Story B correctly identifies the savory galette and adopts a first-person perspective that aligns with the prompt's mood labels. Story A uses a detached third-person voice, misidentifies the food as a sweet pancake, and spatially conflates the carousel location with the cathedral.",
+      "anonymization": {
+        "S-F": "A",
+        "S-C0": "B"
+      },
+      "raw": {
+        "scores": {
+          "A": {
+            "coherence": 4,
+            "evidence_consistency": 3,
+            "first_person": 1,
+            "imaginative_content": 2,
+            "unsupported_claims": 2
+          },
+          "B": {
+            "coherence": 5,
+            "evidence_consistency": 5,
+            "first_person": 5,
+            "imaginative_content": 4,
+            "unsupported_claims": 1
+          }
+        },
+        "claim_audit": {
+          "A": {
+            "supported": [
+              "Person wearing jacket, hat, and glasses",
+              "Pizza topped with strawberries and blueberries",
+              "Smoothie on table",
+              "French tricolor flag against blue sky with contrails",
+              "Statue of woman in robes looking downward",
+              "Stained glass windows with religious scenes",
+              "Statue of figure in armor holding sword",
+              "Crowds gathering before large historical building (Notre Dame)",
+              "Smartphone displaying image of woman on tree-lined path",
+              "Person sitting on chair near water with ducks"
+            ],
+            "unsupported": [
+              "Plate containing a pancake (Image shows a broken galette/crepe)",
+              "Carousel stands in front of the structure (Carousel is at Hotel de Ville, not Notre Dame)"
+            ],
+            "creative": [
+              "Narrative grouping of disparate locations into a single 'day' flow without transitional context"
+            ],
+            "non_factual": [
+              "Identifying the savory galette as a 'pancake with visible filling' (misidentification of food type)"
+            ]
+          },
+          "B": {
+            "supported": [
+              "Broken pancake/galette containing egg and meat filling",
+              "Empty glass and cutlery",
+              "Person holding slice of pizza with berries",
+              "Drinking from smoothie cup",
+              "Tricolor flag and white trails in sky",
+              "Statue of woman in robes on pillar",
+              "Gothic arches and stained glass",
+              "Armor statue posed heroically",
+              "Crowds walking along sidewalks",
+              "Carousel nearby with people in coats",
+              "Smartphone image of woman on path under cloudy sunset",
+              "Person sitting on chair looking toward water/fountain"
+            ],
+            "unsupported": [],
+            "creative": [
+              "First-person reflective monologue connecting the images ('quiet witnesses', 'rhythm of days')",
+              "Interpretation of the phone screen content as a memory or specific moment"
+            ],
+            "non_factual": []
+          }
+        },
+        "diff_note": "Story B correctly identifies the savory galette and adopts a first-person perspective that aligns with the prompt's mood labels. Story A uses a detached third-person voice, misidentifies the food as a sweet pancake, and spatially conflates the carousel location with the cathedral."
+      }
+    },
+    {
+      "comparison_id": "SC0_vs_SC1",
+      "keys": [
+        "S-C0",
+        "S-C1"
+      ],
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "mood_usage",
+        "mood_credibility",
+        "invents_emotion_cause"
+      ],
+      "scores": {
+        "S-C1": {
+          "coherence": 5,
+          "personalization": 5,
+          "mood_usage": 5,
+          "mood_credibility": 5,
+          "invents_emotion_cause": 1
+        },
+        "S-C0": {
+          "coherence": 4,
+          "personalization": 3,
+          "mood_usage": 1,
+          "mood_credibility": 1,
+          "invents_emotion_cause": 1
+        }
+      },
+      "claim_audit": {
+        "S-C1": {
+          "supported": [
+            "Pizza topped with strawberries and blueberries",
+            "Broken pancake with egg and meat filling",
+            "French flag hangs from a pole against a blue sky",
+            "Statue of a woman in a robe stands near a pillar",
+            "Stained glass windows illuminate the space",
+            "Figure in armor holding a sword on a pedestal",
+            "Crowds gather before large cathedral towers",
+            "Carousel stands in front of a building",
+            "Smartphone displaying an image of a woman walking along a tree-lined path",
+            "Person sits on a chair wearing a jacket, looking toward water where ducks swim"
+          ],
+          "unsupported": [
+            "Light softened across the food (subjective lighting change not verifiable)",
+            "Stillness of the flag against the moving sky (motion inference)"
+          ],
+          "creative": [
+            "Paris Through My Lens (Title)",
+            "The meal gives way to open sky... (Transitional prose)",
+            "I carry a camera to capture the rhythm of Paris... (Thematic reflection)"
+          ],
+          "non_factual": []
+        },
+        "S-C0": {
+          "supported": [
+            "Plate with a broken pancake containing egg and meat filling",
+            "Empty glass and cutlery",
+            "Someone sits wearing a jacket and hat",
+            "Slice of pizza topped with strawberries and blueberries",
+            "Drinking from a smoothie cup",
+            "Tricolor flag hangs from a pole against a blue sky",
+            "White trails stretch across the heavens",
+            "Statue of a woman in robes stands on a pillar",
+            "Stained glass windows... reflecting light through colorful patterns",
+            "Figure in armor holding a sword and helmet",
+            "Crowds gather before the large historical building",
+            "Carousel stands nearby where people wear coats and hats",
+            "Smartphone displaying an image of a woman walking along a tree-lined path",
+            "Someone sits on a chair wearing a jacket, looking toward water where ducks swim"
+          ],
+          "unsupported": [],
+          "creative": [
+            "Traces of a City (Title)",
+            "As I move from the meal... (Transitional prose)",
+            "I carry these images as quiet witnesses... (Thematic reflection)"
+          ],
+          "non_factual": [
+            "Story B completely omits all provided Photographer Mood labels despite the prompt requiring their integration."
+          ]
+        }
+      },
+      "diff_note": "Story A successfully integrates specific mood labels into the narrative flow, adhering to constraints. Story B provides accurate visual descriptions but fails to include any mood data, rendering it incomplete per instructions.",
+      "anonymization": {
+        "S-C0": "B",
+        "S-C1": "A"
+      },
+      "raw": {
+        "scores": {
+          "A": {
+            "coherence": 5,
+            "personalization": 5,
+            "mood_usage": 5,
+            "mood_credibility": 5,
+            "invents_emotion_cause": 1
+          },
+          "B": {
+            "coherence": 4,
+            "personalization": 3,
+            "mood_usage": 1,
+            "mood_credibility": 1,
+            "invents_emotion_cause": 1
+          }
+        },
+        "claim_audit": {
+          "A": {
+            "supported": [
+              "Pizza topped with strawberries and blueberries",
+              "Broken pancake with egg and meat filling",
+              "French flag hangs from a pole against a blue sky",
+              "Statue of a woman in a robe stands near a pillar",
+              "Stained glass windows illuminate the space",
+              "Figure in armor holding a sword on a pedestal",
+              "Crowds gather before large cathedral towers",
+              "Carousel stands in front of a building",
+              "Smartphone displaying an image of a woman walking along a tree-lined path",
+              "Person sits on a chair wearing a jacket, looking toward water where ducks swim"
+            ],
+            "unsupported": [
+              "Light softened across the food (subjective lighting change not verifiable)",
+              "Stillness of the flag against the moving sky (motion inference)"
+            ],
+            "creative": [
+              "Paris Through My Lens (Title)",
+              "The meal gives way to open sky... (Transitional prose)",
+              "I carry a camera to capture the rhythm of Paris... (Thematic reflection)"
+            ],
+            "non_factual": []
+          },
+          "B": {
+            "supported": [
+              "Plate with a broken pancake containing egg and meat filling",
+              "Empty glass and cutlery",
+              "Someone sits wearing a jacket and hat",
+              "Slice of pizza topped with strawberries and blueberries",
+              "Drinking from a smoothie cup",
+              "Tricolor flag hangs from a pole against a blue sky",
+              "White trails stretch across the heavens",
+              "Statue of a woman in robes stands on a pillar",
+              "Stained glass windows... reflecting light through colorful patterns",
+              "Figure in armor holding a sword and helmet",
+              "Crowds gather before the large historical building",
+              "Carousel stands nearby where people wear coats and hats",
+              "Smartphone displaying an image of a woman walking along a tree-lined path",
+              "Someone sits on a chair wearing a jacket, looking toward water where ducks swim"
+            ],
+            "unsupported": [],
+            "creative": [
+              "Traces of a City (Title)",
+              "As I move from the meal... (Transitional prose)",
+              "I carry these images as quiet witnesses... (Thematic reflection)"
+            ],
+            "non_factual": [
+              "Story B completely omits all provided Photographer Mood labels despite the prompt requiring their integration."
+            ]
+          }
+        },
+        "diff_note": "Story A successfully integrates specific mood labels into the narrative flow, adhering to constraints. Story B provides accurate visual descriptions but fails to include any mood data, rendering it incomplete per instructions."
+      }
+    }
+  ],
+  "production_stories_count": 37
+}

@@ -1,0 +1,166 @@
+{
+  "protocol_version": "story-qwen-dual-blind-v1-mapping",
+  "mappings": [
+    {
+      "case_token": "36517bf9851391629fd9",
+      "case_id": "creative_main_03",
+      "track": "creative",
+      "A": "QC2",
+      "B": "QC0"
+    },
+    {
+      "case_token": "e19196a570f38592816b",
+      "case_id": "date_01",
+      "track": "faithful",
+      "A": "QF0",
+      "B": "QF3"
+    },
+    {
+      "case_token": "d1056a65b98f5d08695e",
+      "case_id": "creative_main_05",
+      "track": "creative",
+      "A": "QC2",
+      "B": "QC0"
+    },
+    {
+      "case_token": "197687725d46189f1b9c",
+      "case_id": "single_02",
+      "track": "faithful",
+      "A": "QF0",
+      "B": "QF3"
+    },
+    {
+      "case_token": "da4131e2b0b10b2058be",
+      "case_id": "event_04",
+      "track": "faithful",
+      "A": "QF0",
+      "B": "QF3"
+    },
+    {
+      "case_token": "2f7e94e3e53ba16bd803",
+      "case_id": "event_07",
+      "track": "faithful",
+      "A": "QF0",
+      "B": "QF3"
+    },
+    {
+      "case_token": "35313b4f62fe2c5ce0ff",
+      "case_id": "creative_main_07",
+      "track": "creative",
+      "A": "QC0",
+      "B": "QC2"
+    },
+    {
+      "case_token": "5c8a4f5e2f2fe62dcb83",
+      "case_id": "creative_reserve_01",
+      "track": "creative",
+      "A": "QC0",
+      "B": "QC2"
+    },
+    {
+      "case_token": "565fbffa5dc6292f866a",
+      "case_id": "event_03",
+      "track": "faithful",
+      "A": "QF0",
+      "B": "QF3"
+    },
+    {
+      "case_token": "18f886064c06c6f322de",
+      "case_id": "creative_main_11",
+      "track": "creative",
+      "A": "QC2",
+      "B": "QC0"
+    },
+    {
+      "case_token": "49ea54ccad45914595b3",
+      "case_id": "creative_main_06",
+      "track": "creative",
+      "A": "QC2",
+      "B": "QC0"
+    },
+    {
+      "case_token": "37ce9a8dbfa113422949",
+      "case_id": "event_08",
+      "track": "faithful",
+      "A": "QF3",
+      "B": "QF0"
+    },
+    {
+      "case_token": "077751e2d77e15f05254",
+      "case_id": "event_05",
+      "track": "faithful",
+      "A": "QF0",
+      "B": "QF3"
+    },
+    {
+      "case_token": "6d64d5583b49acf45e96",
+      "case_id": "single_01",
+      "track": "faithful",
+      "A": "QF0",
+      "B": "QF3"
+    },
+    {
+      "case_token": "dd3e7c28422b71dddd01",
+      "case_id": "creative_reserve_05",
+      "track": "creative",
+      "A": "QC0",
+      "B": "QC2"
+    },
+    {
+      "case_token": "66332c696eec745ce7f7",
+      "case_id": "event_02",
+      "track": "faithful",
+      "A": "QF0",
+      "B": "QF3"
+    },
+    {
+      "case_token": "5c3eac365466be4836be",
+      "case_id": "event_06",
+      "track": "faithful",
+      "A": "QF0",
+      "B": "QF3"
+    },
+    {
+      "case_token": "4ff5d9fe80aa8c1b136c",
+      "case_id": "date_02",
+      "track": "faithful",
+      "A": "QF0",
+      "B": "QF3"
+    },
+    {
+      "case_token": "21aeb739ba6b896a645f",
+      "case_id": "creative_main_10",
+      "track": "creative",
+      "A": "QC0",
+      "B": "QC2"
+    },
+    {
+      "case_token": "39514b4b192bfe08c015",
+      "case_id": "creative_reserve_03",
+      "track": "creative",
+      "A": "QC2",
+      "B": "QC0"
+    },
+    {
+      "case_token": "325f710e79c5d47594fb",
+      "case_id": "event_01",
+      "track": "faithful",
+      "A": "QF3",
+      "B": "QF0"
+    },
+    {
+      "case_token": "06225cbea135e0c277dd",
+      "case_id": "creative_main_01",
+      "track": "creative",
+      "A": "QC2",
+      "B": "QC0"
+    },
+    {
+      "case_token": "acc657122a5bddb70fc7",
+      "case_id": "creative_main_09",
+      "track": "creative",
+      "A": "QC0",
+      "B": "QC2"
+    }
+  ]
+}

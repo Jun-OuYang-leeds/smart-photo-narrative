@@ -1,0 +1,1487 @@
+{
+  "protocol_version": "story-acceptance-v1",
+  "generated_at_utc": "2026-07-18T16:50:48.064983+00:00",
+  "model": {
+    "requested_model": "llama3",
+    "resolved_model": "llama3:latest",
+    "digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+    "modified_at": "2026-02-22 18:01:26.386183+00:00",
+    "size": 4661224676
+  },
+  "real_case_count": 3,
+  "cases": [
+    {
+      "case": {
+        "case_id": "single_01",
+        "source_kind": "single",
+        "label": "single photo note 1",
+        "language": "zh",
+        "photo_ids": [
+          "9c8b0001-5dfa-40d5-bbf7-07144331be01"
+        ]
+      },
+      "evidence_plan": {
+        "photo_count": 1,
+        "groups": [
+          {
+            "group_id": "G001",
+            "evidence_ids": [
+              "P001"
+            ],
+            "photo_ids": [
+              "9c8b0001-5dfa-40d5-bbf7-07144331be01"
+            ],
+            "start_at": "2023-08-17T09:58:54",
+            "end_at": "2023-08-17T09:58:54",
+            "locations": [],
+            "model_observations": [
+              {
+                "evidence_id": "P001",
+                "blip_caption_model_observation": "an image",
+                "qwen_scene_graph_model_observations": [
+                  "sudoku contain number",
+                  "sudoku have grid",
+                  "sudoku be hard",
+                  "sudoku on paper",
+                  "paper have text",
+                  "text mention sudoku",
+                  "text mention hard",
+                  "text mention solution",
+                  "text mention date",
+                  "text mention author",
+                  "text mention rules",
+                  "text mention difficulty",
+                  "text mention instructions"
+                ],
+                "clip_tags_model_observations": [
+                  "elderly",
+                  "games",
+                  "sports"
+                ]
+              }
+            ],
+            "conflicts": [],
+            "representative_evidence_id": "P001",
+            "near_duplicate_evidence_ids": [],
+            "source_event_id": null
+          }
+        ]
+      },
+      "story": {
+        "title": "照片记录",
+        "paragraphs": [
+          {
+            "text": "这张照片提供了能够直接核查的场景与物体记录。",
+            "evidence_ids": [
+              "P001"
+            ],
+            "group_id": "G001"
+          }
+        ],
+        "uncertain_observations": [],
+        "unused_evidence_ids": [],
+        "creative_transitions": []
+      },
+      "story_metadata": {
+        "status": "fallback",
+        "model": "deterministic-group-fallback",
+        "prompt_hash": "47f03fa2099092fe03613d22f257b953c248ffc348614d3f44324d1c7ba1d0f4",
+        "validation_history": [
+          "E_PARAGRAPH_PROSE: paragraph 1 has no descriptive words",
+          "E_LANGUAGE_ZH: Chinese character ratio 0.000 is below 0.25",
+          "E_TITLE_MISSING: title is required",
+          "E_PARAGRAPH_TEXT: paragraph 1 has no text",
+          "E_GROUP_COVERAGE: unreferenced groups ['G001']",
+          "E_EVIDENCE_ACCOUNTING: expected unused IDs ['P001'], got []"
+        ],
+        "final_validation_errors": []
+      },
+      "metrics": {
+        "json_valid": true,
+        "citation_valid_rate": 1.0,
+        "evidence_group_coverage": 1.0,
+        "evidence_id_accounting_rate": 1.0,
+        "language_compliant": true,
+        "chinese_character_ratio": 1.0,
+        "duplicate_paragraph_rate": 0.0,
+        "fallback": true,
+        "paragraph_compression_rate": 0.0,
+        "latency_ms": 26512.70640000439,
+        "claim_count": 1,
+        "unsupported_claim_count": 0,
+        "unsupported_claim_rate": 0.0,
+        "final_validation_errors": [],
+        "conflict_handling_rate": 1.0,
+        "prompt_hash": "47f03fa2099092fe03613d22f257b953c248ffc348614d3f44324d1c7ba1d0f4",
+        "status": "fallback"
+      },
+      "passed": true
+    },
+    {
+      "case": {
+        "case_id": "event_01",
+        "source_kind": "event",
+        "label": "2026-07-12",
+        "language": "zh",
+        "photo_ids": [
+          "b2d77b8f-4afc-44e9-8acb-eb5811e2c940",
+          "c485a29d-1478-486d-93ba-79232d7371d2",
+          "ce6a177e-16bc-41f1-8444-731024b9ad39",
+          "a07cb91f-6679-40b9-bd8a-1e47741b2cbb",
+          "1c5105c4-955d-4808-b71e-5236e1fd8940",
+          "41d5a98e-a301-46e7-8472-620c397095bc",
+          "ede1d7b3-6890-43c7-b0ad-cc743661eeee",
+          "6d52883a-b149-406f-9add-4d150f2bcf95",
+          "3c16b31f-a13c-4fec-9332-0d46700e5385",
+          "4f1e67f0-3942-4c9a-bcdf-793806bfb492",
+          "ee8431a3-3f7c-4484-88b2-16e790aa13e5",
+          "a7d0cec4-9699-4794-a222-1ec9c0b6b48b",
+          "a00ca774-d928-445e-826e-406fce3667de",
+          "66c33c06-1ab7-424d-9770-a600144da967"
+        ]
+      },
+      "evidence_plan": {
+        "photo_count": 14,
+        "groups": [
+          {
+            "group_id": "G001",
+            "evidence_ids": [
+              "P001",
+              "P002"
+            ],
+            "photo_ids": [
+              "b2d77b8f-4afc-44e9-8acb-eb5811e2c940",
+              "c485a29d-1478-486d-93ba-79232d7371d2"
+            ],
+            "start_at": "2026-07-12T21:23:49",
+            "end_at": "2026-07-12T21:24:50",
+            "locations": [],
+            "model_observations": [
+              {
+                "evidence_id": "P001",
+                "blip_caption_model_observation": "a person is reaching into a bathroom sink",
+                "qwen_scene_graph_model_observations": [
+                  "person reach towel",
+                  "person hang towel",
+                  "person touch towel",
+                  "person wear ring",
+                  "person stand bathroom",
+                  "person hold towel",
+                  "person wear clothing",
+                  "person wear watch",
+                  "person wear bracelet",
+                  "person wear shoes",
+                  "person wear pants",
+                  "person wear shirt",
+                  "person wear jewelry",
+                  "person wear accessories",
+                  "person wear clothes"
+                ],
+                "clip_tags_model_observations": [
+                  "clothing",
+                  "indoor",
+                  "shoes"
+                ]
+              },
+              {
+                "evidence_id": "P002",
+                "blip_caption_model_observation": "a blur of a person walking down a hallway",
+                "qwen_scene_graph_model_observations": [
+                  "door next to wall",
+                  "door next to door"
+                ],
+                "clip_tags_model_observations": [
+                  "indoor",
+                  "office",
+                  "room"
+                ]
+              }
+            ],
+            "conflicts": [],
+            "representative_evidence_id": "P001",
+            "near_duplicate_evidence_ids": [],
+            "source_event_id": null
+          },
+          {
+            "group_id": "G002",
+            "evidence_ids": [
+              "P003",
+              "P004",
+              "P005"
+            ],
+            "photo_ids": [
+              "ce6a177e-16bc-41f1-8444-731024b9ad39",
+              "a07cb91f-6679-40b9-bd8a-1e47741b2cbb",
+              "1c5105c4-955d-4808-b71e-5236e1fd8940"
+            ],
+            "start_at": "2026-07-12T21:31:13",
+            "end_at": "2026-07-12T21:34:31",
+            "locations": [],
+            "model_observations": [
+              {
+                "evidence_id": "P003",
+                "blip_caption_model_observation": "a person is playing a video game on a wii",
+                "qwen_scene_graph_model_observations": [
+                  "person hang clothes",
+                  "person wear watch",
+                  "person hold clothes",
+                  "person stand bed",
+                  "person look clothes",
+                  "person wear shirt",
+                  "person wear pants",
+                  "person wear socks",
+                  "person wear shoes",
+                  "person wear jacket",
+                  "person wear hat",
+                  "person wear glasses",
+                  "person wear earphones",
+                  "person wear bracelet",
+                  "person wear ring"
+                ],
+                "clip_tags_model_observations": [
+                  "birds",
+                  "clothing",
+                  "pets"
+                ]
+              },
+              {
+                "evidence_id": "P004",
+                "blip_caption_model_observation": "a person is holding a dish rack in their kitchen",
+                "qwen_scene_graph_model_observations": [
+                  "person stand cage",
+                  "person reach cage",
+                  "cage contain cat",
+                  "cat lie cage",
+                  "person wear shirt",
+                  "person wear pants",
+                  "cage rest floor",
+                  "person hold cage",
+                  "cage have door",
+                  "door open cage",
+                  "person look cage",
+                  "cage be inside",
+                  "person wear watch",
+                  "person wear sweatshirt",
+                  "person wear jeans"
+                ],
+                "clip_tags_model_observations": [
+                  "indoor",
+                  "keyboard",
+                  "pets"
+                ]
+              },
+              {
+                "evidence_id": "P005",
+                "blip_caption_model_observation": "a person is standing on the floor with a white shirt",
+                "qwen_scene_graph_model_observations": [
+                  "person wear shirt",
+                  "person stand floor",
+                  "person hold shirt",
+                  "person wear pants",
+                  "person wear socks",
+                  "person wear shoes",
+                  "person wear watch",
+                  "person wear jacket",
+                  "person wear hat",
+                  "person wear glasses",
+                  "person wear earphones",
+                  "person wear bracelet",
+                  "person wear ring",
+                  "person wear necklace",
+                  "person wear belt"
+                ],
+                "clip_tags_model_observations": [
+                  "clothing",
+                  "games",
+                  "room"
+                ]
+              }
+            ],
+            "conflicts": [
+              "P004: BLIP and Qwen observations conflict or have no reliable lexical agreement; BLIP='a person is holding a dish rack in their kitchen'; Qwen='person stand cage person reach cage cage contain cat cat lie cage person wear shirt person wear pants cage rest floor person hold cage cage have door door open cage person look cage cage be inside person wear watch person wear sweatshirt person wear jeans'."
+            ],
+            "representative_evidence_id": "P003",
+            "near_duplicate_evidence_ids": [],
+            "source_event_id": null
+          },
+          {
+            "group_id": "G003",
+            "evidence_ids": [
+              "P006",
+              "P007"
+            ],
+            "photo_ids": [
+              "41d5a98e-a301-46e7-8472-620c397095bc",
+              "ede1d7b3-6890-43c7-b0ad-cc743661eeee"
+            ],
+            "start_at": "2026-07-12T21:38:36",
+            "end_at": "2026-07-12T21:39:37",
+            "locations": [],
+            "model_observations": [
+              {
+                "evidence_id": "P006",
+                "blip_caption_model_observation": "a man is sitting at a desk with a laptop",
+                "qwen_scene_graph_model_observations": [
+                  "person type keyboard",
+                  "person click mouse",
+                  "person hold phone",
+                  "person wear watch",
+                  "person wear glasses",
+                  "person sit desk",
+                  "person use laptop",
+                  "person rest elbow",
+                  "person rest forearm",
+                  "person rest hand",
+                  "person rest wrist",
+                  "person rest finger",
+                  "person rest thumb",
+                  "person rest mouse",
+                  "person rest desk"
+                ],
+                "clip_tags_model_observations": [
+                  "computer",
+                  "keyboard",
+                  "screenshot"
+                ]
+              },
+              {
+                "evidence_id": "P007",
+                "blip_caption_model_observation": "a man is typing on a laptop",
+                "qwen_scene_graph_model_observations": [
+                  "person type keyboard",
+                  "person use laptop",
+                  "person wear watch",
+                  "person rest elbow",
+                  "person rest forearm",
+                  "person rest hand",
+                  "person rest wrist",
+                  "person rest mouse",
+                  "person rest desk",
+                  "person rest chair"
+                ],
+                "clip_tags_model_observations": [
+                  "computer",
+                  "keyboard",
+                  "screenshot"
+                ]
+              }
+            ],
+            "conflicts": [],
+            "representative_evidence_id": "P006",
+            "near_duplicate_evidence_ids": [],
+            "source_event_id": null
+          },
+          {
+            "group_id": "G004",
+            "evidence_ids": [
+              "P008",
+              "P009"
+            ],
+            "photo_ids": [
+              "6d52883a-b149-406f-9add-4d150f2bcf95",
+              "3c16b31f-a13c-4fec-9332-0d46700e5385"
+            ],
+            "start_at": "2026-07-12T21:42:53",
+            "end_at": "2026-07-12T21:44:55",
+            "locations": [],
+            "model_observations": [
+              {
+                "evidence_id": "P008",
+                "blip_caption_model_observation": "a man is reaching into a toilet",
+                "qwen_scene_graph_model_observations": [
+                  "hand reach spice",
+                  "spice be shelf",
+                  "spice in container",
+                  "container be shelf",
+                  "spice on shelf",
+                  "spice near bowl",
+                  "spice near cup",
+                  "spice near plate",
+                  "spice near wine bottle",
+                  "spice near glass",
+                  "spice near watch"
+                ],
+                "clip_tags_model_observations": [
+                  "drinks",
+                  "indoor",
+                  "watch"
+                ]
+              },
+              {
+                "evidence_id": "P009",
+                "blip_caption_model_observation": "a man is holding a cell phone and a sandwich sandwich",
+                "qwen_scene_graph_model_observations": [
+                  "person reach plate",
+                  "person touch book",
+                  "person hold plate",
+                  "person hold book",
+                  "person stand desk",
+                  "person wear watch",
+                  "person wear shirt",
+                  "person wear pants",
+                  "person wear shoes",
+                  "person wear jacket",
+                  "person wear glasses",
+                  "person wear earrings",
+                  "person wear necklace",
+                  "person wear bracelet",
+                  "person wear ring"
+                ],
+                "clip_tags_model_observations": [
+                  "electronics",
+                  "keyboard",
+                  "office"
+                ]
+              }
+            ],
+            "conflicts": [
+              "P008: BLIP and Qwen observations conflict or have no reliable lexical agreement; BLIP='a man is reaching into a toilet'; Qwen='hand reach spice spice be shelf spice in container container be shelf spice on shelf spice near bowl spice near cup spice near plate spice near wine bottle spice near glass spice near watch'."
+            ],
+            "representative_evidence_id": "P008",
+            "near_duplicate_evidence_ids": [],
+            "source_event_id": null
+          },
+          {
+            "group_id": "G005",
+            "evidence_ids": [
+              "P010",
+              "P011",
+              "P012",
+              "P013",
+              "P014"
+            ],
+            "photo_ids": [
+              "4f1e67f0-3942-4c9a-bcdf-793806bfb492",
+              "ee8431a3-3f7c-4484-88b2-16e790aa13e5",
+              "a7d0cec4-9699-4794-a222-1ec9c0b6b48b",
+              "a00ca774-d928-445e-826e-406fce3667de",
+              "66c33c06-1ab7-424d-9770-a600144da967"
+            ],
+            "start_at": "2026-07-12T21:45:56",
+            "end_at": "2026-07-12T21:50:11",
+            "locations": [],
+            "model_observations": [
+              {
+                "evidence_id": "P010",
+                "blip_caption_model_observation": "a man is typing on a laptop computer",
+                "qwen_scene_graph_model_observations": [
+                  "person type keyboard",
+                  "person use mouse",
+                  "person wear watch",
+                  "person wear shirt",
+                  "person wear pants",
+                  "person sit chair",
+                  "person work on laptop",
+                  "person have juice",
+                  "person have bread",
+                  "person have pen",
+                  "person have water bottle",
+                  "person have glasses",
+                  "person have desk",
+                  "person have computer mouse pad",
+                  "person have laptop"
+                ],
+                "clip_tags_model_observations": [
+                  "computer",
+                  "keyboard",
+                  "monitor"
+                ]
+              },
+              {
+                "evidence_id": "P012",
+                "blip_caption_model_observation": "a man using a laptop computer",
+                "qwen_scene_graph_model_observations": [
+                  "person hold phone",
+                  "person type keyboard",
+                  "person use mouse",
+                  "person wear watch",
+                  "person sit chair",
+                  "person look laptop",
+                  "person eat bread",
+                  "person drink juice",
+                  "person click pen",
+                  "person click water bottle",
+                  "person click phone",
+                  "person click laptop",
+                  "person click mouse"
+                ],
+                "clip_tags_model_observations": [
+                  "computer",
+                  "electronics",
+                  "screenshot"
+                ]
+              },
+              {
+                "evidence_id": "P013",
+                "blip_caption_model_observation": "a man is sitting at a desk with a laptop",
+                "qwen_scene_graph_model_observations": [
+                  "person type keyboard",
+                  "person click mouse",
+                  "person wear watch",
+                  "person wear headphones",
+                  "person sit chair",
+                  "person use laptop",
+                  "person hold phone",
+                  "person drink juice",
+                  "person eat food",
+                  "person wear glasses",
+                  "person wear shirt",
+                  "person wear pants",
+                  "person wear sweatband",
+                  "person wear bracelet",
+                  "person wear ring"
+                ],
+                "clip_tags_model_observations": [
+                  "computer",
+                  "keyboard",
+                  "screenshot"
+                ]
+              },
+              {
+                "evidence_id": "P014",
+                "blip_caption_model_observation": "a person is sitting at a desk with a laptop",
+                "qwen_scene_graph_model_observations": [
+                  "person use mouse",
+                  "person type keyboard",
+                  "person look laptop",
+                  "person wear glasses",
+                  "person sit desk",
+                  "person hold plate",
+                  "person eat sandwich",
+                  "person drink juice",
+                  "person scroll laptop",
+                  "person click mouse",
+                  "person type laptop"
+                ],
+                "clip_tags_model_observations": [
+                  "computer",
+                  "keyboard",
+                  "monitor"
+                ]
+              }
+            ],
+            "conflicts": [],
+            "representative_evidence_id": "P010",
+            "near_duplicate_evidence_ids": [
+              "P011"
+            ],
+            "source_event_id": null
+          }
+        ]
+      },
+      "story": {
+        "title": "事件照片记录",
+        "paragraphs": [
+          {
+            "text": "开头的照片组按可靠时间保存了画面中可直接观察的场景与物体。",
+            "evidence_ids": [
+              "P001",
+              "P002"
+            ],
+            "group_id": "G001"
+          },
+          {
+            "text": "随后的一组照片记录了可见的人物、物体与周围环境，不加入额外解释。",
+            "evidence_ids": [
+              "P003",
+              "P004",
+              "P005"
+            ],
+            "group_id": "G002"
+          },
+          {
+            "text": "中间的照片组保留了所选画面中能够直接核查的视觉内容。",
+            "evidence_ids": [
+              "P006",
+              "P007"
+            ],
+            "group_id": "G003"
+          },
+          {
+            "text": "接下来的图像继续按时间记录可观察的环境与物体信息。",
+            "evidence_ids": [
+              "P008",
+              "P009"
+            ],
+            "group_id": "G004"
+          },
+          {
+            "text": "最后一组照片以画面中可见的场景内容结束这段记录。",
+            "evidence_ids": [
+              "P010",
+              "P011",
+              "P012",
+              "P013",
+              "P014"
+            ],
+            "group_id": "G005"
+          }
+        ],
+        "uncertain_observations": [
+          {
+            "text": "P004: BLIP and Qwen observations conflict or have no reliable lexical agreement; BLIP='a person is holding a dish rack in their kitchen'; Qwen='person stand cage person reach cage cage contain cat cat lie cage person wear shirt person wear pants cage rest floor person hold cage cage have door door open cage person look cage cage be inside person wear watch person wear sweatshirt person wear jeans'.",
+            "evidence_ids": [
+              "P003",
+              "P004",
+              "P005"
+            ]
+          },
+          {
+            "text": "P008: BLIP and Qwen observations conflict or have no reliable lexical agreement; BLIP='a man is reaching into a toilet'; Qwen='hand reach spice spice be shelf spice in container container be shelf spice on shelf spice near bowl spice near cup spice near plate spice near wine bottle spice near glass spice near watch'.",
+            "evidence_ids": [
+              "P008",
+              "P009"
+            ]
+          }
+        ],
+        "unused_evidence_ids": [],
+        "creative_transitions": []
+      },
+      "story_metadata": {
+        "status": "fallback",
+        "model": "deterministic-group-fallback",
+        "prompt_hash": "4b9a958e105a34c5401f8abba571dc3b748e90aecf9af024d6b20dd251790bbb",
+        "validation_history": [
+          "E_GROUP_PARAGRAPH_COUNT: expected 5 paragraphs, got 1",
+          "E_PARAGRAPH_TEXT: paragraph 1 has no text",
+          "E_GROUP_COVERAGE: unreferenced groups ['G001', 'G002', 'G003', 'G004', 'G005']",
+          "E_EVIDENCE_ACCOUNTING: expected unused IDs ['P001', 'P002', 'P003', 'P004', 'P005', 'P006', 'P007', 'P008', 'P009', 'P010', 'P011', 'P012', 'P013', 'P014'], got []",
+          "E_CONFLICT_UNREPORTED: G002 conflict is absent from uncertain_observations",
+          "E_CONFLICT_UNREPORTED: G004 conflict is absent from uncertain_observations",
+          "E_LANGUAGE_ZH: Chinese character ratio 0.000 is below 0.25",
+          "E_TITLE_MISSING: title is required",
+          "E_UNCERTAIN_FORMAT: each uncertain observation needs text and evidence_ids"
+        ],
+        "final_validation_errors": []
+      },
+      "metrics": {
+        "json_valid": true,
+        "citation_valid_rate": 1.0,
+        "evidence_group_coverage": 1.0,
+        "evidence_id_accounting_rate": 1.0,
+        "language_compliant": true,
+        "chinese_character_ratio": 1.0,
+        "duplicate_paragraph_rate": 0.0,
+        "fallback": true,
+        "paragraph_compression_rate": 0.6428571428571428,
+        "latency_ms": 34769.50119999674,
+        "claim_count": 5,
+        "unsupported_claim_count": 0,
+        "unsupported_claim_rate": 0.0,
+        "final_validation_errors": [],
+        "conflict_handling_rate": 1.0,
+        "prompt_hash": "4b9a958e105a34c5401f8abba571dc3b748e90aecf9af024d6b20dd251790bbb",
+        "status": "fallback"
+      },
+      "passed": true
+    },
+    {
+      "case": {
+        "case_id": "date_01",
+        "source_kind": "date",
+        "label": "2026-07-10",
+        "language": "zh",
+        "photo_ids": [
+          "82c91aeb-1c2d-4b7d-9dd4-8db14cda4c05",
+          "72b2c6cf-5b8b-403c-bd7b-e8df0746e8a6",
+          "2b5ec56e-9cef-436d-b890-97ddae1e46f1",
+          "aa295e9d-a176-40eb-ac5c-bcd3377bb7b7",
+          "cad17ce5-5822-4a81-aefd-1c990542b53c",
+          "ca7ecb07-aa5d-4652-a699-f2b1cf4c7383",
+          "9f0839c7-9d0b-46e1-9fad-82ea0b6e1572",
+          "0c431af6-5ee6-4107-b6ae-bb1d2739ec73",
+          "c4271859-c15c-414b-97f6-bd7a61c24da3",
+          "68bcd25d-c03b-462c-9117-f53ea0d63485",
+          "66f5a68d-c849-4087-8d34-9af6cfe82b24",
+          "5417574b-bd16-4755-9467-3a58b5159e18",
+          "ff021d91-555a-4204-9276-37980254a0a9",
+          "9bb40500-61de-48f7-bd48-b9802c9a4f3f",
+          "6a27138a-3404-4cb4-bfbd-af8fecfbda51",
+          "2dc0defc-5c92-4390-94ce-180d2a0d9672",
+          "f898a1c1-47bf-4a1f-ac02-09b202adc841",
+          "e0c5a6be-c740-4f4b-bf7a-4f857696336f",
+          "d649ea92-b68d-48a6-a227-b84364b2b5de",
+          "7b6a8131-8543-4af4-8306-3d6e8c3f0caf",
+          "811baf55-c8fe-4434-aee5-000ac5236c53",
+          "56b65c1e-d7b2-4ffd-9919-b7678bf4bf06",
+          "25d688b6-d2e6-4ec9-810d-569057d631f4",
+          "932e7fea-9bcb-41be-9c27-d67e94068d14",
+          "42403971-7fd9-4540-ab5e-65050b91b226",
+          "f8f67489-63b8-453c-b096-26e6ee79c364",
+          "1e6d4b27-2dad-49d9-a057-e8bcf2a021f8"
+        ]
+      },
+      "evidence_plan": {
+        "photo_count": 27,
+        "groups": [
+          {
+            "group_id": "G001",
+            "evidence_ids": [
+              "P001"
+            ],
+            "photo_ids": [
+              "82c91aeb-1c2d-4b7d-9dd4-8db14cda4c05"
+            ],
+            "start_at": "2026-07-10T15:00:20",
+            "end_at": "2026-07-10T15:00:20",
+            "locations": [],
+            "model_observations": [
+              {
+                "evidence_id": "P001",
+                "blip_caption_model_observation": "a bottle of water sitting on a table",
+                "qwen_scene_graph_model_observations": [
+                  "water bottle rest on table",
+                  "table have water bottle",
+                  "screen display donation station sign",
+                  "donation station sign be visible",
+                  "chair be behind table",
+                  "chair have blue cushion",
+                  "light shine on water bottle",
+                  "water bottle contain water",
+                  "water bottle reflect light",
+                  "table be wooden",
+                  "donation station sign have pink background",
+                  "donation station sign have yellow text",
+                  "donation station sign be in focus",
+                  "water bottle be in foreground"
+                ],
+                "clip_tags_model_observations": [
+                  "drinks",
+                  "office",
+                  "poster"
+                ]
+              }
+            ],
+            "conflicts": [],
+            "representative_evidence_id": "P001",
+            "near_duplicate_evidence_ids": [],
+            "source_event_id": "4cb1f293-8096-59e3-bee5-b5496ab04ef3"
+          },
+          {
+            "group_id": "G002",
+            "evidence_ids": [
+              "P002",
+              "P003",
+              "P004",
+              "P005",
+              "P006",
+              "P007",
+              "P008",
+              "P009",
+              "P010",
+              "P011",
+              "P012",
+              "P013",
+              "P014",
+              "P015",
+              "P016",
+              "P017",
+              "P018",
+              "P019"
+            ],
+            "photo_ids": [
+              "72b2c6cf-5b8b-403c-bd7b-e8df0746e8a6",
+              "2b5ec56e-9cef-436d-b890-97ddae1e46f1",
+              "aa295e9d-a176-40eb-ac5c-bcd3377bb7b7",
+              "cad17ce5-5822-4a81-aefd-1c990542b53c",
+              "ca7ecb07-aa5d-4652-a699-f2b1cf4c7383",
+              "9f0839c7-9d0b-46e1-9fad-82ea0b6e1572",
+              "0c431af6-5ee6-4107-b6ae-bb1d2739ec73",
+              "c4271859-c15c-414b-97f6-bd7a61c24da3",
+              "68bcd25d-c03b-462c-9117-f53ea0d63485",
+              "66f5a68d-c849-4087-8d34-9af6cfe82b24",
+              "5417574b-bd16-4755-9467-3a58b5159e18",
+              "ff021d91-555a-4204-9276-37980254a0a9",
+              "9bb40500-61de-48f7-bd48-b9802c9a4f3f",
+              "6a27138a-3404-4cb4-bfbd-af8fecfbda51",
+              "2dc0defc-5c92-4390-94ce-180d2a0d9672",
+              "f898a1c1-47bf-4a1f-ac02-09b202adc841",
+              "e0c5a6be-c740-4f4b-bf7a-4f857696336f",
+              "d649ea92-b68d-48a6-a227-b84364b2b5de"
+            ],
+            "start_at": "2026-07-10T15:24:39",
+            "end_at": "2026-07-10T17:31:05",
+            "locations": [],
+            "model_observations": [
+              {
+                "evidence_id": "P002",
+                "blip_caption_model_observation": "a couch with a pillow on it",
+                "qwen_scene_graph_model_observations": [
+                  "couch rest on cushion",
+                  "couch have seam",
+                  "couch be in room",
+                  "room have table",
+                  "table have chair",
+                  "chair be near table",
+                  "room have light",
+                  "light hang ceiling",
+                  "room have decoration",
+                  "decoration hang ceiling",
+                  "room have staircase",
+                  "staircase lead upstairs",
+                  "room have window",
+                  "window let light",
+                  "room have plant"
+                ],
+                "clip_tags_model_observations": [
+                  "indoor",
+                  "office",
+                  "room"
+                ]
+              },
+              {
+                "evidence_id": "P003",
+                "blip_caption_model_observation": "a couch with a remote control on it",
+                "qwen_scene_graph_model_observations": [
+                  "couch rest phone",
+                  "phone lie couch",
+                  "couch have pillow",
+                  "couch be in room",
+                  "room have tv",
+                  "tv show ad",
+                  "ad feature cityscape",
+                  "room have signs",
+                  "signs hang wall",
+                  "wall be part of room",
+                  "room have lights",
+                  "lights shine ceiling",
+                  "ceiling reflect lights",
+                  "room have furniture",
+                  "furniture be in room"
+                ],
+                "clip_tags_model_observations": [
+                  "indoor",
+                  "office",
+                  "room"
+                ]
+              },
+              {
+                "evidence_id": "P004",
+                "blip_caption_model_observation": "a couch with a remote control on it",
+                "qwen_scene_graph_model_observations": [
+                  "couch rest phone",
+                  "phone lie couch",
+                  "couch have pillow",
+                  "couch be in room",
+                  "room have tv",
+                  "tv show ad",
+                  "ad feature cityscape",
+                  "room have counter",
+                  "counter have items",
+                  "items be on counter",
+                  "room have lights",
+                  "lights shine on wall",
+                  "wall have posters",
+                  "posters hang on wall",
+                  "room have door"
+                ],
+                "clip_tags_model_observations": [
+                  "indoor",
+                  "office",
+                  "room"
+                ]
+              },
+              {
+                "evidence_id": "P006",
+                "blip_caption_model_observation": "a couch with a phone on it",
+                "qwen_scene_graph_model_observations": [
+                  "couch rest on pillow",
+                  "phone lie on couch",
+                  "person stand behind counter",
+                  "counter have bulletin board",
+                  "bulletin board hang on wall",
+                  "sign hang from ceiling",
+                  "chair sit under sign",
+                  "couch be next to chair",
+                  "couch be near sign",
+                  "couch be in front of sign",
+                  "couch be inside room",
+                  "room have window",
+                  "window show outside",
+                  "couch be covered by pillow",
+                  "couch be made of fabric"
+                ],
+                "clip_tags_model_observations": [
+                  "coffee",
+                  "indoor",
+                  "office"
+                ]
+              },
+              {
+                "evidence_id": "P008",
+                "blip_caption_model_observation": "a couch with a cell phone on it",
+                "qwen_scene_graph_model_observations": [
+                  "phone rest on couch",
+                  "couch have pillow",
+                  "couch be next to table",
+                  "table have trash can",
+                  "trash can be near counter",
+                  "counter have sign",
+                  "sign be above counter",
+                  "counter be in front of wall",
+                  "wall have lights",
+                  "lights shine on couch",
+                  "lights shine on table",
+                  "lights shine on sign",
+                  "lights shine on counter",
+                  "lights shine on pillow"
+                ],
+                "clip_tags_model_observations": [
+                  "coffee",
+                  "indoor",
+                  "office"
+                ]
+              },
+              {
+                "evidence_id": "P009",
+                "blip_caption_model_observation": "a couch with a pillow and a television",
+                "qwen_scene_graph_model_observations": [
+                  "couch rest on pillow",
+                  "couch be covered by cushion",
+                  "couch face tv",
+                  "tv display ad",
+                  "tv be on",
+                  "table have bag",
+                  "table be next to couch",
+                  "room contain couch",
+                  "room contain table",
+                  "room contain tv",
+                  "room be indoor",
+                  "pillow be on couch",
+                  "cushion be on couch",
+                  "ad show product",
+                  "product be on ad"
+                ],
+                "clip_tags_model_observations": [
+                  "indoor",
+                  "office",
+                  "room"
+                ]
+              },
+              {
+                "evidence_id": "P010",
+                "blip_caption_model_observation": "a woman sitting on a couch with a remote control",
+                "qwen_scene_graph_model_observations": [
+                  "person wear sunglasses",
+                  "person sit chair",
+                  "person look tv",
+                  "person hold bag",
+                  "person wear earphones",
+                  "person wear shirt",
+                  "person wear pants",
+                  "person wear watch",
+                  "phone rest couch",
+                  "phone have case",
+                  "couch be in room",
+                  "tv display advertisement",
+                  "advertisement contain text",
+                  "text read don t",
+                  "text read on stage"
+                ],
+                "clip_tags_model_observations": [
+                  "indoor",
+                  "office",
+                  "room"
+                ]
+              },
+              {
+                "evidence_id": "P011",
+                "blip_caption_model_observation": "a chair with a pillow on it",
+                "qwen_scene_graph_model_observations": [
+                  "couch be in front of",
+                  "couch have pillow",
+                  "couch be next to",
+                  "table be on right side",
+                  "screen display donation station",
+                  "sign be on wall",
+                  "light hang from ceiling",
+                  "bar be in background",
+                  "counter be in bar",
+                  "trash can be near counter",
+                  "chair be in background",
+                  "floor be under couch",
+                  "wall be behind couch",
+                  "ceiling be above couch",
+                  "window be in background"
+                ],
+                "clip_tags_model_observations": [
+                  "coffee",
+                  "indoor",
+                  "office"
+                ]
+              },
+              {
+                "evidence_id": "P013",
+                "blip_caption_model_observation": "a man sitting on a couch using a cell phone",
+                "qwen_scene_graph_model_observations": [
+                  "person sit chair",
+                  "person wear glasses",
+                  "person hold phone",
+                  "phone lie couch",
+                  "couch have pillow",
+                  "couch be in room",
+                  "room have window",
+                  "window show city",
+                  "city have buildings",
+                  "buildings have lights",
+                  "lights shine night",
+                  "person wear shirt",
+                  "shirt be white",
+                  "person wear jeans",
+                  "jeans be blue"
+                ],
+                "clip_tags_model_observations": [
+                  "electronics",
+                  "indoor",
+                  "room"
+                ]
+              },
+              {
+                "evidence_id": "P014",
+                "blip_caption_model_observation": "a cell phone on a bed with a laptop on it",
+                "qwen_scene_graph_model_observations": [
+                  "phone rest on table",
+                  "cable connect to phone",
+                  "phone be on table",
+                  "bed have pillow",
+                  "pillow rest on bed",
+                  "door be near bed",
+                  "wall have power outlet",
+                  "power outlet be near bed",
+                  "lamp be on nightstand",
+                  "nightstand be near bed",
+                  "water bottle be on table",
+                  "table be in room",
+                  "room have door",
+                  "door be open room",
+                  "room have wall"
+                ],
+                "clip_tags_model_observations": [
+                  "computer",
+                  "electronics",
+                  "room"
+                ]
+              },
+              {
+                "evidence_id": "P016",
+                "blip_caption_model_observation": "a cell phone on a bed with a pillow",
+                "qwen_scene_graph_model_observations": [
+                  "phone rest on table",
+                  "phone have case",
+                  "bed have pillow",
+                  "bed have blanket",
+                  "door be closed",
+                  "coat hang on hanger",
+                  "lamp be on nightstand",
+                  "nightstand be next to bed",
+                  "wall be blue",
+                  "shelf be on wall",
+                  "power strip be on nightstand",
+                  "phone be charging",
+                  "phone have screen",
+                  "phone have camera",
+                  "phone have buttons"
+                ],
+                "clip_tags_model_observations": [
+                  "electronics",
+                  "phone",
+                  "room"
+                ]
+              },
+              {
+                "evidence_id": "P018",
+                "blip_caption_model_observation": "a bed with a wooden headboard and a blue blanket",
+                "qwen_scene_graph_model_observations": [
+                  "bed rest pillow",
+                  "pillow lie bed",
+                  "lamp sit nightstand",
+                  "nightstand have lamp",
+                  "door close room",
+                  "coat hang hook",
+                  "coat be hanger",
+                  "wall paint blue",
+                  "shelf hang wall",
+                  "shelf hold items",
+                  "items be on shelf",
+                  "floor cover rug",
+                  "rug lay floor",
+                  "door open room",
+                  "door lead outside"
+                ],
+                "clip_tags_model_observations": [
+                  "indoor",
+                  "office",
+                  "room"
+                ]
+              }
+            ],
+            "conflicts": [],
+            "representative_evidence_id": "P002",
+            "near_duplicate_evidence_ids": [
+              "P005",
+              "P007",
+              "P012",
+              "P015",
+              "P017",
+              "P019"
+            ],
+            "source_event_id": "4cb1f293-8096-59e3-bee5-b5496ab04ef3"
+          },
+          {
+            "group_id": "G003",
+            "evidence_ids": [
+              "P020"
+            ],
+            "photo_ids": [
+              "7b6a8131-8543-4af4-8306-3d6e8c3f0caf"
+            ],
+            "start_at": "2026-07-10T18:20:34",
+            "end_at": "2026-07-10T18:20:34",
+            "locations": [],
+            "model_observations": [
+              {
+                "evidence_id": "P020",
+                "blip_caption_model_observation": "a person is standing on a wooden floor",
+                "qwen_scene_graph_model_observations": [
+                  "hand rest on table",
+                  "cap rest on table",
+                  "light shine on hand",
+                  "shadow cast by hand",
+                  "cap wear person",
+                  "person sit at table",
+                  "table have wooden surface",
+                  "cap be green"
+                ],
+                "clip_tags_model_observations": [
+                  "book",
+                  "indoor",
+                  "selfie"
+                ]
+              }
+            ],
+            "conflicts": [],
+            "representative_evidence_id": "P020",
+            "near_duplicate_evidence_ids": [],
+            "source_event_id": "4cb1f293-8096-59e3-bee5-b5496ab04ef3"
+          },
+          {
+            "group_id": "G004",
+            "evidence_ids": [
+              "P021",
+              "P022",
+              "P023"
+            ],
+            "photo_ids": [
+              "811baf55-c8fe-4434-aee5-000ac5236c53",
+              "56b65c1e-d7b2-4ffd-9919-b7678bf4bf06",
+              "25d688b6-d2e6-4ec9-810d-569057d631f4"
+            ],
+            "start_at": "2026-07-10T21:21:58",
+            "end_at": "2026-07-10T21:50:13",
+            "locations": [],
+            "model_observations": [
+              {
+                "evidence_id": "P021",
+                "blip_caption_model_observation": "a table with a puzzle on it",
+                "qwen_scene_graph_model_observations": [
+                  "puzzle pieces lie on table",
+                  "box rests on table",
+                  "table has puzzle pieces",
+                  "box contains puzzle pieces",
+                  "box is lego minifigure puzzle",
+                  "window reflects lights",
+                  "lights shine through window",
+                  "table is wooden",
+                  "room has window",
+                  "room has lights",
+                  "lights hang from ceiling",
+                  "ceiling is dark",
+                  "room has picture",
+                  "picture hangs on wall",
+                  "wall is dark"
+                ],
+                "clip_tags_model_observations": [
+                  "city",
+                  "friends",
+                  "sports"
+                ]
+              },
+              {
+                "evidence_id": "P022",
+                "blip_caption_model_observation": "a puzzle on a table",
+                "qwen_scene_graph_model_observations": [
+                  "puzzle pieces lie on table",
+                  "table have puzzle pieces",
+                  "box rest against table",
+                  "table be covered with puzzle pieces",
+                  "puzzle pieces form image",
+                  "image be completed puzzle",
+                  "room have curtains",
+                  "curtains hang window",
+                  "window show night sky",
+                  "room have lights",
+                  "lights shine ceiling",
+                  "ceiling hang decorations",
+                  "decorations be paper fans",
+                  "room have door",
+                  "door lead to outside"
+                ],
+                "clip_tags_model_observations": [
+                  "friends",
+                  "office",
+                  "sports"
+                ]
+              },
+              {
+                "evidence_id": "P023",
+                "blip_caption_model_observation": "a room with a table and a cat on it",
+                "qwen_scene_graph_model_observations": [
+                  "table have puzzle",
+                  "table have book",
+                  "table have box",
+                  "chair be near table",
+                  "door be open",
+                  "window be closed",
+                  "curtain hang from window",
+                  "light shine on table",
+                  "wall have poster",
+                  "ceiling have lights",
+                  "floor be wooden",
+                  "chair be at table",
+                  "table be in room",
+                  "room have decorations",
+                  "room be dark"
+                ],
+                "clip_tags_model_observations": [
+                  "friends",
+                  "indoor",
+                  "office"
+                ]
+              }
+            ],
+            "conflicts": [],
+            "representative_evidence_id": "P021",
+            "near_duplicate_evidence_ids": [],
+            "source_event_id": "67aa0b67-ffdd-5dae-88a2-8dcca48403d9"
+          },
+          {
+            "group_id": "G005",
+            "evidence_ids": [
+              "P024",
+              "P025",
+              "P026",
+              "P027"
+            ],
+            "photo_ids": [
+              "932e7fea-9bcb-41be-9c27-d67e94068d14",
+              "42403971-7fd9-4540-ab5e-65050b91b226",
+              "f8f67489-63b8-453c-b096-26e6ee79c364",
+              "1e6d4b27-2dad-49d9-a057-e8bcf2a021f8"
+            ],
+            "start_at": "2026-07-10T22:19:28",
+            "end_at": "2026-07-10T23:00:38",
+            "locations": [],
+            "model_observations": [
+              {
+                "evidence_id": "P024",
+                "blip_caption_model_observation": "a white toilet with a red light on it",
+                "qwen_scene_graph_model_observations": [
+                  "light glow button",
+                  "button be on",
+                  "device have button",
+                  "device be white",
+                  "device have usb port",
+                  "usb port be on device",
+                  "usb port be white",
+                  "usb port have usb cable",
+                  "usb cable be connected",
+                  "usb cable be gray",
+                  "usb cable terminate device",
+                  "usb cable terminate usb port"
+                ],
+                "clip_tags_model_observations": [
+                  "electronics",
+                  "indoor",
+                  "monitor"
+                ]
+              },
+              {
+                "evidence_id": "P025",
+                "blip_caption_model_observation": "a mirror in a bathroom",
+                "qwen_scene_graph_model_observations": [
+                  "backpack rest floor",
+                  "mirror reflect room",
+                  "cabinet contain items",
+                  "rug lay floor",
+                  "wall have thermostat",
+                  "wall have outlet",
+                  "wall have picture",
+                  "cabinet be closed",
+                  "cabinet have door",
+                  "cabinet be white",
+                  "cabinet have handle",
+                  "cabinet be part of wall",
+                  "cabinet have shelf",
+                  "cabinet be next to mirror",
+                  "cabinet have light"
+                ],
+                "clip_tags_model_observations": [
+                  "bag",
+                  "indoor",
+                  "room"
+                ]
+              },
+              {
+                "evidence_id": "P026",
+                "blip_caption_model_observation": "a bed with a blanket",
+                "qwen_scene_graph_model_observations": [
+                  "person wear gloves",
+                  "person stand bed",
+                  "person look desk",
+                  "person touch mirror",
+                  "person point window",
+                  "person reach chair",
+                  "person lean wall",
+                  "person sit chair",
+                  "person walk floor",
+                  "person stand desk",
+                  "person lean mirror"
+                ],
+                "clip_tags_model_observations": [
+                  "indoor",
+                  "office",
+                  "selfie"
+                ]
+              },
+              {
+                "evidence_id": "P027",
+                "blip_caption_model_observation": "a person is sitting on a bed with a laptop",
+                "qwen_scene_graph_model_observations": [
+                  "person lie on bed",
+                  "phone rest on laptop",
+                  "laptop display code",
+                  "desk have chair",
+                  "chair be near desk",
+                  "backpack hang on wall",
+                  "mirror reflect window",
+                  "window let in light",
+                  "bookshelf hold books",
+                  "books stacked on bookshelf",
+                  "cabinet hold books",
+                  "books stacked on cabinet",
+                  "mirror reflect cabinet",
+                  "mirror reflect backpack",
+                  "mirror reflect bed"
+                ],
+                "clip_tags_model_observations": [
+                  "indoor",
+                  "office",
+                  "room"
+                ]
+              }
+            ],
+            "conflicts": [],
+            "representative_evidence_id": "P024",
+            "near_duplicate_evidence_ids": [],
+            "source_event_id": "67aa0b67-ffdd-5dae-88a2-8dcca48403d9"
+          }
+        ]
+      },
+      "story": {
+        "title": "事件照片记录",
+        "paragraphs": [
+          {
+            "text": "开头的照片组按可靠时间保存了画面中可直接观察的场景与物体。",
+            "evidence_ids": [
+              "P001"
+            ],
+            "group_id": "G001"
+          },
+          {
+            "text": "随后的一组照片记录了可见的人物、物体与周围环境，不加入额外解释。",
+            "evidence_ids": [
+              "P002",
+              "P003",
+              "P004",
+              "P005",
+              "P006",
+              "P007",
+              "P008",
+              "P009",
+              "P010",
+              "P011",
+              "P012",
+              "P013",
+              "P014",
+              "P015",
+              "P016",
+              "P017",
+              "P018",
+              "P019"
+            ],
+            "group_id": "G002"
+          },
+          {
+            "text": "中间的照片组保留了所选画面中能够直接核查的视觉内容。",
+            "evidence_ids": [
+              "P020"
+            ],
+            "group_id": "G003"
+          },
+          {
+            "text": "接下来的图像继续按时间记录可观察的环境与物体信息。",
+            "evidence_ids": [
+              "P021",
+              "P022",
+              "P023"
+            ],
+            "group_id": "G004"
+          },
+          {
+            "text": "最后一组照片以画面中可见的场景内容结束这段记录。",
+            "evidence_ids": [
+              "P024",
+              "P025",
+              "P026",
+              "P027"
+            ],
+            "group_id": "G005"
+          }
+        ],
+        "uncertain_observations": [],
+        "unused_evidence_ids": [],
+        "creative_transitions": []
+      },
+      "story_metadata": {
+        "status": "fallback",
+        "model": "deterministic-group-fallback",
+        "prompt_hash": "852c08810c3877486b1dd6100065fc1225a2adb852f520fb79ad3c5d314bef7e",
+        "validation_history": [
+          "E_GENERATION_1: JSONDecodeError: Unterminated string starting at: line 164 column 9 (char 4562)",
+          "E_GENERATION_2: JSONDecodeError: Unterminated string starting at: line 154 column 13 (char 4637)"
+        ],
+        "final_validation_errors": []
+      },
+      "metrics": {
+        "json_valid": true,
+        "citation_valid_rate": 1.0,
+        "evidence_group_coverage": 1.0,
+        "evidence_id_accounting_rate": 1.0,
+        "language_compliant": true,
+        "chinese_character_ratio": 1.0,
+        "duplicate_paragraph_rate": 0.0,
+        "fallback": true,
+        "paragraph_compression_rate": 0.8148148148148149,
+        "latency_ms": 547218.7230999989,
+        "claim_count": 5,
+        "unsupported_claim_count": 0,
+        "unsupported_claim_rate": 0.0,
+        "final_validation_errors": [],
+        "conflict_handling_rate": 1.0,
+        "prompt_hash": "852c08810c3877486b1dd6100065fc1225a2adb852f520fb79ad3c5d314bef7e",
+        "status": "fallback"
+      },
+      "passed": true
+    }
+  ]
+}

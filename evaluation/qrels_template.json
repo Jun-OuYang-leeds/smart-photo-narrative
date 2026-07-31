@@ -1,0 +1,37 @@
+{
+  "queries": [
+    {
+      "query_id": "q001",
+      "query": "a person using a laptop",
+      "task_type": "photo",
+      "relevance": {},
+      "filters": {},
+      "enabled": false,
+      "notes": "Replace relevance with human-labelled SQLite photo_id -> grade values."
+    },
+    {
+      "query_id": "q002",
+      "query": "beach photos from this trip",
+      "task_type": "photo",
+      "relevance": {},
+      "filters": {
+        "start_date": "YYYY-MM-DD",
+        "end_date": "YYYY-MM-DD",
+        "location": "replace with a real location"
+      },
+      "enabled": false,
+      "notes": "Use this kind of query to expose the A2 -> A3 metadata contribution."
+    },
+    {
+      "query_id": "q003",
+      "query": "lunch before visiting the museum within 4 hours",
+      "task_type": "temporal_pair",
+      "relevance": {},
+      "filters": {
+        "min_timestamp_confidence": 0.6
+      },
+      "enabled": false,
+      "notes": "Use ordered before_photo_id->after_photo_id keys and --include-temporal-mode; temporal reasoning is reported separately from A0-A4."
+    }
+  ]
+}

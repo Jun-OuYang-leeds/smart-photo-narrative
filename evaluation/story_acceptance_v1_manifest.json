@@ -1,0 +1,35 @@
+{
+  "protocol_version": "story-acceptance-v1",
+  "real_case_count": 3,
+  "all_constraint_checks_passed": true,
+  "all_model_outputs_accepted": false,
+  "fallback_count": 3,
+  "case_results": [
+    {
+      "case_id": "single_01",
+      "source_kind": "single",
+      "language": "zh",
+      "status": "fallback",
+      "constraint_checks_passed": true,
+      "model_output_accepted": false
+    },
+    {
+      "case_id": "event_01",
+      "source_kind": "event",
+      "language": "zh",
+      "status": "fallback",
+      "constraint_checks_passed": true,
+      "model_output_accepted": false
+    },
+    {
+      "case_id": "date_01",
+      "source_kind": "date",
+      "language": "zh",
+      "status": "fallback",
+      "constraint_checks_passed": true,
+      "model_output_accepted": false
+    }
+  ],
+  "private_acceptance_sha256": "09ff4d016ff3281148c627910f769432702534220c6757365f371214d2c06c66",
+  "private_content_committed": false
+}

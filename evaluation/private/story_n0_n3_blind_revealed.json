@@ -1,0 +1,65 @@
+{
+  "protocol_version": "story-blind-reveal-v1",
+  "results": [
+    {
+      "case_id": "date_01",
+      "preferred_variant": "N0",
+      "reason": ""
+    },
+    {
+      "case_id": "date_02",
+      "preferred_variant": "N0",
+      "reason": ""
+    },
+    {
+      "case_id": "event_01",
+      "preferred_variant": "N0",
+      "reason": ""
+    },
+    {
+      "case_id": "event_02",
+      "preferred_variant": "N0",
+      "reason": ""
+    },
+    {
+      "case_id": "event_03",
+      "preferred_variant": "N0",
+      "reason": ""
+    },
+    {
+      "case_id": "event_04",
+      "preferred_variant": "N0",
+      "reason": ""
+    },
+    {
+      "case_id": "event_05",
+      "preferred_variant": "N0",
+      "reason": ""
+    },
+    {
+      "case_id": "event_06",
+      "preferred_variant": "N0",
+      "reason": ""
+    },
+    {
+      "case_id": "event_07",
+      "preferred_variant": "N0",
+      "reason": ""
+    },
+    {
+      "case_id": "event_08",
+      "preferred_variant": "N0",
+      "reason": ""
+    },
+    {
+      "case_id": "single_01",
+      "preferred_variant": "N0",
+      "reason": ""
+    },
+    {
+      "case_id": "single_02",
+      "preferred_variant": "N0",
+      "reason": ""
+    }
+  ]
+}

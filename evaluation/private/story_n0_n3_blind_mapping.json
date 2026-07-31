@@ -1,0 +1,77 @@
+{
+  "protocol_version": "story-blind-mapping-v1",
+  "mappings": [
+    {
+      "case_id": "date_01",
+      "case_token": "b64dbca9291caca7",
+      "A": "N0",
+      "B": "N3"
+    },
+    {
+      "case_id": "date_02",
+      "case_token": "5142495001e584dd",
+      "A": "N0",
+      "B": "N3"
+    },
+    {
+      "case_id": "event_01",
+      "case_token": "dae89730d4163078",
+      "A": "N0",
+      "B": "N3"
+    },
+    {
+      "case_id": "event_02",
+      "case_token": "f5c7435112eb97df",
+      "A": "N3",
+      "B": "N0"
+    },
+    {
+      "case_id": "event_03",
+      "case_token": "5b2d2ffb32ca5267",
+      "A": "N0",
+      "B": "N3"
+    },
+    {
+      "case_id": "event_04",
+      "case_token": "ac7b1d1c343f8b3c",
+      "A": "N3",
+      "B": "N0"
+    },
+    {
+      "case_id": "event_05",
+      "case_token": "ea4e87ed6b6bc1a8",
+      "A": "N0",
+      "B": "N3"
+    },
+    {
+      "case_id": "event_06",
+      "case_token": "75d558949c41c6fc",
+      "A": "N3",
+      "B": "N0"
+    },
+    {
+      "case_id": "event_07",
+      "case_token": "621088ff5b884417",
+      "A": "N0",
+      "B": "N3"
+    },
+    {
+      "case_id": "event_08",
+      "case_token": "3d797fe1d1649fa2",
+      "A": "N0",
+      "B": "N3"
+    },
+    {
+      "case_id": "single_01",
+      "case_token": "2bd0f9da49513b47",
+      "A": "N0",
+      "B": "N3"
+    },
+    {
+      "case_id": "single_02",
+      "case_token": "7354f0669f33c12a",
+      "A": "N0",
+      "B": "N3"
+    }
+  ]
+}

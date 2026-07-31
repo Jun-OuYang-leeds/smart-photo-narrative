@@ -1,0 +1,397 @@
+{
+  "protocol_version": "story-blind-review-v1",
+  "locked": true,
+  "cases": [
+    {
+      "review_index": 1,
+      "case_token": "b64dbca9291caca7",
+      "language": "zh",
+      "source_kind": "date",
+      "photo_paths": [
+        "10.jpg",
+        "12.jpg",
+        "15.jpg",
+        "16.jpg",
+        "17.jpg",
+        "18.jpg",
+        "19.jpg",
+        "20.jpg",
+        "21.jpg",
+        "22.jpg",
+        "23.jpg",
+        "24.jpg",
+        "25.jpg",
+        "27.jpg",
+        "29.jpg",
+        "31.jpg",
+        "32.jpg",
+        "33.jpg",
+        "34.jpg",
+        "37.jpg",
+        "38.jpg",
+        "39.jpg",
+        "40.jpg",
+        "44.jpg",
+        "46.jpg",
+        "47.jpg",
+        "48.jpg"
+      ],
+      "story_a": {
+        "title": "**A Quiet Afternoon**",
+        "paragraphs": [
+          "July 10th, 2026",
+          "As I sit on the couch, surrounded by the quiet of the office, I take a moment to appreciate the simplicity of the moment. The bottle of water on the table beside me is a reminder that even in the midst of chaos, there is always a need for stillness. The pillow on the couch next to me seems to be calling my name, inviting me to take a moment to rest.",
+          "As I glance around the room, I notice the television and the remote control, a reminder that even in quiet moments, there is always something to be entertained by. The phone on the couch seems to be waiting for me to pick it up, to connect with someone or something.",
+          "As the afternoon wears on, I find myself drawn to the bed in the corner of the room. The blanket and the wooden headboard seem to be calling me, inviting me to take a moment to relax and recharge. The cat on the table seems to be watching me, as if waiting for me to make a move.",
+          "As the sun begins to set, I take a moment to reflect on the day. It's been a quiet one, but one that has been filled with moments of stillness and contemplation. The puzzle on the table seems to be a reminder that even in the midst of chaos, there is always a need for calm and clarity.",
+          "As I sit here, surrounded by the quiet of the office, I am grateful for this moment of peace. It's a reminder that even in the busiest of times, there is always a need for stillness and contemplation."
+        ]
+      },
+      "story_b": {
+        "title": "事件照片记录",
+        "paragraphs": [
+          "开头的照片组按可靠时间保存了画面中可直接观察的场景与物体。",
+          "随后的一组照片记录了可见的人物、物体与周围环境，不加入额外解释。",
+          "中间的照片组保留了所选画面中能够直接核查的视觉内容。",
+          "接下来的图像继续按时间记录可观察的环境与物体信息。",
+          "最后一组照片以画面中可见的场景内容结束这段记录。"
+        ]
+      }
+    },
+    {
+      "review_index": 2,
+      "case_token": "5142495001e584dd",
+      "language": "en",
+      "source_kind": "date",
+      "photo_paths": [
+        "IMG_3533.JPG",
+        "IMG_3535.JPG",
+        "IMG_3536.JPG",
+        "IMG_3566.JPG",
+        "IMG_3585.JPG",
+        "IMG_3587.JPG",
+        "IMG_3589.JPG",
+        "IMG_3591.JPG",
+        "IMG_3596.JPG",
+        "IMG_3597.JPG",
+        "IMG_3598.JPG",
+        "IMG_3600.JPG",
+        "IMG_3602.JPG",
+        "IMG_3605.JPG",
+        "IMG_3606.JPG"
+      ],
+      "story_a": {
+        "title": "**A Day in Knaresborough**",
+        "paragraphs": [
+          "Today was a lovely day in Knaresborough, England. I started the day with a delicious Western-style breakfast, complete with a pan of food and a wooden spoon. The aroma wafting from the pan was heavenly!",
+          "After breakfast, I took a stroll around the city, admiring the architecture and taking in the sights. I particularly loved the clock tower in the background of one of the streets I walked down. It added a touch of elegance to the scene.",
+          "As I continued my walk, I found myself at the river, where I watched a train cross a bridge over the water. The train's journey was a reminder that there's always something new to explore and discover.",
+          "I also spent some time sitting on a bench in the park, people-watching and taking in the scenery. It was a peaceful moment, and I felt grateful for the chance to relax and unwind.",
+          "Later in the day, I took a few moments to capture a selfie, posing in front of the beautiful castle with its clock tower. It was a great way to commemorate my day in Knaresborough.",
+          "As the day drew to a close, I took a walk along the river, enjoying the boats and the bridge in the background. It was a lovely way to cap off the day, and I felt grateful for the chance to experience all that Knaresborough has to offer."
+        ]
+      },
+      "story_b": {
+        "title": "Event photo record",
+        "paragraphs": [
+          "The opening photographs preserve a direct visual record of their observable scene and objects.",
+          "The next chronological group documents visible people, objects, and surroundings without interpretation.",
+          "The middle set preserves what is directly visible in the selected photographs.",
+          "The following images continue the time-ordered record using only observable visual details.",
+          "The final group closes the photographic record with its visible scene content."
+        ]
+      }
+    },
+    {
+      "review_index": 3,
+      "case_token": "dae89730d4163078",
+      "language": "zh",
+      "source_kind": "event",
+      "photo_paths": [
+        "135.jpg",
+        "136.jpg",
+        "137.jpg",
+        "138.jpg",
+        "140.jpg",
+        "144.jpg",
+        "145.jpg",
+        "148.jpg",
+        "150.jpg",
+        "151.jpg",
+        "152.jpg",
+        "153.jpg",
+        "154.jpg",
+        "155.jpg"
+      ],
+      "story_a": {
+        "title": "**2026-07-12**",
+        "paragraphs": [
+          "Today was a relaxing day at home. I started by taking care of some personal hygiene in the bathroom. You can see me reaching into the sink to wash my hands. After that, I took a short walk around the house, probably to get some fresh air or clear my mind. Later, I spent some time playing video games on my Wii, surrounded by my feathered friends and my beloved pets.",
+          "In the evening, I did some household chores, including washing dishes in the kitchen. You can see me holding a dish rack, surrounded by the familiar sights and sounds of my home. I also took some time to unwind and enjoy some quiet moments to myself, standing on the floor in my favorite room, wearing my comfortable white shirt.",
+          "As the night wore on, I got back to work, typing away on my laptop. It was a productive evening, and I'm grateful for the chance to reflect on my day and plan for the future."
+        ]
+      },
+      "story_b": {
+        "title": "事件照片记录",
+        "paragraphs": [
+          "开头的照片组按可靠时间保存了画面中可直接观察的场景与物体。",
+          "随后的一组照片记录了可见的人物、物体与周围环境，不加入额外解释。",
+          "中间的照片组保留了所选画面中能够直接核查的视觉内容。",
+          "接下来的图像继续按时间记录可观察的环境与物体信息。",
+          "最后一组照片以画面中可见的场景内容结束这段记录。"
+        ]
+      }
+    },
+    {
+      "review_index": 4,
+      "case_token": "f5c7435112eb97df",
+      "language": "en",
+      "source_kind": "event",
+      "photo_paths": [
+        "IMG_2671.JPG",
+        "DHBP1187.JPG",
+        "IMG_2674.JPG"
+      ],
+      "story_a": {
+        "title": "Event photo record",
+        "paragraphs": [
+          "The opening photographs preserve a direct visual record of their observable scene and objects.",
+          "The next chronological group documents visible people, objects, and surroundings without interpretation.",
+          "The middle set preserves what is directly visible in the selected photographs."
+        ]
+      },
+      "story_b": {
+        "title": "**A Delicious Day in Tonghe**",
+        "paragraphs": [
+          "As I sit down to enjoy the feast before me, I'm filled with gratitude for this wonderful day in Tonghe, Guangdong, China. The aroma of Chinese and Western cuisine wafts through the air, teasing my taste buds and making my stomach growl with anticipation.",
+          "I glance at the table, where a colorful spread of food awaits. The bowls of goodness are filled with an assortment of dishes, each one more tantalizing than the last. The plate of limes adds a pop of brightness, and I can't help but smile at the thought of squeezing a slice over my meal.",
+          "As I dig in, the flavors and textures meld together in a delightful harmony. The variety of dishes is a true reflection of the cultural fusion that makes Tonghe so special. It's days like these that remind me to appreciate the simple pleasures in life – good food, good company, and the beauty of this city."
+        ]
+      }
+    },
+    {
+      "review_index": 5,
+      "case_token": "5b2d2ffb32ca5267",
+      "language": "zh",
+      "source_kind": "event",
+      "photo_paths": [
+        "IMG_2685.JPG",
+        "IMG_2686.JPG"
+      ],
+      "story_a": {
+        "title": "**Summer Afternoon**",
+        "paragraphs": [
+          "I still remember this lazy summer afternoon in Huangcun, Guangdong. After a long day, I decided to take a break and relax by the pool. I wrapped myself in a towel and sat down, feeling the warmth of the sunbeams streaming through the skylight above. It was a moment of pure bliss, with the sound of gentle ripples in the water and the hum of the air conditioner creating a soothing melody. As I sat there, I couldn't help but take a selfie to capture the tranquility of the moment."
+        ]
+      },
+      "story_b": {
+        "title": "事件照片记录",
+        "paragraphs": [
+          "开头的照片组按可靠时间保存了画面中可直接观察的场景与物体。",
+          "随后的一组照片记录了可见的人物、物体与周围环境，不加入额外解释。"
+        ]
+      }
+    },
+    {
+      "review_index": 6,
+      "case_token": "ac7b1d1c343f8b3c",
+      "language": "en",
+      "source_kind": "event",
+      "photo_paths": [
+        "IMG_2698.JPG",
+        "IMG_2699.JPG"
+      ],
+      "story_a": {
+        "title": "Event photo record",
+        "paragraphs": [
+          "The opening photographs preserve a direct visual record of their observable scene and objects.",
+          "The next chronological group documents visible people, objects, and surroundings without interpretation."
+        ]
+      },
+      "story_b": {
+        "title": "\"A Glimpse of Huangcun\"",
+        "paragraphs": [
+          "As I stood at the window, gazing out at the city below, I couldn't help but feel a sense of wonder at the vibrant tapestry unfolding before me. The view was breathtaking - a sea of twinkling lights and bustling streets, with the occasional train chugging along the tracks. The weather was perfect, with a gentle haze adding a touch of mystique to the scene. I felt grateful to be experiencing this moment, suspended in time and space, with the world at my fingertips.",
+          "As the sun began to set, I couldn't resist the urge to grab my camera and capture the beauty of the street below. The golden light cast a warm glow over the scene, and the sound of a car driving down the street added a sense of energy to the atmosphere. It was as if the city was coming alive, and I was honored to be a part of it, if only for a fleeting moment."
+        ]
+      }
+    },
+    {
+      "review_index": 7,
+      "case_token": "ea4e87ed6b6bc1a8",
+      "language": "zh",
+      "source_kind": "event",
+      "photo_paths": [
+        "IMG_3536.JPG",
+        "IMG_3566.JPG",
+        "IMG_3585.JPG",
+        "IMG_3587.JPG",
+        "IMG_3589.JPG",
+        "IMG_3591.JPG"
+      ],
+      "story_a": {
+        "title": "**A Day in Knaresborough**",
+        "paragraphs": [
+          "Today was a day filled with adventure and relaxation. I started the day by taking a train ride across a beautiful bridge over a river. The scenery was breathtaking, and I felt so free and alive.",
+          "After the train ride, I took a stroll in the park and sat down on a bench to people-watch. I saw a man riding a bicycle and another man taking a selfie with a mountainous backdrop. It was a peaceful moment, and I felt grateful to be surrounded by nature.",
+          "Later in the day, I took a moment to capture a photo of myself, dressed in my suit, surrounded by the beauty of nature. It was a reminder to take time for myself and appreciate the little things.",
+          "As the day went on, I found myself drawn to the historic castle in the town, with its impressive clock tower. It was a reminder of the rich history and culture that surrounds me.",
+          "As the sun began to set, I took a walk along the river, watching the boats and taking in the sights and sounds of the water. It was a moment of pure relaxation, and I felt grateful for the opportunity to unwind and recharge.",
+          "Overall, today was a day of discovery, adventure, and self-reflection. I'm grateful for the experiences and memories that I've made, and I'm looking forward to seeing what tomorrow brings."
+        ]
+      },
+      "story_b": {
+        "title": "事件照片记录",
+        "paragraphs": [
+          "开头的照片组按可靠时间保存了画面中可直接观察的场景与物体。",
+          "随后的一组照片记录了可见的人物、物体与周围环境，不加入额外解释。",
+          "中间的照片组保留了所选画面中能够直接核查的视觉内容。",
+          "接下来的图像继续按时间记录可观察的环境与物体信息。",
+          "最后一组照片以画面中可见的场景内容结束这段记录。"
+        ]
+      }
+    },
+    {
+      "review_index": 8,
+      "case_token": "75d558949c41c6fc",
+      "language": "en",
+      "source_kind": "event",
+      "photo_paths": [
+        "IMG_3597.JPG",
+        "IMG_3598.JPG",
+        "IMG_3600.JPG",
+        "IMG_3602.JPG",
+        "IMG_3605.JPG",
+        "IMG_3606.JPG"
+      ],
+      "story_a": {
+        "title": "Event photo record",
+        "paragraphs": [
+          "The opening photographs preserve a direct visual record of their observable scene and objects.",
+          "The next chronological group documents visible people, objects, and surroundings without interpretation.",
+          "The middle set preserves what is directly visible in the selected photographs.",
+          "The following images continue the time-ordered record using only observable visual details."
+        ]
+      },
+      "story_b": {
+        "title": "\"A Day in Knaresborough\"",
+        "paragraphs": [
+          "As I walked across the bridge over the river in Knaresborough, I couldn't help but feel grateful for this beautiful day. The sun was shining, and the river was calm, with boats gently bobbing in the water. I took a moment to appreciate the architecture of the bridge, and the way it seemed to connect the two sides of the river. After a leisurely stroll, I settled onto a bench in a nearby grassy field, taking a moment to rest and people-watch. The tranquility of the scene was a welcome respite from the hustle and bustle of daily life.",
+          "As I sat there, I couldn't help but notice the changing seasons. The trees surrounding the field were adorned with brown leaves, a reminder that autumn was well underway. And yet, despite the cooling temperatures, the atmosphere remained lively, with a group of people gathered on a nearby bench, chatting and laughing together.",
+          "As I continued my day, I found myself drawn to the charming row of houses that lined the street. The architecture was a delight, with each house seeming to have its own unique character. And as I walked, I couldn't help but feel grateful for this little slice of England, and the memories I was making here."
+        ]
+      }
+    },
+    {
+      "review_index": 9,
+      "case_token": "621088ff5b884417",
+      "language": "zh",
+      "source_kind": "event",
+      "photo_paths": [
+        "IMG_3705.JPG",
+        "IMG_3712.JPG",
+        "IMG_E3714.JPG",
+        "IMG_3717.JPG",
+        "IMG_3730.JPG",
+        "IMG_3732.JPG"
+      ],
+      "story_a": {
+        "title": "**Ilkley, England, GB**",
+        "paragraphs": [
+          "Yesterday was a day I won't forget. I spent the morning exploring the beautiful Ilkley countryside with my loved ones. We hiked through a lush grassy field, taking in the breathtaking views of the rock formation in the background. It was a moment of pure serenity, surrounded by nature's beauty.",
+          "As we sat on a rock, taking a break and soaking up the sun, I couldn't help but feel grateful for the people in my life. The love and laughter we shared in that moment was truly special.",
+          "Later, I stumbled upon a rock with a heartfelt message - \"love\" - scrawled across it. It was as if the universe was reminding me to cherish the love and connections I have with others.",
+          "The highlight of my day, though, was watching a man effortlessly fly a kite against the stunning mountain backdrop. It was a reminder to stay light and free, just like the kite soaring through the sky.",
+          "As I stood on a rock, taking in the breathtaking view of the sky, I felt a sense of accomplishment and fulfillment. It was a day filled with love, laughter, and adventure - a perfect reminder to appreciate the beauty in life."
+        ]
+      },
+      "story_b": {
+        "title": "事件照片记录",
+        "paragraphs": [
+          "开头的照片组按可靠时间保存了画面中可直接观察的场景与物体。",
+          "随后的一组照片记录了可见的人物、物体与周围环境，不加入额外解释。",
+          "中间的照片组保留了所选画面中能够直接核查的视觉内容。",
+          "接下来的图像继续按时间记录可观察的环境与物体信息。",
+          "最后一组照片以画面中可见的场景内容结束这段记录。"
+        ]
+      }
+    },
+    {
+      "review_index": 10,
+      "case_token": "3d797fe1d1649fa2",
+      "language": "en",
+      "source_kind": "event",
+      "photo_paths": [
+        "DSCF0009.JPG",
+        "DSCF0011.JPG",
+        "IMG_4591.jpg",
+        "DSCF0066.JPG",
+        "DSCF0098.JPG",
+        "DSCF0106.JPG",
+        "IMG_4605.jpg",
+        "IMG_4606.jpg"
+      ],
+      "story_a": {
+        "title": "\"December 16th, 2025: A Day of Discovery\"",
+        "paragraphs": [
+          "As I walked through the streets of Levallois-Perret, I couldn't help but be struck by the beauty of the architecture around me. The large white clock tower, surrounded by trees, caught my eye and I couldn't help but snap a photo. It was a moment of serenity in an otherwise chaotic day.",
+          "Later, I stumbled upon a tree with no leaves, its branches bare and skeletal. It was a poignant reminder of the fleeting nature of life, and I couldn't help but feel a sense of connection to it.",
+          "After a while, I found myself at a table, surrounded by the comforts of home. A plate of food and a glass of water, a simple yet satisfying meal that filled my belly and my soul. It was a moment of peace, a reminder that even in the midst of travel, there is always a sense of home to be found.",
+          "As the day wore on, I found myself drawn to the statue of a man on a horse, its grandeur and beauty leaving me in awe. And then, as I stood on the ledge, looking out at the world below, I felt a sense of accomplishment and pride. It was a moment of triumph, a reminder that even in the face of uncertainty, we can always find a way to rise above."
+        ]
+      },
+      "story_b": {
+        "title": "Event photo record",
+        "paragraphs": [
+          "The opening photographs preserve a direct visual record of their observable scene and objects.",
+          "The next chronological group documents visible people, objects, and surroundings without interpretation.",
+          "The middle set preserves what is directly visible in the selected photographs.",
+          "The following images continue the time-ordered record using only observable visual details.",
+          "The final group closes the photographic record with its visible scene content."
+        ]
+      }
+    },
+    {
+      "review_index": 11,
+      "case_token": "2bd0f9da49513b47",
+      "language": "zh",
+      "source_kind": "single",
+      "photo_paths": [
+        "gradient.jpg"
+      ],
+      "story_a": {
+        "title": "**Warm Moments**",
+        "paragraphs": [
+          "I still remember the day I visited my grandfather's house. He's an elderly man who loves games and sports. This photo captures a special moment when he was playing his favorite board game with his friends. His eyes sparkled with excitement as he moved his game piece, and his laughter filled the room. It was a simple moment, but one that I'll always treasure."
+        ]
+      },
+      "story_b": {
+        "title": "照片记录",
+        "paragraphs": [
+          "这张照片提供了能够直接核查的场景与物体记录。"
+        ]
+      }
+    },
+    {
+      "review_index": 12,
+      "case_token": "7354f0669f33c12a",
+      "language": "en",
+      "source_kind": "single",
+      "photo_paths": [
+        "155.jpg"
+      ],
+      "story_a": {
+        "title": "**Midnight Musings**",
+        "paragraphs": [
+          "As I sit here at my desk, surrounded by the soft glow of my laptop and the gentle hum of the monitor, I can't help but feel a sense of calm wash over me. It's 11:50 PM on a warm summer evening, and I'm grateful for the quiet moment to myself. The world outside may be bustling with activity, but in this moment, it's just me, my thoughts, and the gentle glow of the screen."
+        ]
+      },
+      "story_b": {
+        "title": "A Moment of Focus",
+        "paragraphs": [
+          "In this moment, a person is sitting at a desk with a laptop, surrounded by the tools of their trade. The evidence suggests that they are deeply focused on their work, with the laptop open to a document or project. The person's gaze is fixed on the screen, and their hands are moving deftly across the keyboard. The presence of a plate and a sandwich nearby implies that they may have taken a break to eat, but their attention remains on the task at hand. The laptop, keyboard, and monitor are the primary objects of focus in this scene, highlighting the importance of technology in this person's work routine."
+        ]
+      }
+    }
+  ]
+}

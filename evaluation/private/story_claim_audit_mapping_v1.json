@@ -1,0 +1,2261 @@
+{
+  "protocol_version": "story-claim-audit-mapping-v1",
+  "mappings": [
+    {
+      "audit_id": "f79f9a4c8a55f79d08a0",
+      "case_id": "single_01",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "8ef89f02a134e2ed14cc",
+      "case_id": "single_01",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "eb3959e5c7938f495601",
+      "case_id": "single_01",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "0feace64707085635d74",
+      "case_id": "single_01",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "0d7a615014301feda954",
+      "case_id": "single_01",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "b53d7853bc92515dee49",
+      "case_id": "single_01",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "cc19846c6d2cdfc6ab4c",
+      "case_id": "single_01",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "930bf4a02288ff78566b",
+      "case_id": "single_01",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "8bf78137744ae15fb658",
+      "case_id": "single_01",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "a5033688e72205c51c89",
+      "case_id": "single_01",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "3d5a1fa93a1d45592035",
+      "case_id": "single_01",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "3d0eafcac2f4c4de15f8",
+      "case_id": "single_02",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "cbfdb9c88a4c9b32f4e9",
+      "case_id": "single_02",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "6a6439af6a04ef009f68",
+      "case_id": "single_02",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "7538f353e7f8c616cfb8",
+      "case_id": "single_02",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "1509ef8fd3bcd3e5e0a1",
+      "case_id": "single_02",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "520f2dc8aa0be83d1ed6",
+      "case_id": "single_02",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "a6173bd6560506ae8cff",
+      "case_id": "single_02",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "af9b709cce16f4a67055",
+      "case_id": "single_02",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "a0539994f08b1f95b53f",
+      "case_id": "single_02",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "7a0afb4d6692e585ab32",
+      "case_id": "single_02",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "be4a076fcfcd6d335d74",
+      "case_id": "single_02",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "4498da3de058f3116a1b",
+      "case_id": "single_02",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "7b66853a6fd07719e3cd",
+      "case_id": "single_02",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "c71872cd9e9eed885e19",
+      "case_id": "single_02",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "b0d4a6947a738811b22e",
+      "case_id": "single_02",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "4f66436af2342e9f7dbb",
+      "case_id": "single_02",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "c3cfd8f1e887497f2763",
+      "case_id": "single_02",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "137cee352fe36236f12b",
+      "case_id": "event_01",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "bfb7daf67105097c676c",
+      "case_id": "event_01",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "9ee00239bcaea9847145",
+      "case_id": "event_01",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "2a33f965c9fed9a378e0",
+      "case_id": "event_01",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "948f9d51e7285e9d389b",
+      "case_id": "event_01",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "44b25b1b34c2d7c858d1",
+      "case_id": "event_01",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "e7d5cb11e83a44f96633",
+      "case_id": "event_01",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "49cc27d1182aecc0cab9",
+      "case_id": "event_01",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "9faa761e70061cbbe374",
+      "case_id": "event_01",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "11d1819128cc1e2221b8",
+      "case_id": "event_01",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "6a6234b041565085e7cf",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "b81b906addc34028d2cf",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "dbdde6dc7e650cbb6412",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "c3f36e16e80bb951854d",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "52cceafd533d019be32e",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "b8419ac623015dcb4004",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "ec1e84a55eaaa7c15802",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 7
+    },
+    {
+      "audit_id": "9bfb55fa1f5128753ca9",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 8
+    },
+    {
+      "audit_id": "5a96300d9c60a8b6bdfd",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 9
+    },
+    {
+      "audit_id": "aa740b5b168a2d1c03df",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 10
+    },
+    {
+      "audit_id": "86e032db34ed268fe447",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 11
+    },
+    {
+      "audit_id": "802282a4b47c62eed015",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 12
+    },
+    {
+      "audit_id": "33fc3c6026f7f12914c2",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 13
+    },
+    {
+      "audit_id": "e71f3416a08564c830da",
+      "case_id": "event_01",
+      "variant_id": "N1",
+      "paragraph_index": 14
+    },
+    {
+      "audit_id": "c9a9bfa9f5a4f963503c",
+      "case_id": "event_01",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "854f42517a77052d5c37",
+      "case_id": "event_01",
+      "variant_id": "N3",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "e20bcb24f8b17e465226",
+      "case_id": "event_01",
+      "variant_id": "N3",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "bbe1c4733a1ceef181a5",
+      "case_id": "event_01",
+      "variant_id": "N3",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "f46fe419dc9a540801ea",
+      "case_id": "event_01",
+      "variant_id": "N3",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "cff7e9c62780d323d198",
+      "case_id": "event_02",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "5a0983f7ee9c16f01ef2",
+      "case_id": "event_02",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "0cb1b9bc7acee4165cb3",
+      "case_id": "event_02",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "9da0d20385dc4cd73a50",
+      "case_id": "event_02",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "34ab54f922a674ab61cf",
+      "case_id": "event_02",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "1b2dbe119a8a365a9d68",
+      "case_id": "event_02",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "ee2bafca70b363eb90d9",
+      "case_id": "event_02",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "f8ed6fe7212e9130beff",
+      "case_id": "event_02",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "f0234c56661fa6f39555",
+      "case_id": "event_02",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "17bea1472f59fc485913",
+      "case_id": "event_02",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "53586701b3af95765554",
+      "case_id": "event_02",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "4370fb6995e0ac24b66b",
+      "case_id": "event_02",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "073f63f3593f92c4e916",
+      "case_id": "event_02",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "bebc796a585d9b0cfdec",
+      "case_id": "event_02",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "36a639511d05c71617cf",
+      "case_id": "event_02",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "6cff6d591628d8dc0953",
+      "case_id": "event_02",
+      "variant_id": "N3",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "9a848a02fd9c3cf31d37",
+      "case_id": "event_02",
+      "variant_id": "N3",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "b54b9bbca7c8afb94160",
+      "case_id": "event_03",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "16614e0adee48581a625",
+      "case_id": "event_03",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "37f9a09f419f7bdac725",
+      "case_id": "event_03",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "6a6806255a003c700704",
+      "case_id": "event_03",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "5ef755277adc6dfb7006",
+      "case_id": "event_03",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "d18ef567b2f18a82b768",
+      "case_id": "event_03",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "739824772b96d34818e6",
+      "case_id": "event_03",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "f87eda27d6f9dcbe488d",
+      "case_id": "event_03",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "4e288361474036addc72",
+      "case_id": "event_03",
+      "variant_id": "N3",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "5e02187d984ef3756c85",
+      "case_id": "event_04",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "4f88c90ec33f965fcb1f",
+      "case_id": "event_04",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "068a7bbedfa92f7b842c",
+      "case_id": "event_04",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "061db6db8d0e6ffbb69d",
+      "case_id": "event_04",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "1a90aa78f15024802c50",
+      "case_id": "event_04",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "5686f803b11d0b11f7ef",
+      "case_id": "event_04",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "4c35722f6277ed9ccc3d",
+      "case_id": "event_04",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "37d89c385759b82fa669",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "48e1a401a9c718568dbc",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "ebf6d740cea3902b2dfe",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "a018af4118c524e99548",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "bb4be9532246157d8247",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "441abd69a592f43ee97f",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "00d0be85f242aa5e95fd",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "5fff831ccc369e888d90",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "68f3838ef16f7c3c58fe",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "975dfacdf3fe10e72723",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "88343eedd2f6c59a04de",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "038ee6c1c8e6cc1f9b40",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "fdaa47c0b2ca8e41f005",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "415266083d3b70f8e708",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "07ef473c2b48b7665709",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "18f75637d214c5c1d5f0",
+      "case_id": "event_04",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "4ebfcfaa5b9b008c1f7b",
+      "case_id": "event_04",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "b1aaf8d49d2606a0dd38",
+      "case_id": "event_04",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "6f05239af612012b30c3",
+      "case_id": "event_04",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "81b80db7ce448d5b6429",
+      "case_id": "event_04",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "3658977f9cd985a72465",
+      "case_id": "event_04",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "ac86b055943a867d43fe",
+      "case_id": "event_04",
+      "variant_id": "N3",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "2fe8b4786743556a1f84",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "1d51dfa27e781d9a64f0",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "3c35fe492d34b6630f10",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "12b5ea905369c69feb9a",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "6578fdd3eaab230a98d9",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "f589cd9abe03a87eb768",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "c79348a37a1d46a93710",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "3c487ce0d5e55ee00e67",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "1c8cdecc068e1e09dd61",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "86f1f007c94560cc547f",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "f14b208d321de23b754d",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "7f0d6efb99d0517befc7",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "6aa4c6fda340932e8cbc",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "86af96dffef8adee9a41",
+      "case_id": "event_05",
+      "variant_id": "N0",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "908304037828f0f1f770",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "35527cfd4382c253578e",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "8e0171d901242902868f",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "fead86adfd87f1905981",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "fb9abffe75c9ed0410d0",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "47171a3a912a3e3a8fed",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "2c195ecb4e9adf7764c0",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "02cd65ab809d9e99e77a",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "118264b22090ced0ae70",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "b1941b027389eeccce6f",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "03067ecc739ad8768361",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "70d5432a487bc25646a6",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "3cc4592a069601d1a960",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "90487b080a9b5284deca",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "61cd80b8e5b47fe83f80",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "f72f9a57d1133d91d998",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "f2575d09c0996df28c6f",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "549c63e07107b917dfde",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "96eac0e9a4e314c49c1f",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "971ea0c9ec8839c362fc",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "fb7a2a4df1e1588d40b7",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "bdb3c91c0ed0c03124cc",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "5ce406aba2ae8294709c",
+      "case_id": "event_05",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "000211c10c331e6275f4",
+      "case_id": "event_05",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "9fb83ad67cedebd95c7b",
+      "case_id": "event_05",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "91de51c44d400dbe3bad",
+      "case_id": "event_05",
+      "variant_id": "N3",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "34e887967aa403d3af04",
+      "case_id": "event_05",
+      "variant_id": "N3",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "c3eca9f87aa5d64ba7a3",
+      "case_id": "event_05",
+      "variant_id": "N3",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "fc959f3b13432ab57f65",
+      "case_id": "event_05",
+      "variant_id": "N3",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "5fcf6dd085f04aa9ae72",
+      "case_id": "event_06",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "4b553ab75537bbf01dca",
+      "case_id": "event_06",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "7ed3199f73d35b709244",
+      "case_id": "event_06",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "39721bbfa8d1de5b2cd5",
+      "case_id": "event_06",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "0df566b23eeeffaaa1bb",
+      "case_id": "event_06",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "446d99d1c07dcfde39ef",
+      "case_id": "event_06",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "c614becbbc428d44c040",
+      "case_id": "event_06",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "c479f3a7642cab2b543c",
+      "case_id": "event_06",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "cbb4ffa3c2bb61cea503",
+      "case_id": "event_06",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "0c326fed88dd40a5d079",
+      "case_id": "event_06",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "d03b36ee1c9be9b5b5a2",
+      "case_id": "event_06",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "a732d5a050500d02500e",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "8bd205519ebdffde1f96",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "fc3ccac52c44a051bcc4",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "d272b741a1f321f4a658",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "36062371ccc9b298b8c7",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "7a4dbc85bb4733081c3c",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "c782cfa48e6899db59eb",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "5210f6241b2594d82e7c",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "5f9dce0ba88da501b860",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "1b0425e1803c20576118",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "b89161cd5f47fa3250a1",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "34fb3c9c05f0a12789d4",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "d715ef66e40ef8e99130",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "e3627876e9f2aca35e89",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "440d8ede5981e230bcfe",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "148f07d8b35ac5fb0cf8",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "5e850584419837415c9c",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "f38db0a41409ab8c2bbe",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "0141daf6aef96d875526",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "bfb8c916e02967662437",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "6daef2a10f230891085c",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "3acccafadaafc19026cf",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "58005a23828c98e5c896",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "a177ff11445efdd972ef",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "4a3b3561363b19b677f2",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "48d33feb6c22cdafd3a4",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "3656ef37f3570c2b946c",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "13bbe93f62a371f6a36e",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "3b5e77cc35f388a64c0e",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "71354a00089d47382fc2",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "604128d57888e17ce4b6",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "5010c1bde862a17d5d43",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "439325633d2ba8fe6e64",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "136cb7c3ca4f4b2a5b64",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "bc8aa5838fcb3e695ae7",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "43a0e6fb22bfbe67868f",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "852342b9eb187603a078",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "e4270486ad5617016299",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "eb7842ebe5e2f816bc26",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "2d95c945e0e25a0fd835",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "8eee6a6c9e93a7675973",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "40346245ac2764bceebf",
+      "case_id": "event_06",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "460d9ad0541426195076",
+      "case_id": "event_06",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "ae8ce0ab1f862dd4855e",
+      "case_id": "event_06",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "22d69728edcfd16578ec",
+      "case_id": "event_06",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "ef885209c846cae74ea5",
+      "case_id": "event_06",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "8851527eab5b7d42ecb4",
+      "case_id": "event_06",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "e49d96a69d2e88bb9d65",
+      "case_id": "event_06",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "b813ff75fc7325e474bd",
+      "case_id": "event_06",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "daf0bf069d95ae14a75f",
+      "case_id": "event_06",
+      "variant_id": "N3",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "43f2703b04eeb32f7d09",
+      "case_id": "event_06",
+      "variant_id": "N3",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "792ba4df3e554ea96479",
+      "case_id": "event_06",
+      "variant_id": "N3",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "5a4340b8179870801044",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "b54de5a6e01225b0277b",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "d992e31cf85c655a5946",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "51210213914844db3198",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "95135675ccead1d275f2",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "09ce4d0361a88a964d54",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "f81e8d9b3b0a0b3b5ea7",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "f5423bbd5e0097d9c938",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "e30de31c9fedf0c15816",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "ce3d5cbecbd66ee55774",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "9f050af6b594fec2ba08",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "1719c790e384e1255003",
+      "case_id": "event_07",
+      "variant_id": "N0",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "085102ad956fd4565c09",
+      "case_id": "event_07",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "1a81b63115c4409456e8",
+      "case_id": "event_07",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "c73dd111f5c59c27803a",
+      "case_id": "event_07",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "1f2ec6b123389992795e",
+      "case_id": "event_07",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "043eaa03ea67789edb89",
+      "case_id": "event_07",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "91fa25795d1c7067b1b5",
+      "case_id": "event_07",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "ed4523b85eefd4ac79cf",
+      "case_id": "event_07",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "a4b9783cd75d14d07719",
+      "case_id": "event_07",
+      "variant_id": "N3",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "bb4413bd82f1e326273d",
+      "case_id": "event_07",
+      "variant_id": "N3",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "be59f89c086255e0c618",
+      "case_id": "event_07",
+      "variant_id": "N3",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "bda74b535379ca5a8d96",
+      "case_id": "event_07",
+      "variant_id": "N3",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "d0e0bb8d09ab028d3515",
+      "case_id": "event_08",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "cf40164b0eead9fdd3de",
+      "case_id": "event_08",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "a44fed8dd773c319f7c0",
+      "case_id": "event_08",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "c149fb9c48b8953c5754",
+      "case_id": "event_08",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "7508676cffbbbd4e245c",
+      "case_id": "event_08",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "7da0f9ebcdd7ed00c276",
+      "case_id": "event_08",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "f1cea8352e473f135643",
+      "case_id": "event_08",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "33445e998375e40dd152",
+      "case_id": "event_08",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "5de92a90fe97bd5ff45a",
+      "case_id": "event_08",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "5fdb67dd0df4d6abe52c",
+      "case_id": "event_08",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "582aaac8380c362aef53",
+      "case_id": "event_08",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "370c607dc4b80e438038",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "8a22f628633798e2c466",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "73efcb2493a8b101b3cf",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "48edda28353a26e13d6b",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "2d505990483254758295",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "6e193fb9789f34f0735e",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "fb5728df45ec90eab5e3",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "fa16b814c8b9df6b3d24",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "48201acf4d799eba6712",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "3087a60c4cb4f2336d2a",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "4c8003f85a7afbcf16d3",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 7
+    },
+    {
+      "audit_id": "92b6762cb2f662082d28",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 7
+    },
+    {
+      "audit_id": "cc95fec975f606c878c6",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 8
+    },
+    {
+      "audit_id": "d426d2cb7b7bd013d15f",
+      "case_id": "event_08",
+      "variant_id": "N1",
+      "paragraph_index": 8
+    },
+    {
+      "audit_id": "a75b3b4de3b46be90e95",
+      "case_id": "event_08",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "3300dc00ee0233379762",
+      "case_id": "event_08",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "f07cd45de061252c0316",
+      "case_id": "event_08",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "32823ed6b3b2a213bda1",
+      "case_id": "event_08",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "1cae96d79f208de13422",
+      "case_id": "event_08",
+      "variant_id": "N2",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "53bfc85f172b17565a72",
+      "case_id": "event_08",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "51cdf4943b9afcbbdd67",
+      "case_id": "event_08",
+      "variant_id": "N3",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "5a3ba5428daaae055ce3",
+      "case_id": "event_08",
+      "variant_id": "N3",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "67c667bbfcce7eb1b45d",
+      "case_id": "event_08",
+      "variant_id": "N3",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "0cce58e954f6deb0a294",
+      "case_id": "event_08",
+      "variant_id": "N3",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "5b78e4a407965036b201",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "3047853b1665e8cf29a6",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "d5d22d726e93043dd599",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "baf07e23f34baca42aae",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "62377b6ad3713dccd5e3",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "f446e4207f49f39f9aca",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "8632437c5c4d5a6f6442",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "099d62585a8d0ab9aeba",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "29aca159b0c0e17edb0b",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "7970e011123353b1959c",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "0348a331b8611892421e",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "24cc441615a9ab16bdaf",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "c2eed9c36a9302fdcd2c",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "96d5ef1eaa999425c6c3",
+      "case_id": "date_01",
+      "variant_id": "N0",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "f76f31f6123bcd46f546",
+      "case_id": "date_01",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "51a328c897afd158bd60",
+      "case_id": "date_01",
+      "variant_id": "N3",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "22b1a89db826f6f455bf",
+      "case_id": "date_01",
+      "variant_id": "N3",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "c4c4566c6ca4560131d3",
+      "case_id": "date_01",
+      "variant_id": "N3",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "25c63899505916c415ef",
+      "case_id": "date_01",
+      "variant_id": "N3",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "40a84390cbf8e5d0b370",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "e98358029015b1ac30e7",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "d7bceb4894d84a93c0ac",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "0d8b7cf8adf2aea5efcb",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "72bafe81f7080e3942bd",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "0b10ccbd4ae61fff5db6",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "fca6c60e98414f9a5cb7",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "09c1b47c3147a210e7b6",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "430cdb98d58c68faeb24",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "d0c1d4fb0358ece223eb",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "bc8e1078ca2c9efa0604",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "9a50a31ae3a10c89007c",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "0db5bec3e9f9e4e87042",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "e7dc056735c66a1b229c",
+      "case_id": "date_02",
+      "variant_id": "N0",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "bfcbe267a99ab45fef23",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "77d9c45b61d8782cb540",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "683358b466b721f70c97",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "9d1382d0db03482dc753",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "14757204cb5b4d833d6f",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "eea3e2c22c86666482a1",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "6e8929bdd4dc2d03d05a",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "9b08aaa6f807bfc98fe3",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "d8c291b434695d98c10d",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "7eac370502e27e2a6919",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "8dbc0d8658aece3b009f",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "52c6cd85e545ab497bc9",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "08df503606beff0dc5c7",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "6971dedd34dfb0461b4f",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "3b792796bb2e770141f9",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "29a066515f4b7f611d68",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "fabd02b6c5ace93d1d81",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "85eb612c97d4255ad0a2",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "41003601739535797405",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "a1ce59faf9f034f82df9",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "4a959427c60820f65a08",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "a6799711c1f9f218a17a",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "f00867ef912527d24e1c",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 5
+    },
+    {
+      "audit_id": "aff6b4530933dfd8c129",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "bd5e93afa21ba9edbbb8",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "6a0b149aeb27465a217c",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "2b19c66f317c47d2acdb",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 6
+    },
+    {
+      "audit_id": "4f26e2f59b0a36dad00e",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 7
+    },
+    {
+      "audit_id": "21302c30af9a7fac7df2",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 7
+    },
+    {
+      "audit_id": "f77ce846937c192fa390",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 7
+    },
+    {
+      "audit_id": "8e1973438290b803a3f4",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 7
+    },
+    {
+      "audit_id": "5ad5805fb10a54b558e8",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 8
+    },
+    {
+      "audit_id": "602b1d09a1f3b0f55e14",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 8
+    },
+    {
+      "audit_id": "f17b43b324497efeeb81",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 8
+    },
+    {
+      "audit_id": "725e49cf602098ebde04",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 8
+    },
+    {
+      "audit_id": "1b50ec5818a51df874b7",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 9
+    },
+    {
+      "audit_id": "125bd9c9ab324bf545c0",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 9
+    },
+    {
+      "audit_id": "5bf600a2cbe364782e14",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 9
+    },
+    {
+      "audit_id": "518943d05e8670455fdf",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 9
+    },
+    {
+      "audit_id": "cf3b5a61ff32ed992d7c",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 10
+    },
+    {
+      "audit_id": "9ac059ae345118099c88",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 10
+    },
+    {
+      "audit_id": "f76810a50b3a71aa7f51",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 10
+    },
+    {
+      "audit_id": "0278c00ea6c8ac83c8e2",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 10
+    },
+    {
+      "audit_id": "6a1dd064b5251714d49b",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 11
+    },
+    {
+      "audit_id": "ea3c136f55602c8cc5c2",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 11
+    },
+    {
+      "audit_id": "e486ecc8599ba2d50568",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 11
+    },
+    {
+      "audit_id": "54a8a70ff25025c9dd1a",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 11
+    },
+    {
+      "audit_id": "9c1d55f74915dbdffb50",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 12
+    },
+    {
+      "audit_id": "536e24bc5160318fe36a",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 12
+    },
+    {
+      "audit_id": "370f37cd6e4de4c670d3",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 12
+    },
+    {
+      "audit_id": "44e7105ccc25cef7cb57",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 12
+    },
+    {
+      "audit_id": "9fa8ef2d7e50c842089a",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 13
+    },
+    {
+      "audit_id": "2f5b6b7b84457e8d69c3",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 13
+    },
+    {
+      "audit_id": "9acc25d3a1267ba32e8e",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 13
+    },
+    {
+      "audit_id": "3397b0dce3f3796fe7b9",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 13
+    },
+    {
+      "audit_id": "3c55b339877925465a77",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 14
+    },
+    {
+      "audit_id": "90d1fa27d2d3e23d11a1",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 14
+    },
+    {
+      "audit_id": "98b2033b8041d26a8e34",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 14
+    },
+    {
+      "audit_id": "2404c792e7e287dcdf3a",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 14
+    },
+    {
+      "audit_id": "63e39aa0b19f6b742678",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 15
+    },
+    {
+      "audit_id": "1b74d90af3f22b9dafa6",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 15
+    },
+    {
+      "audit_id": "4eeaae2a2ee7bf76a2f2",
+      "case_id": "date_02",
+      "variant_id": "N1",
+      "paragraph_index": 15
+    },
+    {
+      "audit_id": "2c6a0482bdfa7434c1e1",
+      "case_id": "date_02",
+      "variant_id": "N3",
+      "paragraph_index": 1
+    },
+    {
+      "audit_id": "a9a4b4c705ec8d78bf57",
+      "case_id": "date_02",
+      "variant_id": "N3",
+      "paragraph_index": 2
+    },
+    {
+      "audit_id": "5137fef076a20918178b",
+      "case_id": "date_02",
+      "variant_id": "N3",
+      "paragraph_index": 3
+    },
+    {
+      "audit_id": "ec9ac7210acc337914e2",
+      "case_id": "date_02",
+      "variant_id": "N3",
+      "paragraph_index": 4
+    },
+    {
+      "audit_id": "ae3e05088e4118754c48",
+      "case_id": "date_02",
+      "variant_id": "N3",
+      "paragraph_index": 5
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "annotation_set": "hot_air_balloon_mood_v1",
+  "case_id": "hot_air_balloon_mood_case_v2",
+  "event_id": "58db14d5-e7ad-5975-87a0-59456560e09a",
+  "freeze_sha256": "a0ed8864f4fac84a959604818b75160f88d1e1860be4deb652f474d54894c53c",
+  "protocol_version": "mood-m0-m1-v2",
+  "records": [
+    {
+      "confirmed": true,
+      "content_sha256": "f58b6043b599e0b08c883bc8ec8231fad6ffa898fe0697ada3d9f02c69a1df06",
+      "mood_label": "happy",
+      "photo_id": "a8dfd7d7-7f42-4354-b567-6f0e331a87d7",
+      "source": "manual",
+      "subject_role": "photographer"
+    },
+    {
+      "confirmed": true,
+      "content_sha256": "1b90e7e48e2b459d7aede61fc793ed57c427b3e45e87fdbb04df3ec216281cfd",
+      "mood_label": "tense",
+      "photo_id": "16632449-f69e-43f5-9544-3e73a51725c4",
+      "source": "manual",
+      "subject_role": "photographer"
+    },
+    {
+      "confirmed": true,
+      "content_sha256": "62963758cd8232273bec1c221a006da1c376309382965d2387e8148d740dc2e3",
+      "mood_label": "tense",
+      "photo_id": "a8eacbf7-6533-4cc8-b3b7-52c20b6395d2",
+      "source": "manual",
+      "subject_role": "photographer"
+    },
+    {
+      "confirmed": true,
+      "content_sha256": "f734ddd918cc6d9cde0630c8681bae61269b739423fd71011a5d5f657e92b61d",
+      "mood_label": "excited",
+      "photo_id": "c5e5ea90-9fbd-423e-85c0-224d7956781c",
+      "source": "manual",
+      "subject_role": "photographer"
+    },
+    {
+      "confirmed": true,
+      "content_sha256": "826e9fb645dc07aac17e3406899bd9ca93df6a4af537f2e6e4e69811bedabd12",
+      "mood_label": "excited",
+      "photo_id": "e91be015-888f-4fcb-a11e-85e3467d9e12",
+      "source": "manual",
+      "subject_role": "photographer"
+    }
+  ]
+}

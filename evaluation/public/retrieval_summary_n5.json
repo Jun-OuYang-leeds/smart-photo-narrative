@@ -1,0 +1,360 @@
+{
+  "n_targets": 5,
+  "variants": {
+    "R0": {
+      "hit_at_1_valid": {
+        "hits": 3,
+        "n": 4,
+        "rate": 0.75,
+        "wilson95_low": 0.30064184258240184,
+        "wilson95_high": 0.9544127391902995
+      },
+      "hit_at_3_valid": {
+        "hits": 4,
+        "n": 4,
+        "rate": 1.0,
+        "wilson95_low": 0.5101091635454027,
+        "wilson95_high": 1.0
+      },
+      "success_at_1_all": {
+        "hits": 3,
+        "n": 5,
+        "rate": 0.6,
+        "wilson95_low": 0.2307242812760128,
+        "wilson95_high": 0.882379225767352
+      },
+      "success_at_3_all": {
+        "hits": 4,
+        "n": 5,
+        "rate": 0.8,
+        "wilson95_low": 0.3755346297625253,
+        "wilson95_high": 0.9637758913675698
+      },
+      "query_generation_error": {
+        "hits": 1,
+        "n": 5,
+        "rate": 0.2,
+        "wilson95_low": 0.036224108632430085,
+        "wilson95_high": 0.6244653702374747
+      },
+      "latency_p95_seconds": 0.07652812499691208,
+      "rank_buckets": {
+        "rank1": 3,
+        "rank2-3": 1,
+        "miss": 1
+      }
+    },
+    "R1": {
+      "hit_at_1_valid": {
+        "hits": 0,
+        "n": 4,
+        "rate": 0.0,
+        "wilson95_low": 0.0,
+        "wilson95_high": 0.4898908364545973
+      },
+      "hit_at_3_valid": {
+        "hits": 0,
+        "n": 4,
+        "rate": 0.0,
+        "wilson95_low": 0.0,
+        "wilson95_high": 0.4898908364545973
+      },
+      "success_at_1_all": {
+        "hits": 0,
+        "n": 5,
+        "rate": 0.0,
+        "wilson95_low": 0.0,
+        "wilson95_high": 0.43448246478317476
+      },
+      "success_at_3_all": {
+        "hits": 0,
+        "n": 5,
+        "rate": 0.0,
+        "wilson95_low": 0.0,
+        "wilson95_high": 0.43448246478317476
+      },
+      "query_generation_error": {
+        "hits": 1,
+        "n": 5,
+        "rate": 0.2,
+        "wilson95_low": 0.036224108632430085,
+        "wilson95_high": 0.6244653702374747
+      },
+      "latency_p95_seconds": 0.00371610499896633,
+      "rank_buckets": {
+        "rank1": 0,
+        "rank2-3": 0,
+        "miss": 5
+      }
+    },
+    "R2": {
+      "hit_at_1_valid": {
+        "hits": 0,
+        "n": 4,
+        "rate": 0.0,
+        "wilson95_low": 0.0,
+        "wilson95_high": 0.4898908364545973
+      },
+      "hit_at_3_valid": {
+        "hits": 0,
+        "n": 4,
+        "rate": 0.0,
+        "wilson95_low": 0.0,
+        "wilson95_high": 0.4898908364545973
+      },
+      "success_at_1_all": {
+        "hits": 0,
+        "n": 5,
+        "rate": 0.0,
+        "wilson95_low": 0.0,
+        "wilson95_high": 0.43448246478317476
+      },
+      "success_at_3_all": {
+        "hits": 0,
+        "n": 5,
+        "rate": 0.0,
+        "wilson95_low": 0.0,
+        "wilson95_high": 0.43448246478317476
+      },
+      "query_generation_error": {
+        "hits": 1,
+        "n": 5,
+        "rate": 0.2,
+        "wilson95_low": 0.036224108632430085,
+        "wilson95_high": 0.6244653702374747
+      },
+      "latency_p95_seconds": 0.003651064997757203,
+      "rank_buckets": {
+        "rank1": 0,
+        "rank2-3": 0,
+        "miss": 5
+      }
+    },
+    "R3": {
+      "hit_at_1_valid": {
+        "hits": 2,
+        "n": 4,
+        "rate": 0.5,
+        "wilson95_low": 0.15003898915214953,
+        "wilson95_high": 0.8499610108478505
+      },
+      "hit_at_3_valid": {
+        "hits": 3,
+        "n": 4,
+        "rate": 0.75,
+        "wilson95_low": 0.30064184258240184,
+        "wilson95_high": 0.9544127391902995
+      },
+      "success_at_1_all": {
+        "hits": 2,
+        "n": 5,
+        "rate": 0.4,
+        "wilson95_low": 0.11762077423264783,
+        "wilson95_high": 0.769275718723987
+      },
+      "success_at_3_all": {
+        "hits": 3,
+        "n": 5,
+        "rate": 0.6,
+        "wilson95_low": 0.2307242812760128,
+        "wilson95_high": 0.882379225767352
+      },
+      "query_generation_error": {
+        "hits": 1,
+        "n": 5,
+        "rate": 0.2,
+        "wilson95_low": 0.036224108632430085,
+        "wilson95_high": 0.6244653702374747
+      },
+      "latency_p95_seconds": 0.2103028350040404,
+      "rank_buckets": {
+        "rank1": 2,
+        "rank2-3": 1,
+        "miss": 2
+      }
+    },
+    "R4": {
+      "hit_at_1_valid": {
+        "hits": 3,
+        "n": 4,
+        "rate": 0.75,
+        "wilson95_low": 0.30064184258240184,
+        "wilson95_high": 0.9544127391902995
+      },
+      "hit_at_3_valid": {
+        "hits": 4,
+        "n": 4,
+        "rate": 1.0,
+        "wilson95_low": 0.5101091635454027,
+        "wilson95_high": 1.0
+      },
+      "success_at_1_all": {
+        "hits": 3,
+        "n": 5,
+        "rate": 0.6,
+        "wilson95_low": 0.2307242812760128,
+        "wilson95_high": 0.882379225767352
+      },
+      "success_at_3_all": {
+        "hits": 4,
+        "n": 5,
+        "rate": 0.8,
+        "wilson95_low": 0.3755346297625253,
+        "wilson95_high": 0.9637758913675698
+      },
+      "query_generation_error": {
+        "hits": 1,
+        "n": 5,
+        "rate": 0.2,
+        "wilson95_low": 0.036224108632430085,
+        "wilson95_high": 0.6244653702374747
+      },
+      "latency_p95_seconds": 0.07810989999816229,
+      "rank_buckets": {
+        "rank1": 3,
+        "rank2-3": 1,
+        "miss": 1
+      }
+    },
+    "R5": {
+      "hit_at_1_valid": {
+        "hits": 3,
+        "n": 4,
+        "rate": 0.75,
+        "wilson95_low": 0.30064184258240184,
+        "wilson95_high": 0.9544127391902995
+      },
+      "hit_at_3_valid": {
+        "hits": 4,
+        "n": 4,
+        "rate": 1.0,
+        "wilson95_low": 0.5101091635454027,
+        "wilson95_high": 1.0
+      },
+      "success_at_1_all": {
+        "hits": 3,
+        "n": 5,
+        "rate": 0.6,
+        "wilson95_low": 0.2307242812760128,
+        "wilson95_high": 0.882379225767352
+      },
+      "success_at_3_all": {
+        "hits": 4,
+        "n": 5,
+        "rate": 0.8,
+        "wilson95_low": 0.3755346297625253,
+        "wilson95_high": 0.9637758913675698
+      },
+      "query_generation_error": {
+        "hits": 1,
+        "n": 5,
+        "rate": 0.2,
+        "wilson95_low": 0.036224108632430085,
+        "wilson95_high": 0.6244653702374747
+      },
+      "latency_p95_seconds": 0.07739702000326361,
+      "rank_buckets": {
+        "rank1": 3,
+        "rank2-3": 1,
+        "miss": 1
+      }
+    },
+    "R6": {
+      "hit_at_1_valid": {
+        "hits": 4,
+        "n": 4,
+        "rate": 1.0,
+        "wilson95_low": 0.5101091635454027,
+        "wilson95_high": 1.0
+      },
+      "hit_at_3_valid": {
+        "hits": 4,
+        "n": 4,
+        "rate": 1.0,
+        "wilson95_low": 0.5101091635454027,
+        "wilson95_high": 1.0
+      },
+      "success_at_1_all": {
+        "hits": 4,
+        "n": 5,
+        "rate": 0.8,
+        "wilson95_low": 0.3755346297625253,
+        "wilson95_high": 0.9637758913675698
+      },
+      "success_at_3_all": {
+        "hits": 4,
+        "n": 5,
+        "rate": 0.8,
+        "wilson95_low": 0.3755346297625253,
+        "wilson95_high": 0.9637758913675698
+      },
+      "query_generation_error": {
+        "hits": 1,
+        "n": 5,
+        "rate": 0.2,
+        "wilson95_low": 0.036224108632430085,
+        "wilson95_high": 0.6244653702374747
+      },
+      "latency_p95_seconds": 0.27899083500451527,
+      "rank_buckets": {
+        "rank1": 4,
+        "rank2-3": 0,
+        "miss": 1
+      }
+    }
+  },
+  "metadata_r6m_vs_r7": {
+    "r6m": {
+      "hits": 4,
+      "n": 4,
+      "rate": 1.0,
+      "wilson95_low": 0.5101091635454027,
+      "wilson95_high": 1.0
+    },
+    "r7": {
+      "hits": 4,
+      "n": 4,
+      "rate": 1.0,
+      "wilson95_low": 0.5101091635454027,
+      "wilson95_high": 1.0
+    }
+  },
+  "comparisons": [
+    {
+      "pair": "R0_vs_R4",
+      "scope": "all_300",
+      "b": 0,
+      "c": 0,
+      "n_discordant": 0,
+      "p_value": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "pair": "R4_vs_R6",
+      "scope": "all_300",
+      "b": 0,
+      "c": 1,
+      "n_discordant": 1,
+      "p_value": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "pair": "R5_vs_R6",
+      "scope": "all_300",
+      "b": 0,
+      "c": 1,
+      "n_discordant": 1,
+      "p_value": 1.0,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "pair": "R6M_vs_R7",
+      "scope": "metadata_60",
+      "b": 0,
+      "c": 0,
+      "n_discordant": 0,
+      "p_value": 1.0,
+      "holm_adjusted_p": 1.0
+    }
+  ]
+}

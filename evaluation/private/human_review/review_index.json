@@ -1,0 +1,610 @@
+{
+  "visual_queries": [
+    {
+      "query_id": "caption_lexical_en_dev_01",
+      "query": "Sudoku puzzle printed in a newspaper",
+      "positives": [
+        {
+          "photo_id": "9c8b0001-5dfa-40d5-bbf7-07144331be01",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "caption_lexical_zh_dev_02",
+      "query": "货架上标价三英镑的商品",
+      "positives": [
+        {
+          "photo_id": "b9ce9fe3-e616-4433-9a89-6df1de215048",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "caption_lexical_en_test_03",
+      "query": "Lionel Messi kicking a football",
+      "positives": [
+        {
+          "photo_id": "251f913b-febc-4d5b-99b5-eb359f7ec45b",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "caption_lexical_en_test_04",
+      "query": "Jet2holidays airport advertisement",
+      "positives": [
+        {
+          "photo_id": "c2a98695-ae55-441a-a206-045ddb89cc6b",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "caption_lexical_en_test_05",
+      "query": "Venezia Santa Lucia station sign",
+      "positives": [
+        {
+          "photo_id": "113eef12-a1eb-4e7f-afe1-f4d671ea9325",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "caption_lexical_en_test_06",
+      "query": "Budweiser beer can beside a laptop",
+      "positives": [
+        {
+          "photo_id": "b492d93c-f6e1-4d91-b7a8-8a81771898cd",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "f17e8a3c-0f19-43c5-ac32-7dec96d4d9da",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "caption_lexical_en_test_07",
+      "query": "Edinburgh illuminated sign",
+      "positives": [
+        {
+          "photo_id": "8653a9ab-ef6e-4244-b4cd-4790e2f0b8c1",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "caption_lexical_zh_test_08",
+      "query": "屏幕上的贪吃蛇游戏",
+      "positives": [
+        {
+          "photo_id": "3f7257f2-afec-4cd4-8207-a7f92f18ddd8",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "object_attribute_en_dev_01",
+      "query": "an orange reusable bottle held in one hand",
+      "positives": [
+        {
+          "photo_id": "a1728ea2-a57e-4aa4-b94d-1715f10962d6",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "object_attribute_zh_dev_02",
+      "query": "装着黑莓的白碗和两片面包",
+      "positives": [
+        {
+          "photo_id": "b51c2394-ea9a-4952-bf2f-8a3f4810f956",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "object_attribute_en_test_03",
+      "query": "two purple energy drink cans held outdoors",
+      "positives": [
+        {
+          "photo_id": "d8b3d346-752f-4cee-bf72-6df82b950731",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "object_attribute_en_test_04",
+      "query": "a slice of green matcha cake on a white plate",
+      "positives": [
+        {
+          "photo_id": "e7389021-6a95-43ab-9ba0-2fb0339e1673",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "object_attribute_en_test_05",
+      "query": "black over-ear headphones beside a small circuit board",
+      "positives": [
+        {
+          "photo_id": "30bb611f-891b-44e0-87c3-48c248ef3f05",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "5898d910-9df9-4df3-a8f4-1ee086de4f0f",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "object_attribute_en_test_06",
+      "query": "a white cow with black patches in a field",
+      "positives": [
+        {
+          "photo_id": "9d5f21e9-d447-4079-96f0-41ef8c4c9e24",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "object_attribute_en_test_07",
+      "query": "a blue bowl filled with blueberries",
+      "positives": [
+        {
+          "photo_id": "746ca87c-3828-4b74-bc28-c3110776bfb3",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "object_attribute_zh_test_08",
+      "query": "一只白色鹭鸟站在水边",
+      "positives": [
+        {
+          "photo_id": "34381745-9c07-48a0-bf92-6825200fbcc3",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "caf1f3d4-baa2-4d47-a187-cbb8fbaf2090",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_exact_en_dev_01",
+      "query": "a hand holding a blue drink above a table",
+      "positives": [
+        {
+          "photo_id": "bcc859de-382b-44d6-937a-ba7c95d9f7ce",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_exact_zh_dev_02",
+      "query": "一只勺子伸进装有蓝莓的碗里",
+      "positives": [
+        {
+          "photo_id": "746ca87c-3828-4b74-bc28-c3110776bfb3",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_exact_en_test_03",
+      "query": "a person standing directly in front of the Arc de Triomphe",
+      "positives": [
+        {
+          "photo_id": "94a09b2f-b543-4413-a618-b67494e79886",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "e0835a28-91e6-4b2a-a525-41328039b4ad",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_exact_en_test_04",
+      "query": "a smartphone lying on a wooden table in front of a bed",
+      "positives": [
+        {
+          "photo_id": "2dc0defc-5c92-4390-94ce-180d2a0d9672",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "f898a1c1-47bf-4a1f-ac02-09b202adc841",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_exact_en_test_05",
+      "query": "a laptop on a desk beside a plate of food",
+      "positives": [
+        {
+          "photo_id": "0ca047e0-bf39-419b-a361-7227a76f2be3",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "28c935fb-2f97-4227-860a-82637e2f1924",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "3444d41d-b917-426e-8f48-7f6e20682a2e",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "dcfc7250-a31d-497e-ba99-be4caccc2723",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_exact_en_test_06",
+      "query": "two seagulls standing next to each other on sand",
+      "positives": [
+        {
+          "photo_id": "4180336d-6b38-4915-a48c-7def6f17f797",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_exact_en_test_07",
+      "query": "a person holding a phone above an open laptop",
+      "positives": [
+        {
+          "photo_id": "a7d0cec4-9699-4794-a222-1ec9c0b6b48b",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "dcfc7250-a31d-497e-ba99-be4caccc2723",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_exact_zh_test_08",
+      "query": "一个人坐在公园长椅上",
+      "positives": [
+        {
+          "photo_id": "094cf426-2686-4b3f-8ecc-ca9252123d8c",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "34e3b064-30c5-4693-9155-6badb006dd5a",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_semantic_en_dev_01",
+      "query": "a person photographing a landscape with a phone",
+      "positives": [
+        {
+          "photo_id": "519be45f-a557-4be6-80df-753d415b3fcd",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "cb1d5777-a9ab-4155-8bfe-d8acf95f4283",
+          "grade": 1.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_semantic_zh_dev_02",
+      "query": "一只手拿着饮料罐",
+      "positives": [
+        {
+          "photo_id": "d8b3d346-752f-4cee-bf72-6df82b950731",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_semantic_en_test_03",
+      "query": "a person standing beneath a stone railway arch",
+      "positives": [
+        {
+          "photo_id": "008215c2-d913-485e-a5aa-553f02d9ab0e",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_semantic_en_test_04",
+      "query": "someone posing beside the Arc de Triomphe",
+      "positives": [
+        {
+          "photo_id": "94a09b2f-b543-4413-a618-b67494e79886",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "e0835a28-91e6-4b2a-a525-41328039b4ad",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_semantic_en_test_05",
+      "query": "people hiking through a rocky valley",
+      "positives": [
+        {
+          "photo_id": "019acd0a-a9d2-429b-9489-8108b5f5c8a7",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "bea2013b-8642-4673-8240-7e44105ab69b",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_semantic_en_test_06",
+      "query": "a person looking across a town from a hilltop",
+      "positives": [
+        {
+          "photo_id": "7721b9d0-9e5f-42db-9bc2-e0aba5355ac3",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_semantic_en_test_07",
+      "query": "a person holding a bouquet of pink flowers",
+      "positives": [
+        {
+          "photo_id": "2b8d8f53-6a5e-4db7-96b0-d04f69600fed",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "relation_semantic_zh_test_08",
+      "query": "一个人坐在湖边的椅子上",
+      "positives": [
+        {
+          "photo_id": "959c3fa6-a437-470b-a2e5-8e585fdd3f45",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "scene_en_dev_01",
+      "query": "an indoor swimming pool with marked lanes",
+      "positives": [
+        {
+          "photo_id": "b0830fd9-25a3-4585-9a49-11c0ca9ad1fc",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "2291ec07-46aa-41d5-b833-76338d1784ce",
+          "grade": 1.0
+        }
+      ]
+    },
+    {
+      "query_id": "scene_zh_dev_02",
+      "query": "夜晚城市中的彩色高塔",
+      "positives": [
+        {
+          "photo_id": "a8ad9ea0-2ab7-41c1-ba16-44c32a2f1535",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "scene_en_test_03",
+      "query": "a grassy park overlooking a stone railway viaduct",
+      "positives": [
+        {
+          "photo_id": "c12801ce-80e3-4c0c-adf6-8be6b16b4ad0",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "scene_en_test_04",
+      "query": "a dark sky with aurora over the horizon",
+      "positives": [
+        {
+          "photo_id": "59660de8-373f-4432-8045-ac8bb0a0b373",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "3dcb64e6-e749-4ae0-ae63-db22ef6cdd5b",
+          "grade": 1.0
+        },
+        {
+          "photo_id": "f94327c0-72f5-4fcb-bc47-930869a68014",
+          "grade": 1.0
+        }
+      ]
+    },
+    {
+      "query_id": "scene_en_test_05",
+      "query": "a snowy volcanic field with small horses",
+      "positives": [
+        {
+          "photo_id": "5f9950c1-0229-48dd-8970-a749bdd391a5",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "615da437-d0d9-4b6b-8bd5-88138a6eb0fb",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "scene_en_test_06",
+      "query": "a canal lined with buildings and boats",
+      "positives": [
+        {
+          "photo_id": "21a6290b-894f-4d97-a919-b1f3f4e36c01",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "29b6dfba-745a-443e-a488-5f2b8050fcbe",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "93a0992c-67f3-42c5-8fe4-57f15fae08d9",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "da9c33d1-aa25-4591-abaa-107acfaf7d18",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "eccbd838-624a-4529-8c89-cde6915d2a96",
+          "grade": 2.0
+        }
+      ]
+    },
+    {
+      "query_id": "scene_en_test_07",
+      "query": "a coastal landscape with white chalk cliffs",
+      "positives": [
+        {
+          "photo_id": "0bc3cade-c8dd-4b26-8d3d-010175d9ace5",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "46f698e3-fccd-4f39-92be-da63a65e8736",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "c1570857-41be-41cc-96f5-744e209f3284",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "d5e476fe-7a2a-4444-8eea-ce74c9acd496",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "ed6518ac-06cf-40d1-a251-c1ed8c5d96c7",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "a6d7df35-38f2-46bf-9503-7634f7b0abaa",
+          "grade": 1.0
+        }
+      ]
+    },
+    {
+      "query_id": "scene_zh_test_08",
+      "query": "日出时天空中有许多热气球的山谷",
+      "positives": [
+        {
+          "photo_id": "16632449-f69e-43f5-9544-3e73a51725c4",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "a8eacbf7-6533-4cc8-b3b7-52c20b6395d2",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "af5cea77-d075-444f-966f-9efbe1351259",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "c5e5ea90-9fbd-423e-85c0-224d7956781c",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "e91be015-888f-4fcb-a11e-85e3467d9e12",
+          "grade": 2.0
+        },
+        {
+          "photo_id": "a8dfd7d7-7f42-4354-b567-6f0e331a87d7",
+          "grade": 1.0
+        },
+        {
+          "photo_id": "e3e6c8dd-fd37-4d63-a40d-6f55f5de8029",
+          "grade": 1.0
+        }
+      ]
+    }
+  ],
+  "metadata_queries": [
+    {
+      "query_id": "metadata_en_dev_01",
+      "query": "photos reliably dated 13 August 2025",
+      "filters": {
+        "start_date": "2025-08-13",
+        "end_date": "2025-08-13",
+        "min_timestamp_confidence": 0.6
+      },
+      "positive_count": 10
+    },
+    {
+      "query_id": "metadata_zh_dev_02",
+      "query": "在Knaresborough拍摄的照片",
+      "filters": {
+        "location": "Knaresborough",
+        "min_timestamp_confidence": 0.6
+      },
+      "positive_count": 13
+    },
+    {
+      "query_id": "metadata_en_test_03",
+      "query": "photos taken in Paris",
+      "filters": {
+        "location": "Paris",
+        "min_timestamp_confidence": 0.6
+      },
+      "positive_count": 14
+    },
+    {
+      "query_id": "metadata_en_test_04",
+      "query": "photos taken near Hoefn in Iceland",
+      "filters": {
+        "location": "Hoefn",
+        "min_timestamp_confidence": 0.6
+      },
+      "positive_count": 12
+    },
+    {
+      "query_id": "metadata_en_test_05",
+      "query": "photos reliably dated 30 March 2026",
+      "filters": {
+        "start_date": "2026-03-30",
+        "end_date": "2026-03-30",
+        "min_timestamp_confidence": 0.6
+      },
+      "positive_count": 20
+    },
+    {
+      "query_id": "metadata_en_test_06",
+      "query": "photos taken in Venice",
+      "filters": {
+        "location": "Venice",
+        "min_timestamp_confidence": 0.6
+      },
+      "positive_count": 9
+    },
+    {
+      "query_id": "metadata_en_test_07",
+      "query": "photos reliably dated 10 July 2026",
+      "filters": {
+        "start_date": "2026-07-10",
+        "end_date": "2026-07-10",
+        "min_timestamp_confidence": 0.6
+      },
+      "positive_count": 27
+    },
+    {
+      "query_id": "metadata_zh_test_08",
+      "query": "可靠拍摄于2026年7月12日的照片",
+      "filters": {
+        "start_date": "2026-07-12",
+        "end_date": "2026-07-12",
+        "min_timestamp_confidence": 0.6
+      },
+      "positive_count": 14
+    }
+  ]
+}

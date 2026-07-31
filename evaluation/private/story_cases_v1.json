@@ -1,0 +1,213 @@
+{
+  "protocol_version": "story-cases-v1",
+  "frozen_at_utc": "2026-07-18T16:22:00.540056+00:00",
+  "cases": [
+    {
+      "case_id": "single_01",
+      "source_kind": "single",
+      "label": "single photo note 1",
+      "photo_ids": [
+        "9c8b0001-5dfa-40d5-bbf7-07144331be01"
+      ],
+      "size_bucket": "1",
+      "language": "zh"
+    },
+    {
+      "case_id": "single_02",
+      "source_kind": "single",
+      "label": "single photo note 2",
+      "photo_ids": [
+        "66c33c06-1ab7-424d-9770-a600144da967"
+      ],
+      "size_bucket": "1",
+      "language": "en"
+    },
+    {
+      "case_id": "event_01",
+      "source_kind": "event",
+      "label": "2026-07-12",
+      "event_id": "546eaedf-7fe3-5958-9108-bacb2fde04fc",
+      "photo_ids": [
+        "b2d77b8f-4afc-44e9-8acb-eb5811e2c940",
+        "c485a29d-1478-486d-93ba-79232d7371d2",
+        "ce6a177e-16bc-41f1-8444-731024b9ad39",
+        "a07cb91f-6679-40b9-bd8a-1e47741b2cbb",
+        "1c5105c4-955d-4808-b71e-5236e1fd8940",
+        "41d5a98e-a301-46e7-8472-620c397095bc",
+        "ede1d7b3-6890-43c7-b0ad-cc743661eeee",
+        "6d52883a-b149-406f-9add-4d150f2bcf95",
+        "3c16b31f-a13c-4fec-9332-0d46700e5385",
+        "4f1e67f0-3942-4c9a-bcdf-793806bfb492",
+        "ee8431a3-3f7c-4484-88b2-16e790aa13e5",
+        "a7d0cec4-9699-4794-a222-1ec9c0b6b48b",
+        "a00ca774-d928-445e-826e-406fce3667de",
+        "66c33c06-1ab7-424d-9770-a600144da967"
+      ],
+      "size_bucket": "8+",
+      "language": "zh"
+    },
+    {
+      "case_id": "event_02",
+      "source_kind": "event",
+      "label": "2025-08-13 · Event 1",
+      "event_id": "91cd6207-190e-588b-8314-57389ee0e6c3",
+      "photo_ids": [
+        "c16fb33a-c3bb-42f9-a971-d298f43ed7b9",
+        "4e3c874e-2719-4b07-b241-48b332c55b55",
+        "d291d353-9ba9-4117-b192-a7a5fc0dc518"
+      ],
+      "size_bucket": "2-3",
+      "language": "en"
+    },
+    {
+      "case_id": "event_03",
+      "source_kind": "event",
+      "label": "2025-08-13 · Event 2",
+      "event_id": "06e7250e-b0f3-5ad5-a8ad-6782a9a13179",
+      "photo_ids": [
+        "2291ec07-46aa-41d5-b833-76338d1784ce",
+        "b0830fd9-25a3-4585-9a49-11c0ca9ad1fc"
+      ],
+      "size_bucket": "2-3",
+      "language": "zh"
+    },
+    {
+      "case_id": "event_04",
+      "source_kind": "event",
+      "label": "2025-08-13 · Event 3",
+      "event_id": "8e54d9c7-a435-5eb9-bb9d-3431ed4f4511",
+      "photo_ids": [
+        "b74753cf-990c-4a43-bd13-74db0ec49cd4",
+        "ec884230-1eac-41e1-86a1-2957d167e388"
+      ],
+      "size_bucket": "2-3",
+      "language": "en"
+    },
+    {
+      "case_id": "event_05",
+      "source_kind": "event",
+      "label": "2025-09-21 · Event 3",
+      "event_id": "fafebf26-511d-5ec0-be51-8ff22dd1e772",
+      "photo_ids": [
+        "c12801ce-80e3-4c0c-adf6-8be6b16b4ad0",
+        "34e3b064-30c5-4693-9155-6badb006dd5a",
+        "7721b9d0-9e5f-42db-9bc2-e0aba5355ac3",
+        "a01fe3c8-35f5-4e27-9686-dcdf6eba6e1a",
+        "5ce18d0c-4df9-4937-97ce-e63a096dd2fd",
+        "71373b64-86dc-4605-946c-a0c879166e87"
+      ],
+      "size_bucket": "4-7",
+      "language": "zh"
+    },
+    {
+      "case_id": "event_06",
+      "source_kind": "event",
+      "label": "2025-09-21 · Event 5",
+      "event_id": "2a2aedfb-6a30-50f8-aa2f-dd420b03a8f7",
+      "photo_ids": [
+        "2da7b9af-4114-4d22-a875-22733ad3cda8",
+        "b1f08290-301f-4f01-bd01-49725bd38dfe",
+        "141a3982-01b8-4b04-89c3-67d3baf7c1a7",
+        "e3bf40e5-c5b7-4d55-91cf-11c9cb6b0df5",
+        "2a628711-984a-4fbc-ab9d-0b1e0c75250c",
+        "5ebe2426-672b-42d4-bf15-f7bf99df9a69"
+      ],
+      "size_bucket": "4-7",
+      "language": "en"
+    },
+    {
+      "case_id": "event_07",
+      "source_kind": "event",
+      "label": "2025-09-28 · Event 1",
+      "event_id": "bcfe6ac6-ccc8-5cea-b70c-3edc7f671deb",
+      "photo_ids": [
+        "f0645fe3-c597-4ef3-902b-fb5e124af315",
+        "71f524fc-f6e0-4f09-b0b1-3dd29de378b6",
+        "829ca0b8-2035-42b2-b8e4-333649fe6825",
+        "36b6f4ea-e48f-43c0-906c-2506a315f27c",
+        "43e84386-630d-4ef0-9933-75a2a42a03a8",
+        "1c62da0e-ad8d-4bea-a8b9-cb5336666d37"
+      ],
+      "size_bucket": "4-7",
+      "language": "zh"
+    },
+    {
+      "case_id": "event_08",
+      "source_kind": "event",
+      "label": "2025-12-16 · Event 1",
+      "event_id": "b53b46ac-3c81-5d8d-a326-288e13581389",
+      "photo_ids": [
+        "66316c0c-70f9-4225-b50b-b31a4030d4e1",
+        "299b8dfa-13a9-4706-8248-89f5900608d2",
+        "03c7c58c-3f9d-47aa-82c4-77e87b664879",
+        "e0835a28-91e6-4b2a-a525-41328039b4ad",
+        "d5370587-2cf2-4ee7-a307-fb2f98d715a2",
+        "94a09b2f-b543-4413-a618-b67494e79886",
+        "4b7e8166-32f1-4115-bd63-7421b4014022",
+        "d30676ee-1ccc-490e-b8d0-1d19f4487d62"
+      ],
+      "size_bucket": "8+",
+      "language": "en"
+    },
+    {
+      "case_id": "date_01",
+      "source_kind": "date",
+      "label": "2026-07-10",
+      "photo_ids": [
+        "82c91aeb-1c2d-4b7d-9dd4-8db14cda4c05",
+        "72b2c6cf-5b8b-403c-bd7b-e8df0746e8a6",
+        "2b5ec56e-9cef-436d-b890-97ddae1e46f1",
+        "aa295e9d-a176-40eb-ac5c-bcd3377bb7b7",
+        "cad17ce5-5822-4a81-aefd-1c990542b53c",
+        "ca7ecb07-aa5d-4652-a699-f2b1cf4c7383",
+        "9f0839c7-9d0b-46e1-9fad-82ea0b6e1572",
+        "0c431af6-5ee6-4107-b6ae-bb1d2739ec73",
+        "c4271859-c15c-414b-97f6-bd7a61c24da3",
+        "68bcd25d-c03b-462c-9117-f53ea0d63485",
+        "66f5a68d-c849-4087-8d34-9af6cfe82b24",
+        "5417574b-bd16-4755-9467-3a58b5159e18",
+        "ff021d91-555a-4204-9276-37980254a0a9",
+        "9bb40500-61de-48f7-bd48-b9802c9a4f3f",
+        "6a27138a-3404-4cb4-bfbd-af8fecfbda51",
+        "2dc0defc-5c92-4390-94ce-180d2a0d9672",
+        "f898a1c1-47bf-4a1f-ac02-09b202adc841",
+        "e0c5a6be-c740-4f4b-bf7a-4f857696336f",
+        "d649ea92-b68d-48a6-a227-b84364b2b5de",
+        "7b6a8131-8543-4af4-8306-3d6e8c3f0caf",
+        "811baf55-c8fe-4434-aee5-000ac5236c53",
+        "56b65c1e-d7b2-4ffd-9919-b7678bf4bf06",
+        "25d688b6-d2e6-4ec9-810d-569057d631f4",
+        "932e7fea-9bcb-41be-9c27-d67e94068d14",
+        "42403971-7fd9-4540-ab5e-65050b91b226",
+        "f8f67489-63b8-453c-b096-26e6ee79c364",
+        "1e6d4b27-2dad-49d9-a057-e8bcf2a021f8"
+      ],
+      "size_bucket": "multi-event",
+      "language": "zh"
+    },
+    {
+      "case_id": "date_02",
+      "source_kind": "date",
+      "label": "2025-09-21",
+      "photo_ids": [
+        "0d1a49d3-0725-4024-938d-c95be591cc26",
+        "705b3b42-0130-46ce-b064-70a170f83433",
+        "c12801ce-80e3-4c0c-adf6-8be6b16b4ad0",
+        "34e3b064-30c5-4693-9155-6badb006dd5a",
+        "7721b9d0-9e5f-42db-9bc2-e0aba5355ac3",
+        "a01fe3c8-35f5-4e27-9686-dcdf6eba6e1a",
+        "5ce18d0c-4df9-4937-97ce-e63a096dd2fd",
+        "71373b64-86dc-4605-946c-a0c879166e87",
+        "bc259781-fffc-4327-869e-869ed99eb4e5",
+        "2da7b9af-4114-4d22-a875-22733ad3cda8",
+        "b1f08290-301f-4f01-bd01-49725bd38dfe",
+        "141a3982-01b8-4b04-89c3-67d3baf7c1a7",
+        "e3bf40e5-c5b7-4d55-91cf-11c9cb6b0df5",
+        "2a628711-984a-4fbc-ab9d-0b1e0c75250c",
+        "5ebe2426-672b-42d4-bf15-f7bf99df9a69"
+      ],
+      "size_bucket": "multi-event",
+      "language": "en"
+    }
+  ]
+}

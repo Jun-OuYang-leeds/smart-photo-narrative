@@ -1,0 +1,61 @@
+{
+  "protocol_version": "story-qwen-preflight-v1",
+  "case_count": 2,
+  "formal_case_overlap": false,
+  "faithful": [
+    {
+      "variant_id": "QF0",
+      "status": "ok",
+      "latency_ms": 104464.74230000058,
+      "prompt_hash": "e732dc309d5a2a36558ad9180ca9256896f44ac275e8662799bfff4df5c25f7b",
+      "output_hash": "01b1ac70c51cf6224f7cb7c91d77bca5a1f6b3672167ecd86e32d54b68d3fbf9"
+    },
+    {
+      "variant_id": "QF1",
+      "status": "invalid",
+      "latency_ms": 98108.96109999885,
+      "prompt_hash": "07103c35d6ef01babcb8039d33de21871e41e8cc99696d9b05a552364de95738",
+      "output_hash": "cb42e24c6193f009418a3afd8fc03615bd4ba340a9af5897ec2911793bfe4964"
+    },
+    {
+      "variant_id": "QF2",
+      "status": "unvalidated",
+      "latency_ms": 38102.25349999928,
+      "prompt_hash": "36b6e49e7d4ed8259a1465d14d9333d6d5779b7fd8602c4abf78126b51ddab24",
+      "output_hash": "fb5a71f6dac9cf5b51a8f9dd493084402aff91ca3e0ef8485b981d6e52735a27"
+    },
+    {
+      "variant_id": "QF3",
+      "status": "ok",
+      "latency_ms": 38102.25349999928,
+      "prompt_hash": "36b6e49e7d4ed8259a1465d14d9333d6d5779b7fd8602c4abf78126b51ddab24",
+      "output_hash": "fb5a71f6dac9cf5b51a8f9dd493084402aff91ca3e0ef8485b981d6e52735a27"
+    }
+  ],
+  "creative": [
+    {
+      "variant_id": "QC0",
+      "status": "ok",
+      "latency_ms": 103798.01450000014,
+      "prompt_hash": "42e207811746461feeb8c2d0a9c798cceb2b0a7c10ab60d1946981260b91c90a",
+      "output_hash": "3db88dcbb709ea494718106197ad9561a4c647a777802a076d46cffa8c6cc2ba"
+    },
+    {
+      "variant_id": "QC1",
+      "status": "unvalidated",
+      "latency_ms": 29756.984900001044,
+      "prompt_hash": "132e96f024bace53298b28071edb6ee192c742d882333e45065c586ccc6ff664",
+      "output_hash": "08539e9c48924b3bbbb71148bfc2e9dd70c5f4526653e3beb94a265fd69c960d"
+    },
+    {
+      "variant_id": "QC2",
+      "status": "ok",
+      "latency_ms": 29756.984900001044,
+      "prompt_hash": "132e96f024bace53298b28071edb6ee192c742d882333e45065c586ccc6ff664",
+      "output_hash": "08539e9c48924b3bbbb71148bfc2e9dd70c5f4526653e3beb94a265fd69c960d"
+    }
+  ],
+  "production_story_count_before": 20,
+  "production_story_count_after": 20,
+  "report_sha256": "39e533c637f2bbc5ddc3060eb14b510f2d191dd44026f8914fe0592bed2d3bee"
+}

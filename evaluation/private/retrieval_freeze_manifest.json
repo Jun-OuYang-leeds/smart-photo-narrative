@@ -1,0 +1,14 @@
+{
+  "corpus_count": 1596,
+  "target_pool_count": 373,
+  "sample_count": 300,
+  "sample_sha256": "607f2ebbae19ecf88e019e9f117257fe3f0138314aeee02812daf075272e41e8",
+  "caption_fts_counts": {
+    "eval_blip_fts": 1599,
+    "eval_blip2_fts": 1598
+  },
+  "caption_fts_db": "data\\eval_caption_fts.db",
+  "caption_fts_db_sha256": "b018ebd7cab8f7a4fea9da1f1b52f5cfe2a60d055d5dd6a2a5614b44ba22c732",
+  "seed_name": "spn-known-item-full-corpus-v1",
+  "seed_int": 4259099391
+}

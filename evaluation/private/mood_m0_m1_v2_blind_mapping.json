@@ -1,0 +1,9 @@
+{
+  "case_id": "hot_air_balloon_mood_case_v2",
+  "mapping": {
+    "A": "M0",
+    "B": "M1"
+  },
+  "packet_sha256": "488b3e600f7ac07e5900c937f12a0fd3c60066da3316203ae5c20f426bf51834",
+  "protocol_version": "mood-blind-mapping-v2"
+}

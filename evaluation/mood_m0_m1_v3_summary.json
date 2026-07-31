@@ -1,0 +1,48 @@
+{
+  "automatic_metrics": {
+    "M0": {
+      "mood_claim_count": 0,
+      "mood_coverage": null,
+      "repair_count": 0,
+      "repetition_rate": 0.0,
+      "status": "ok",
+      "unsupported_mood_claim_count": 0
+    },
+    "M1": {
+      "mood_claim_count": 3,
+      "mood_coverage": 1.0,
+      "repair_count": 0,
+      "repetition_rate": 0.0,
+      "status": "ok",
+      "unsupported_mood_claim_count": 0
+    }
+  },
+  "blind_preference": "M1",
+  "blind_scores": {
+    "M0": {
+      "coherence": 4,
+      "personalization": 3,
+      "trustworthiness": 3
+    },
+    "M1": {
+      "coherence": 3,
+      "personalization": 4,
+      "trustworthiness": 3
+    }
+  },
+  "case_count": 1,
+  "interpretation": "Single-case exploratory comparison; no statistical or general performance claim.",
+  "latency_ms": {
+    "M0": 22919.171,
+    "M1": 22954.938
+  },
+  "mood_label_distribution": {
+    "excited": 2,
+    "happy": 1,
+    "tense": 2
+  },
+  "photo_count": 5,
+  "private_content_committed": false,
+  "private_results_sha256": "06b30fd68b1344c5e45e5a66cc9b33dfb49e4db940e4d8cce8ed4d5d0ea9d79b",
+  "protocol_version": "mood-m0-m1-public-summary-v3"
+}

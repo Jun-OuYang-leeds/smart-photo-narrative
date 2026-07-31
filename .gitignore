@@ -1,0 +1,12 @@
+# Local secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Personal photo library — private images, far too large for a repo
+photos/

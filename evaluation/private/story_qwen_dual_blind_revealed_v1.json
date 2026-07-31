@@ -1,0 +1,416 @@
+[
+  {
+    "case_id": "creative_main_03",
+    "track": "creative",
+    "preferred_variant": "QC0",
+    "scores": {
+      "QC2": {
+        "coherence": 4,
+        "personalization": 3,
+        "trustworthiness": 2
+      },
+      "QC0": {
+        "coherence": 4,
+        "personalization": 3,
+        "trustworthiness": 4
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "date_01",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF0": {
+        "coherence": 4,
+        "informativeness": 4,
+        "evidence_consistency": 4
+      },
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 1,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "creative_main_05",
+    "track": "creative",
+    "preferred_variant": "QC0",
+    "scores": {
+      "QC2": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      },
+      "QC0": {
+        "coherence": 4,
+        "personalization": 4,
+        "trustworthiness": 4
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "single_02",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF0": {
+        "coherence": 3,
+        "informativeness": 4,
+        "evidence_consistency": 3
+      },
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "event_04",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF0": {
+        "coherence": 4,
+        "informativeness": 4,
+        "evidence_consistency": 4
+      },
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "event_07",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF0": {
+        "coherence": 4,
+        "informativeness": 4,
+        "evidence_consistency": 4
+      },
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "creative_main_07",
+    "track": "creative",
+    "preferred_variant": "QC0",
+    "scores": {
+      "QC0": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      },
+      "QC2": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "creative_reserve_01",
+    "track": "creative",
+    "preferred_variant": "QC0",
+    "scores": {
+      "QC0": {
+        "coherence": 4,
+        "personalization": 4,
+        "trustworthiness": 4
+      },
+      "QC2": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "event_03",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF0": {
+        "coherence": 4,
+        "informativeness": 4,
+        "evidence_consistency": 4
+      },
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "creative_main_11",
+    "track": "creative",
+    "preferred_variant": "QC0",
+    "scores": {
+      "QC2": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      },
+      "QC0": {
+        "coherence": 4,
+        "personalization": 4,
+        "trustworthiness": 4
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "creative_main_06",
+    "track": "creative",
+    "preferred_variant": "QC0",
+    "scores": {
+      "QC2": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      },
+      "QC0": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "event_08",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      },
+      "QF0": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "event_05",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF0": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      },
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "single_01",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF0": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      },
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "creative_reserve_05",
+    "track": "creative",
+    "preferred_variant": "QC0",
+    "scores": {
+      "QC0": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      },
+      "QC2": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "event_02",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF0": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      },
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "event_06",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF0": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      },
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "date_02",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF0": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      },
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "creative_main_10",
+    "track": "creative",
+    "preferred_variant": "QC0",
+    "scores": {
+      "QC0": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      },
+      "QC2": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "creative_reserve_03",
+    "track": "creative",
+    "preferred_variant": "QC0",
+    "scores": {
+      "QC2": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      },
+      "QC0": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "event_01",
+    "track": "faithful",
+    "preferred_variant": "QF0",
+    "scores": {
+      "QF3": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      },
+      "QF0": {
+        "coherence": 3,
+        "informativeness": 3,
+        "evidence_consistency": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "creative_main_01",
+    "track": "creative",
+    "preferred_variant": "QC0",
+    "scores": {
+      "QC2": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      },
+      "QC0": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      }
+    },
+    "reason": ""
+  },
+  {
+    "case_id": "creative_main_09",
+    "track": "creative",
+    "preferred_variant": "QC0",
+    "scores": {
+      "QC0": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      },
+      "QC2": {
+        "coherence": 3,
+        "personalization": 3,
+        "trustworthiness": 3
+      }
+    },
+    "reason": ""
+  }
+]

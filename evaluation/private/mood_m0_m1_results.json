@@ -1,0 +1,223 @@
+{
+  "case_id": "hot_air_balloon_mood_case_v1",
+  "manifest_sha256": "643780e01ac7dd1f8631959acc9d96ff76de657fe0dce97cef119d4e71a56bb5",
+  "protocol_version": "mood-m0-m1-v1",
+  "records": [
+    {
+      "automatic_metrics": {
+        "mood_claim_count": 0,
+        "mood_coverage": null,
+        "repair_count": 0,
+        "repetition_rate": 0.0,
+        "status": "ok",
+        "unsupported_mood_claim_count": 0
+      },
+      "case_id": "hot_air_balloon_mood_case_v1",
+      "content": "我站在田埂上，看气球在天空中缓缓飘动。它们像一群轻盈的云，又像被风托起的梦。\n\n那天清晨，我看见一群气球在天空中轻轻浮游，有的飘向云层，有的掠过水面，有的甚至映着初升的太阳。它们的影子在大地上拉得很长，仿佛在追逐着地平线。\n\n气球的影子从田埂延伸到远处，仿佛在风中轻轻呼吸。\n\n接着，更多气球从山谷中升起，有的贴着岩石飞过，有的在阳光下闪烁，有的则缓缓聚成一团，像一团流动的云。它们的影子在田野和山丘间轻轻摇晃，仿佛在讲述一个关于天空与大地的故事。\n\n如今，我仍记得那些气球在天空中飘动的样子，它们的影子在记忆里慢慢变淡，却始终温暖着我的心。",
+      "context_hash": "157d596e29117dd9cb43775489cd1e97b9f83f7eaebcae780d693cc77bf92a6b",
+      "latency_ms": 31021.76,
+      "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+      "model_name": "qwen3:4b",
+      "normalized_output": {
+        "closing": "如今，我仍记得那些气球在天空中飘动的样子，它们的影子在记忆里慢慢变淡，却始终温暖着我的心。",
+        "creative_transitions": [
+          "气球的影子从田埂延伸到远处，仿佛在风中轻轻呼吸。"
+        ],
+        "event_summary": {
+          "date": "2026-07-07",
+          "locations": [
+            "Avanos, Nevsehir, TR",
+            "Goereme, Nevsehir, TR"
+          ],
+          "photo_count": 5,
+          "reliable_time_count": 5,
+          "time_range": "05:02–05:45"
+        },
+        "mood_claims": [],
+        "narrative_blocks": [
+          {
+            "kind": "creative_opening",
+            "text": "我站在田埂上，看气球在天空中缓缓飘动。它们像一群轻盈的云，又像被风托起的梦。"
+          },
+          {
+            "evidence_ids": [
+              "P001"
+            ],
+            "group_id": "G001",
+            "kind": "grounded_fact",
+            "text": "那天清晨，我看见一群气球在天空中轻轻浮游，有的飘向云层，有的掠过水面，有的甚至映着初升的太阳。它们的影子在大地上拉得很长，仿佛在追逐着地平线。"
+          },
+          {
+            "after_group_id": "G001",
+            "before_group_id": "G002",
+            "kind": "creative_transition",
+            "text": "气球的影子从田埂延伸到远处，仿佛在风中轻轻呼吸。"
+          },
+          {
+            "evidence_ids": [
+              "P002",
+              "P003",
+              "P004",
+              "P005"
+            ],
+            "group_id": "G002",
+            "kind": "grounded_fact",
+            "text": "接着，更多气球从山谷中升起，有的贴着岩石飞过，有的在阳光下闪烁，有的则缓缓聚成一团，像一团流动的云。它们的影子在田野和山丘间轻轻摇晃，仿佛在讲述一个关于天空与大地的故事。"
+          },
+          {
+            "kind": "creative_closing",
+            "text": "如今，我仍记得那些气球在天空中飘动的样子，它们的影子在记忆里慢慢变淡，却始终温暖着我的心。"
+          }
+        ],
+        "narrator_role": "observer",
+        "opening": "我站在田埂上，看气球在天空中缓缓飘动。它们像一群轻盈的云，又像被风托起的梦。",
+        "paragraphs": [
+          {
+            "evidence_ids": [
+              "P001"
+            ],
+            "group_id": "G001",
+            "text": "那天清晨，我看见一群气球在天空中轻轻浮游，有的飘向云层，有的掠过水面，有的甚至映着初升的太阳。它们的影子在大地上拉得很长，仿佛在追逐着地平线。"
+          },
+          {
+            "evidence_ids": [
+              "P002",
+              "P003",
+              "P004",
+              "P005"
+            ],
+            "group_id": "G002",
+            "text": "接着，更多气球从山谷中升起，有的贴着岩石飞过，有的在阳光下闪烁，有的则缓缓聚成一团，像一团流动的云。它们的影子在田野和山丘间轻轻摇晃，仿佛在讲述一个关于天空与大地的故事。"
+          }
+        ],
+        "photographer_moods": [],
+        "prompt_version": "grounded-story-v6-photographer-mood",
+        "title": "天空的气球",
+        "uncertain_observations": [],
+        "unused_evidence_ids": [],
+        "use_photographer_mood": false
+      },
+      "num_ctx": 8192,
+      "num_predict": 1200,
+      "output_hash": "3aeabd66bce17b7064471f33ede7b0cbc3d5a9c7db9def06a4ce7afb72e5a6aa",
+      "prompt_hash": "06f1817ec56d91f2c7378da73c64a2ea228c5c1619ba5f7827ce281d1f3c7e25",
+      "prompt_version": "grounded-story-v6-photographer-mood",
+      "raw_attempts": [
+        "{\n  \"title\": \"天空的气球\",\n  \"opening\": \"我站在田埂上，看气球在天空中缓缓飘动。它们像一群轻盈的云，又像被风托起的梦。\",\n  \"groups\": [\n    {\n      \"group_id\": \"G001\",\n      \"factual_text\": \"那天清晨，我看见一群气球在天空中轻轻浮游，有的飘向云层，有的掠过水面，有的甚至映着初升的太阳。它们的影子在大地上拉得很长，仿佛在追逐着地平线。\"\n    },\n    {\n      \"group_id\": \"G002\",\n      \"factual_text\": \"接着，更多气球从山谷中升起，有的贴着岩石飞过，有的在阳光下闪烁，有的则缓缓聚成一团，像一团流动的云。它们的影子在田野和山丘间轻轻摇晃，仿佛在讲述一个关于天空与大地的故事。\"\n    }\n  ],\n  \"transitions\": [\n    \"气球的影子从田埂延伸到远处，仿佛在风中轻轻呼吸。\"\n  ],\n  \"closing\": \"如今，我仍记得那些气球在天空中飘动的样子，它们的影子在记忆里慢慢变淡，却始终温暖着我的心。\"\n}\n"
+      ],
+      "seed": 20260707,
+      "status": "ok",
+      "system_prompt_hash": "df7271f904df260b8f717fdfed396a70afca16fe9e085f1de2d0816404306377",
+      "temperature": 0.25,
+      "think": false,
+      "validation_codes": [],
+      "variant_id": "M0"
+    },
+    {
+      "automatic_metrics": {
+        "mood_claim_count": 0,
+        "mood_coverage": 0.0,
+        "repair_count": 1,
+        "repetition_rate": 0.0,
+        "status": "error",
+        "unsupported_mood_claim_count": 0
+      },
+      "case_id": "hot_air_balloon_mood_case_v1",
+      "content": "",
+      "context_hash": "08649c9aa4b7eff0da9a62a8c2301a4df6da39a0e4274eae09c9d01d97d34bdd",
+      "latency_ms": 50041.02,
+      "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+      "model_name": "qwen3:4b",
+      "normalized_output": {
+        "closing": "",
+        "creative_transitions": [],
+        "event_summary": {
+          "date": "2026-07-07",
+          "locations": [
+            "Avanos, Nevsehir, TR",
+            "Goereme, Nevsehir, TR"
+          ],
+          "photo_count": 5,
+          "reliable_time_count": 5,
+          "time_range": "05:02–05:45"
+        },
+        "mood_claims": [],
+        "narrative_blocks": [],
+        "narrator_role": "observer",
+        "opening": "",
+        "paragraphs": [],
+        "photographer_moods": [
+          {
+            "annotation_set": "hot_air_balloon_mood_v1",
+            "confirmed": true,
+            "evidence_id": "P001",
+            "mood_label": "happy",
+            "photo_id": "a8dfd7d7-7f42-4354-b567-6f0e331a87d7",
+            "source": "manual",
+            "subject_role": "photographer"
+          },
+          {
+            "annotation_set": "hot_air_balloon_mood_v1",
+            "confirmed": true,
+            "evidence_id": "P002",
+            "mood_label": "tense",
+            "photo_id": "16632449-f69e-43f5-9544-3e73a51725c4",
+            "source": "manual",
+            "subject_role": "photographer"
+          },
+          {
+            "annotation_set": "hot_air_balloon_mood_v1",
+            "confirmed": true,
+            "evidence_id": "P003",
+            "mood_label": "tense",
+            "photo_id": "a8eacbf7-6533-4cc8-b3b7-52c20b6395d2",
+            "source": "manual",
+            "subject_role": "photographer"
+          },
+          {
+            "annotation_set": "hot_air_balloon_mood_v1",
+            "confirmed": true,
+            "evidence_id": "P004",
+            "mood_label": "excited",
+            "photo_id": "c5e5ea90-9fbd-423e-85c0-224d7956781c",
+            "source": "manual",
+            "subject_role": "photographer"
+          },
+          {
+            "annotation_set": "hot_air_balloon_mood_v1",
+            "confirmed": true,
+            "evidence_id": "P005",
+            "mood_label": "excited",
+            "photo_id": "e91be015-888f-4fcb-a11e-85e3467d9e12",
+            "source": "manual",
+            "subject_role": "photographer"
+          }
+        ],
+        "prompt_version": "grounded-story-v6-photographer-mood",
+        "title": "创意故事生成未通过校验",
+        "uncertain_observations": [],
+        "unused_evidence_ids": [],
+        "use_photographer_mood": true
+      },
+      "num_ctx": 8192,
+      "num_predict": 1200,
+      "output_hash": "eb8d7ec9fa5e00e38bc763528e6ee5589d2a9bb22319dbfc1e8a6391a9b2633f",
+      "prompt_hash": "306fe59c93a2d940dde26504484c810f8f8db2db9cff1dd618676f6a8514a527",
+      "prompt_version": "grounded-story-v6-photographer-mood",
+      "raw_attempts": [
+        "{\n  \"title\": \"气球的天空\",\n  \"opening\": \"我站在山脊上，风从远处吹来，带着气球的轻盈气息。\",\n  \"groups\": [\n    {\n      \"group_id\": \"G001\",\n      \"factual_text\": \"气球们缓缓浮在天空，像一群被风托起的云朵，有的轻轻掠过山峦，有的则在晨光中泛着微光。\"\n    },\n    {\n      \"group_id\": \"G002\",\n      \"factual_text\": \"后来气球群在山谷间穿梭，时而贴近岩石，时而散开成一片流动的光影，阳光在它们身上跳跃，影子拉得老长。\"\n    }\n  ],\n  \"transitions\": [\n    \"风渐渐变暖，气球的影子开始拉长。在山脊的尽头，气球们渐渐隐入地平线。\"\n  ],\n  \"closing\": \"气球的天空，总在风里轻轻呼吸。我始终记得那片天空的温度。\"\n}\n",
+        "{\n  \"title\": \"气球的天空\",\n  \"opening\": \"我站在山脊上，风从远处吹来，带着气球的轻盈气息。\",\n  \"groups\": [\n    {\n      \"group_id\": \"G001\",\n      \"factual_text\": \"气球们缓缓浮在天空，像一群被风托起的云朵，有的轻轻掠过山峦，有的则在晨光中泛着微光。\"\n    },\n    {\n      \"group_id\": \"G002\",\n      \"factual_text\": \"后来气球群在山谷间穿梭，时而贴近岩石，时而散开成一片流动的光影，阳光在它们身上跳跃，影子拉得老长。\"\n    }\n  ],\n  \"transitions\": [\n    \"风渐渐变暖，气球的影子开始拉长。在山脊的尽头，气球们渐渐隐入地平线。\"\n  ],\n  \"closing\": \"气球的天空，总在风里轻轻呼吸。我始终记得那片天空的温度。\"\n}\n"
+      ],
+      "seed": 20260707,
+      "status": "error",
+      "system_prompt_hash": "df7271f904df260b8f717fdfed396a70afca16fe9e085f1de2d0816404306377",
+      "temperature": 0.25,
+      "think": false,
+      "validation_codes": [
+        "E_MOOD_UNUSED: confirmed photographer mood metadata was not used"
+      ],
+      "variant_id": "M1"
+    }
+  ],
+  "results_sha256": "441deb3f3d6665cc7f45f5e2eba8cdb1d16613d8ba36a4007c3d0e98bbb4cfd0"
+}

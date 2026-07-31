@@ -1,0 +1,22 @@
+# Versions verified in the existing `torchtest` environment on 2026-07-16.
+# Install the CUDA-matched PyTorch wheels for your machine before this file if
+# you are creating a new environment; the current laptop uses CUDA 12.6.
+
+streamlit==1.54.0
+chromadb==1.5.1
+
+transformers==5.2.0
+torch==2.10.0
+torchvision==0.25.0
+
+Pillow==11.1.0
+ExifRead==3.5.1
+
+geopy==2.4.1
+reverse-geocoder==1.5.1
+
+ollama==0.6.1
+
+numpy==1.26.4
+tqdm==4.67.3
+python-dateutil==2.9.0.post0

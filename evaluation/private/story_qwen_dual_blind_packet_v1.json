@@ -1,0 +1,1402 @@
+{
+  "protocol_version": "story-qwen-dual-blind-v1",
+  "status": "incomplete",
+  "case_count": 23,
+  "target_case_count": 24,
+  "track_counts": {
+    "faithful": 12,
+    "creative": 11
+  },
+  "target_track_counts": {
+    "faithful": 12,
+    "creative": 12
+  },
+  "incomplete_reason": "Frozen reserves were exhausted before 12 readable Creative QC0/QC2 pairs were available.",
+  "cases": [
+    {
+      "review_index": 1,
+      "case_token": "36517bf9851391629fd9",
+      "track": "creative",
+      "language": "zh",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "trustworthiness"
+      ],
+      "photo_paths": [
+        "IMG_6994.jpg",
+        "IMG_6995.jpg",
+        "IMG_6996.jpg"
+      ],
+      "story_a": {
+        "title": "山海之间",
+        "paragraphs": [
+          "我站在山巅，风从脚底漫上来，带着咸涩的海气。",
+          "远处海天相接处泛着碎金，草浪在斜坡上起伏，几株树影被风推着向海移动，云絮在湛蓝的天幕里缓缓游动，而脚下蜿蜒的土路被野草轻轻覆盖。",
+          "风从山巅吹来，轻轻拂过海面。\\n\\n（注意：此处为过渡句，仅作时间与氛围的自然衔接）",
+          "白崖在海面投下细碎的光斑，几个身影在礁石上停驻，衣角被海风卷起，他们时而低头看浪，时而抬手遮住阳光。",
+          "海风依旧，山与海的界限在呼吸间模糊。\\n\\n（注意：此处为收束句，不涉及新事件）"
+        ]
+      },
+      "story_b": {
+        "title": "首先，用户要求创建一个第一人称的观察者回忆录（observer memoir）的中文版本。关键点是：",
+        "paragraphs": [
+          "- 使用提供的BLIP标题（caption）、CLIP标签（tags）和可靠的时间/位置元数据。\n- 叙述者不是被拍摄的人：使用观察记忆，如“我看到”或“我注意到”。\n- 不要声称叙述者执行了被拍摄的动作。\n- 不要推断身份、关系、目的或原因。\n- 不要使用证据ID或JSON格式。\n- 以简短的标题开头（单独一行），然后是流畅的散文，有开头和克制的结尾。\n- 目标字数：220–360个中文字符。\n- 避免使用标题列表的表述和通用的诗意陈词滥调。",
+          "提供的证据：\n- 标签：Creative evaluation case 03\n- 照片：\n  1. 标题：the view from the top of the hill looking over the beach and the sea\n     标签：[\"beach\", \"landscape\", \"travel\"]\n     可靠时间：2026-06-05T15:51:01\n     位置：Seaford, England, GB\n  2. 标题：a view of the white cliffs of the jurassic coast\n     标签：[\"beach\", \"landscape\", \"travel\"]\n     可靠时间：2026-06-05T16:23:08\n     位置：Seaford, England, GB\n  3. 标题：a view of the white cliffs of the isle of the white cliffs\n     标签：[\"beach\", \"landscape\", \"travel\"]\n     可靠时间：2026-06-05T16:23:12\n     位置：Seaford, England, GB",
+          "注意：第三个标题有点奇怪：\"a view of the white cliffs of the isle of the white cliffs\" – 可能是个笔误，应该是\"white cliffs of the Isle of Wight\"，但这里写的是\"isle of the white cliffs\"。我会基于给定的文本处理。",
+          "作为观察者，我不能说“我拍了照片”或“我去了那里”。我只能描述我看到的景象，使用时间点和位置。",
+          "关键点：\n- 开头：简短标题（一行）\n- 然后散文：220-360中文字符\n- 语言：中文\n- 避免：不要说叙述者做了什么（如“我看到”是OK，但不要说“我拍了”）\n- 不能推断：例如，不能说“我认识一个朋友在海滩上”，只能基于观察。",
+          "时间线：\n- 第一张照片：2026-06-05T15:51:01\n- 第二张：2026-06-05T16:23:08\n- 第三张：2026-06-05T16:23:12（几乎同时）",
+          "位置：都是Seaford, England, GB（英国的Seaford）",
+          "内容：描述从山顶看海滩和海；白崖（Jurassic Coast）；白崖岛（但标题说\"isle of the white cliffs\"，可能指White Cliffs of Dover或类似，但Jurassic Coast是英国的海岸线）。",
+          "在中文中：\n- 海滩：海滩\n- 景色：风景\n- 旅行：旅行\n- 白崖：白崖（可能指白垩纪海岸的白崖）\n- Seaford：英国的Seaford，但中文中可能直接说“英国塞福尔德”或简化",
+          "目标：写一个流畅的回忆，作为观察者。",
+          "结构：\n1. 标题：简短，如“夏日海岸观察”（但要自然）\n2. 开头：描述在某个时间点看到的景象。\n3. 中间：描述变化（从15:51到16:23），但不要指定叙述者行动。\n4. 结尾：克制，不推断。",
+          "字数：220-360中文字符。中文字符计数：每个汉字、标点算一个字符。",
+          "避免：\n- 不要使用“我拍了”或类似。\n- 不要推断：例如，不能说“我注意到一个孩子在玩”，因为没有证据。\n- 通用陈词：避免“海天一色”等。",
+          "草拟内容：",
+          "标题：夏日海景瞥见",
+          "然后：我注意到，2026年6月5日下午15点51分左右，在英国塞福尔德，从山顶俯瞰，海滩与海面相接。随后，约16点23分，白垩纪海岸的白崖在视野中显现。三张照片的间隔极短，但海风轻拂，景色流转，仿佛时间在指尖滑过。",
+          "检查字数：需要计算。",
+          "先写草稿：",
+          "标题：海天之间",
+          "正文：2026年6月5日，下午15点51分，我站在英国塞福尔德的山顶，眺望无垠的海滩与碧海。片刻后，16点23分，白垩纪海岸的白色悬崖在视线中渐次展开。三张影像的间隔不足三分钟，海风轻送，天地间唯有潮声与光影的流转。",
+          "计算字符：中文字数。",
+          "目标"
+        ]
+      }
+    },
+    {
+      "review_index": 2,
+      "case_token": "e19196a570f38592816b",
+      "track": "faithful",
+      "language": "zh",
+      "source_kind": "date",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "10.jpg",
+        "12.jpg",
+        "15.jpg",
+        "16.jpg",
+        "17.jpg",
+        "18.jpg",
+        "19.jpg",
+        "20.jpg",
+        "21.jpg",
+        "22.jpg",
+        "23.jpg",
+        "24.jpg",
+        "25.jpg",
+        "27.jpg",
+        "29.jpg",
+        "31.jpg",
+        "32.jpg",
+        "33.jpg",
+        "34.jpg",
+        "37.jpg",
+        "38.jpg",
+        "39.jpg",
+        "40.jpg",
+        "44.jpg",
+        "46.jpg",
+        "47.jpg",
+        "48.jpg"
+      ],
+      "story_a": {
+        "title": "Okay, let's tackle this query. The user wants a warm personal photo diary entry in Chinese, using first-person prose. Th",
+        "paragraphs": [
+          "First, I need to parse the JSON data. The date is 2026-07-10, so the diary entry is for that day. The photos are from 15:00 to 23:00, mostly in an office or room setting. The key is to connect the timeline into a coherent memory.",
+          "Looking at the captions and times:",
+          "- 15:00: Water bottle on table (office)\n- 15:24: Couch with pillow\n- 15:42: Couch with remote\n- 15:54: Same as above\n- 15:59: Same\n- 16:04: Couch with phone\n- 16:09: Couch with remote and TV\n- 16:11: Couch with phone\n- 16:17: Couch with pillow and TV\n- 16:19: Woman sitting on couch with remote\n- 16:25: Chair with pillow\n- 16:27: Same chair\n- 16:32: Man using phone on couch\n- 17:10: Phone on bed with laptop\n- 17:17: Same as above\n- 17:22: Phone on bed with pillow\n- 17:24: Phone on bed\n- 17:29: Bed with blue blanket\n- 17:31: Same bed\n- 18:20: Person standing on wooden floor\n- 21:21: Table with puzzle\n- 21:39: Puzzle on table\n- 21:50: Room with cat\n- 22:19: White toilet with red light\n- 22:24: Mirror in bathroom\n- 22:37: Bed with blanket\n- 23:00: Person sitting on bed with laptop",
+          "Hmm, the timeline shows a day starting with office work, then moving to the bedroom area. The time jumps from 15:00 to 23:00, so it's a single day. The user probably wants a narrative that flows from morning to night, but the times are in the afternoon and evening.",
+          "The key is to create a warm, personal story. The photos show someone working in an office, then moving to a bedroom with a bed, TV, phone, maybe a cat. The puzzle and cat suggest a relaxed or social setting later.",
+          "I need to connect the photos into a story. Let's see: The first few photos are in the office (couch, remote, phone), then the person moves to the bedroom (bed, phone, laptop). The cat appears later, so maybe the person is at home after work. The puzzle might be a game with friends.",
+          "Wait, the tags include \"friends\" in some photos (21:21, 21:39, 21:50), so maybe the person is with friends in the evening. The cat is in the room with the table, so perhaps a home setting.",
+          "The diary should be in Chinese, first-person. Start with a title like \"2026年7月10日：办公室到卧室的午后时光\" (2026-07-10: Afternoon from Office to Bedroom).",
+          "The story should flow from the early afternoon (15:00) to late evening (23:00). The person starts working, then takes a break on the couch, moves to the bedroom, and later has friends over with a puzzle and a cat.",
+          "Check the times: The first photo is 15:00, then the person is on the couch. By 16:32, the man is using a phone on the couch. Then the bed photos start at 17:29. So maybe the person is working in the office, then goes home to the bedroom. The puzzle and cat are later, so perhaps after work, they have friends over.",
+          "The title should be short. Let's draft the entry.",
+          "Start with the date. Then describe the day: starting with the water bottle on the desk (office), then the couch, remote, phone. Then moving to the bedroom, bed with blanket, phone, laptop. Then friends come over with a puzzle and cat. End with the person sitting on the bed with laptop at 23:00.",
+          "Make sure it's warm and personal. Avoid technical terms, use natural Chinese.",
+          "Check for consistency: The location is null for all, so it's a home office or a room. The tags include \"office\" and \"room\", so maybe a home office.",
+          "Possible story: After work, the person relaxes in the office room, then moves to the bedroom. Friends come over, play a puzzle, and there's a cat. Ends with studying on the bed.",
+          "Let me write the Chinese entry.",
+          "Title: 2026年7月10日：午后小憩与朋友的惊喜",
+          "Then the body:",
+          "今天下午三点，我随手把水瓶放在办公桌上，窗外的阳光正好。接着，我瘫在沙发上，遥控器和手机都堆在膝头，直到六点整，电视屏幕亮起，映出我疲惫却满足的脸。六点半，我换到卧室，蓝色毯子铺在床"
+        ]
+      },
+      "story_b": {
+        "title": "事件照片记录",
+        "paragraphs": [
+          "开头的照片组按可靠时间保存了画面中可直接观察的场景与物体。",
+          "随后的一组照片记录了可见的人物、物体与周围环境，不加入额外解释。",
+          "中间的照片组保留了所选画面中能够直接核查的视觉内容。",
+          "接下来的图像继续按时间记录可观察的环境与物体信息。",
+          "最后一组照片以画面中可见的场景内容结束这段记录。"
+        ]
+      }
+    },
+    {
+      "review_index": 3,
+      "case_token": "d1056a65b98f5d08695e",
+      "track": "creative",
+      "language": "zh",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "trustworthiness"
+      ],
+      "photo_paths": [
+        "IMG_7167.jpg",
+        "IMG_7170.jpg"
+      ],
+      "story_a": {
+        "title": "城市夜色的两个切片",
+        "paragraphs": [
+          "我站在屋顶上，抬头看城市在暮色里渐渐模糊。",
+          "街灯的绳子轻轻垂着，把路灯的影子拉得细长，窗玻璃映出天空的云层，远处的天际线与城市轮廓在暮色中缓缓交融。",
+          "暮色渐深，城市轮廓在光影间流动。\\n\\n",
+          "夜色中，城市灯火渐次亮起，而街边的岩石在暗影里若隐若现，既属于城市又仿佛独立于它的脉络。",
+          "此刻，我依然站在屋顶，看城市在夜色里慢慢沉入远方。"
+        ]
+      },
+      "story_b": {
+        "title": "首先，任务是创建一个第一人称的观察者回忆录（observer memoir）用中文。我必须只使用提供的BLIP标题（caption）、CLIP标签（tags）和可靠的元数据（时间/位置）。关键点是：叙述者不是被拍摄的人；我应该使用观察者的记",
+        "paragraphs": [
+          "提供的证据：",
+          "- 标签：Creative evaluation case 05",
+          "- 照片1：",
+          "- 标题：a view of a city from a rooftop",
+          "- 标签：[\"artwork\", \"night scene\", \"travel\"]",
+          "- 可靠时间：2026-07-05T20:25:41",
+          "- 位置：Goereme, Nevsehir, TR",
+          "- 照片2：",
+          "- 标题：a view of a city at night from a rooftop",
+          "- 标签：[\"city\", \"night scene\", \"street\"]",
+          "- 可靠时间：2026-07-05T21:32:06",
+          "- 位置：Goereme, Nevsehir, TR",
+          "我需要将这些转化为中文的观察者回忆录。既然是观察者，我应该描述我看到的场景，而不指定我是谁或做了什么。时间是2026年7月5日，位置是Goereme, Nevsehir, TR（土耳其的一个地方）。",
+          "首先，标题：开头是简短的标题。例如，\"夜城之隅\" 或类似的东西。要简短，中文字符数要少。",
+          "然后，散文：开头描述我看到的场景。时间从20:25:41到21:32:06，所以是晚上。位置是Goereme, Nevsehir, TR，我应该用中文表示位置，但既然是观察者，我可能不直接说位置，而是描述场景。",
+          "关键：不要推断身份等。所以，我不能说“我看到一个旅行者”；只能说“我看到城市夜景”。",
+          "从照片标题：第一张是“a view of a city from a rooftop”，第二张是“a view of a city at night from a rooftop”。所以，场景是城市从屋顶看，夜晚。",
+          "标签：第一张有“artwork”（艺术品）、“night scene”（夜景）、“travel”（旅行）；第二张有“city”（城市）、“night scene”（夜景）、“street”（街道）。",
+          "在回忆录中，我应该用观察者的视角：例如，“我注意到，2026年7月5日晚上8点25分左右，从Goereme, Nevsehir, TR的屋顶上，城市夜景在眼前铺展。”",
+          "但要避免具体时间？元数据是可靠的，所以我可以引用时间。",
+          "目标字符：220-360中文字符。中文字符数：每个汉字、标点都算一个字符。",
+          "结构：",
+          "1. 短标题：一行，例如 \"夜城回望\"",
+          "2. 开头：描述我看到的场景，时间、位置（但位置是Goereme, Nevsehir, TR，我可以用中文音译或描述，但既然是观察者，可能说“土耳其nevsehir市的goereme区”？但要克制，不要推断。或许直接说“从屋顶俯瞰城市夜景”）",
+          "3. 流畅的散文：有开头和克制的结尾。结尾要克制，不添加额外信息。",
+          "避免：不要说“我拍摄了”；只说“我看到”或“我注意到”。",
+          "不要使用证据ID：所以不要提“case 05”或类似。",
+          "时间：2026-07-05T20:25:41 是 2026年7月5日20:25:41，第二张是21:32:06。",
+          "在中文中，时间可以写成“7月5日晚上8点25分左右”。",
+          "位置：Goereme, Nevsehir, TR – Nevsehir是土耳其的一个城市，Goereme可能是街道或区域。在中文中，可以音译为“尼韦塞希尔”或类似，但要准确。既然是观察者，我可能不指定具体地名，只说“土耳其某地”或描述场景。",
+          "但任务说：使用可靠的元数据。所以，我应该包括位置。",
+          "在回忆录中，我可以说“在土耳其尼韦塞希尔的戈雷梅区”。",
+          "但要克制：不要推断。所以，或许说“从土耳其戈雷梅屋顶上”。",
+          "目标：220-360字符。",
+          "草拟一个草稿。",
+          "标题：夜城之隅",
+          "然后：我注意到，2026年7月5日20点25分，从戈雷梅屋顶俯瞰，城市夜景如一幅流动的画卷。随后，夜色渐深，街灯次第亮起，街道在黑暗中延伸。直到21点32分，城市灯火依旧，静谧中透着生机。",
+          "检查字符数：先写中文。",
+          "计算字符。",
+          "标题：夜城之隅 (4字符)",
+          "正文"
+        ]
+      }
+    },
+    {
+      "review_index": 4,
+      "case_token": "197687725d46189f1b9c",
+      "track": "faithful",
+      "language": "en",
+      "source_kind": "single",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "155.jpg"
+      ],
+      "story_a": {
+        "title": "We are given one photo with a caption and tags, and a reliable time. The location is null so we don't have a specific lo",
+        "paragraphs": [
+          "Steps:\n 1. Create a title that is short and fits the context.\n 2. Write a diary entry that is warm and personal, using the photo description to create a memory.",
+          "The photo: \n   caption: \"a person is sitting at a desk with a laptop\"\n   tags: [\"computer\", \"keyboard\", \"monitor\"]\n   reliable_time: \"2026-07-12T21:50:11\" (so about 9:50 PM on July 12, 2026)\n   location: null (so we don't know where, but we can imply a home or office setting)",
+          "We are to write a warm personal memory. Since it's a personal diary, we can imagine the person is writing about their own experience.",
+          "Idea for the diary entry:\n   - The time is late at night (21:50) so we can set the scene as after work or study.\n   - The person is at a desk with a laptop, so we can describe the activity (e.g., working, coding, writing, etc.)\n   - We want it to be warm and personal: maybe they are feeling a bit tired but content, or they are in the middle of something meaningful.",
+          "Let's create a title: \"Late Night Work\"",
+          "Then the diary entry:",
+          "\"Late Night Work",
+          "The glow of the monitor cast a soft light on my desk as I sat down to finish up the report. My fingers danced over the keyboard, the rhythmic tap of keys a familiar comfort in the quiet of the evening. It was 9:50 PM on July 12th, 2026, and the city outside was already asleep, but I was still in the flow of my work. Sometimes, when the world feels too loud, this little corner of my desk with the computer and the quiet hum of the keyboard is the perfect place to find peace.\"",
+          "Why this works:\n   - It's warm and personal: we see the person in a moment of focus and calm.\n   - We use the time and the fact that it's a desk with laptop (from the photo) to set the scene.\n   - We don't add any evidence citations or JSON output.\n   - We start with the title on its own line.",
+          "Note: The problem says \"connect the supplied photo descriptions into a readable memory\". We have only one photo, so we write about that one moment.",
+          "Let's write it exactly as described.\n</think>",
+          "Late Night Work",
+          "The monitor’s soft glow painted my desk in warm gold as I sat hunched over the keyboard, fingers flying across the keys. It was 9:50 PM on July 12th, 2026—just after the city had settled into its quiet hum—and the only sound was the gentle click of my laptop’s keys against the late-night silence. I’d been wrestling with this report all afternoon, but now, with the screen’s light catching the dust motes in the air, it felt like the world had shrunk to this small space between the monitor and my tired eyes. Sometimes, when the world feels too big, you just need to sit with your computer and let the quiet work its magic."
+        ]
+      },
+      "story_b": {
+        "title": "Work Session at Desk",
+        "paragraphs": [
+          "A person sits at a desk with a laptop open. The individual wears glasses and is using a mouse while typing on the keyboard. They are looking at the laptop screen, scrolling through content, and clicking the mouse. The person also holds a plate and eats a sandwich while drinking juice."
+        ]
+      }
+    },
+    {
+      "review_index": 5,
+      "case_token": "da4131e2b0b10b2058be",
+      "track": "faithful",
+      "language": "en",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "IMG_2698.JPG",
+        "IMG_2699.JPG"
+      ],
+      "story_a": {
+        "title": "We are given a JSON object with a label and two photos.",
+        "paragraphs": [
+          "Photo 2:\n        caption: \"a view of a street with a car driving down it\"\n        tags: [\"city\", \"street\", \"sunset\"]\n        reliable_time: \"2025-08-13T18:45:05\"\n        location: \"Huangcun, Guangdong, CN\"",
+          "We are to write a warm personal photo diary entry in English, using first-person prose.\n We must connect the two photos into a readable memory.",
+          "Steps:\n 1. Start with a short title on its own line (so the first line is the title, then the diary entry)\n 2. The diary entry should be a short paragraph (one entry) that tells a story connecting the two photos.",
+          "Observations:\n - Both photos are taken in Huangcun, Guangdong, China on the same day (2025-08-13) but at different times: \n      first photo at 18:25:40 (about 6:25 PM) and second at 18:45:05 (about 6:45 PM).\n - The first photo: city view from a window -> tags: city, train, weather (so likely the weather was good? but we don't have exact weather, but note: the time is evening and the second photo has sunset -> so it's the same evening)\n - The second photo: street with a car driving -> tags: city, street, sunset (so it's the sunset time)",
+          "We can imagine a story: \n   At around 6:25 PM, I was sitting in a window in Huangcun and looking at the city. I saw a train going by (maybe the train was a key element in the cityscape) and the weather was nice (we don't have exact weather, but the sunset is coming). Then about 15 minutes later, I went out to the street and saw the sunset with a car driving by.",
+          "However, note: the second photo has the tag \"sunset\", so it's likely that the second photo was taken during sunset (which in the evening in China might be around 6:30-7:00 PM). The time difference is 19 minutes (from 18:25:40 to 18:45:05) so it's plausible.",
+          "Let's write a warm, personal diary entry:",
+          "Title: \"Evening in Huangcun\"",
+          "Then the entry:",
+          "I sat by the window in Huangcun that evening, watching the city lights begin to twinkle as the last train rumbled past. The air was cool and the sky was a soft gradient of orange and pink. By the time the streetlights came on, I stepped outside to catch the sunset — the car I saw driving down the street was the last one before the city settled for the night.",
+          "But note: the second photo is taken at 18:45:05 (which is 6:45 PM) and the sunset in Guangdong (which is in China) might be around 6:30 PM? However, we don't have to be too precise. We can say \"the sunset\" without specifying the exact time.",
+          "Alternatively, we can make it more personal and warm.",
+          "Let me try to write:",
+          "Title: \"Huangcun Evening\"",
+          "The entry:",
+          "As the sun dipped below the horizon, I found myself back in Huangcun, the city lights starting to flicker in the distance. From my window, I watched a train glide past the station, the rhythmic clatter of its wheels a familiar comfort. Then, just as the last rays of sunlight painted the sky in hues of gold and crimson, I stepped out onto the street. The car that drove by was the only one on the quiet road, and for a moment, the world felt still, as if the city was holding its breath before the night.",
+          "However, note: the second photo has a car driving down the street. So we want to include that.",
+          "Let's adjust to be more precise and warm.",
+          "Final idea:",
+          "Title: \"Huangcun at Dusk\"",
+          "The entry:",
+          "I sat by the window in Huangcun that evening, watching the city lights begin to twinkle as the last train rumbled past. The air was cool and the sky was a soft gradient of orange and pink. By the time the streetlights came on, I stepped outside to catch the sunset — the car I saw driving down the street was the last one before the city settled for the night.",
+          "But wait: the first photo was taken at 18:25:40 (6:25 PM) and the second at 18:45:05 (6:45 PM). So the sunset might have been around 6:30 PM? We can say \"the sunset\" without being too specific.",
+          "Alternatively, we can write:",
+          "\"As the sun began to dip below the horizon, I was sitting by the window in Huangcun, watching the cityscape. A train rumbled"
+        ]
+      },
+      "story_b": {
+        "title": "Evening View from Huangcun",
+        "paragraphs": [
+          "At 18:25 on August 13, 2025, a window in Huangcun, Guangdong, China, framed a cityscape dominated by a skyline of interconnected buildings. The view captured the westin hotel as a prominent landmark, with sunlight reflecting off the structures and casting long shadows across the city. The horizon was defined by a cluster of buildings that expanded into the landscape, while clouds floated in the sky.",
+          "At 18:45 on August 13, 2025, a street in Huangcun, Guangdong, China, showed a car driving along a road bordered by grass and trees. Streetlights stood on the sidewalk, and the sky was cloudy with a sunset casting light on the buildings. The car moved through the lane, passing a sign as the cityscape continued to blend with the natural landscape."
+        ]
+      }
+    },
+    {
+      "review_index": 6,
+      "case_token": "2f7e94e3e53ba16bd803",
+      "track": "faithful",
+      "language": "zh",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "IMG_3705.JPG",
+        "IMG_3712.JPG",
+        "IMG_E3714.JPG",
+        "IMG_3717.JPG",
+        "IMG_3730.JPG",
+        "IMG_3732.JPG"
+      ],
+      "story_a": {
+        "title": "Okay, I need to write a warm personal photo diary entry in Chinese based on the provided photos. Let me start by underst",
+        "paragraphs": [
+          "First, the user wants a short diary entry in Chinese, using first-person prose. The entry should connect the photo descriptions into a readable memory. The source has captions, tags, and reliable time/location metadata. I shouldn't output JSON or add evidence citations. Start with a short title on its own line.",
+          "Looking at the photos:",
+          "1. **2025-09-28T11:01:25**: Grassy field with rock formation in the background. Location: Ilkley, England.\n2. **2025-09-28T11:18:14**: Group of people sitting on a rock. Tags: family, friends, landscape.\n3. **2025-09-28T11:24:03**: Rock with \"love\" written on it. Tags: dog, people, street. Wait, the tags here seem a bit odd—dog and street? Maybe a typo? But I'll go with the given tags.\n4. **2025-09-28T11:29:01**: Man in white robe flying a kite. Tags: landscape, mountains, travel.\n5. **2025-09-28T12:03:32**: Person standing on rock with sky background. Tags: fitness, selfie.\n6. **2025-09-28T12:05:40**: Group of snails in grass. Tags: children, couple, elderly.",
+          "Hmm, the tags for the third photo say \"dog, people, street\" but the caption is a rock with \"love\" written on it. Maybe the tags are a bit mixed up, but I have to use what's given. Also, the time sequence is from 11:01 to 12:05, so the diary should flow in that order.",
+          "I need to create a narrative that connects these photos into a coherent memory. Since it's a diary entry in Chinese, I'll start with a title like \"2025年9月28日的Ilkley小记\" or something similar.",
+          "Let me think about the story. The photos are taken in Ilkley, England, on the same day. The first photo is a grassy field with mountains in the background. Then people sitting on a rock, then a rock with \"love\" written on it, a man flying a kite, someone standing on a rock with sky, and snails in grass.",
+          "The key is to make it personal and warm. Maybe the person is visiting with family/friends, the \"love\" message is a special touch, the snails are a cute detail. The man flying a kite could be a friend or family member.",
+          "I should structure the diary entry to flow from early morning (11:01) to late morning (12:05). Start with the field, then the group sitting, the rock with love, the kite, the person on the rock, then the snails.",
+          "Wait, the time for the snails is 12:05, which is later. So the sequence is:",
+          "11:01 - field",
+          "11:18 - group sitting",
+          "11:24 - rock with love",
+          "11:29 - man flying kite",
+          "12:03 - person on rock",
+          "12:05 - snails",
+          "So the diary should mention the time progression.",
+          "In Chinese, the date format is usually year-month-day, so 2025年9月28日.",
+          "The title should be short. Maybe \"2025年9月28日：Ilkley的午后时光\" (2025-09-28: Ilkley Afternoon Moments)",
+          "Then the body:",
+          "Start with the first photo: \"今天上午十一点零一分，我站在Ilkley的草地上，远处山峦的轮廓在阳光下柔和地起伏...\"",
+          "Then mention the group sitting on the rock at 11:18: \"大约十分钟后的十一分十八秒，一群朋友围坐在一块大石头上，笑声和风声交织...\"",
+          "Then the rock with \"love\": \"后来，我们发现一块石头上刻着'love'，仿佛是某个不经意的瞬间留下的温柔印记...\"",
+          "Then the man flying a kite: \"这时，一位穿着白色长袍的叔叔在远处放飞风筝，他的笑容和风筝一起，轻盈地飞向蓝天...\"",
+          "Then the person on the rock: \"十二点零三点，我独自站在另一块岩石上，天空的蓝调与云朵的洁白，让我不由得想拍下这瞬间...\"",
+          "Finally, the snails: \"十二点零五分，草丛中几只蜗牛缓缓爬行，它们的背壳上还沾着露珠，像极了我们年轻时的时光...\"",
+          "Wait, the tags for the snails say \"children, couple, elderly\" so maybe the person is with family members. But the diary is in first person, so the narrator is probably part of the family.",
+          "I need to make it warm and personal. Avoid technical terms. Use Chinese phrases that feel natural.",
+          "Check the time stamps: the first photo is at 11:01, then 11:18 (17 minutes later), 11:24 (3 minutes after), 11:29 (5 minutes after), 12:03 (14 minutes after), 12:05 (2 minutes after)."
+        ]
+      },
+      "story_b": {
+        "title": "事件照片记录",
+        "paragraphs": [
+          "开头的照片组按可靠时间保存了画面中可直接观察的场景与物体。",
+          "随后的一组照片记录了可见的人物、物体与周围环境，不加入额外解释。",
+          "中间的照片组保留了所选画面中能够直接核查的视觉内容。",
+          "接下来的图像继续按时间记录可观察的环境与物体信息。",
+          "最后一组照片以画面中可见的场景内容结束这段记录。"
+        ]
+      }
+    },
+    {
+      "review_index": 7,
+      "case_token": "35313b4f62fe2c5ce0ff",
+      "track": "creative",
+      "language": "zh",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "trustworthiness"
+      ],
+      "photo_paths": [
+        "IMG_3802.JPG"
+      ],
+      "story_a": {
+        "title": "首先，用户要求我创建一个第一人称的观察者回忆录（observer memoir）用中文。我必须只使用提供的BLIP标题、CLIP标签和可靠的元数据。元数据是：可靠时间是2025-10-02T13:34:10，地点是Leeds, Englan",
+        "paragraphs": [
+          "关键点：\n- 叙述者不是被拍摄的人：使用观察者的记忆，如“我看到”或“我注意到”。\n- 不要声称叙述者执行了被拍摄的动作。\n- 不要推断身份、关系、目的或原因。\n- 不要使用证据ID或JSON。\n- 以简短的标题开始，单独一行。\n- 然后写流畅的散文，有开头和克制的结尾。\n- 目标字符数：220–360个中文字符。\n- 避免使用标题列表的措辞和通用的诗意陈词滥调。",
+          "提供的证据：\n- 标签：Creative evaluation case 07\n- 一张照片：标题是“a person holding a can of beer”，标签是[\"drinks\", \"fitness\", \"poster\"]，可靠时间是202:10-02T13:34:10（应该是2025-10-02T13:34:10），地点是Leeds, England, GB。",
+          "我需要将这个转化为一个观察者的回忆录。既然是观察者，我不能说“我看到一个人在喝啤酒”，而是要描述我注意到的场景，但不指定是谁在做什么。例如：“我注意到在Leeds的某个地方，有人拿着一罐啤酒。”",
+          "重要：不要推断身份、关系等。所以，不能说“一个朋友”或“在聚会中”。只说观察到的。",
+          "结构：\n1. 开头：简短标题（一行）\n2. 正文：流畅的散文，220-360中文字符。\n   - 开头：描述时间、地点、观察到的。\n   - 中间：描述场景，但不添加额外信息。\n   - 结尾：克制的，不解释或推断。",
+          "字符数：中文字符。目标220-360。我需要计算。",
+          "避免：\n- 用标题列表的措辞：例如，不要说“照片显示：...”。\n- 通用的诗意陈词滥调：如“夕阳西下”之类。",
+          "从元数据：\n- 时间：2025-10-02T13:34:10 → 2025年10月2日13:34:10（下午1点34分10秒）\n- 地点：Leeds, England, GB → 利兹，英国",
+          "标签：drinks（饮料），fitness（健身），poster（海报）。但作为观察者，我不能说“健身”或“海报”，因为标签是给照片的。我需要基于观察来写。",
+          "在回忆录中，我应该描述我注意到的：在利兹，下午1:34左右，我看到一个人拿着一罐啤酒。",
+          "但标签有“fitness”和“poster”，这可能暗示上下文。然而，用户说：不要推断身份、关系、目的或原因。所以，我不能说“这个人是在健身”或“海报在健身区”。只说观察到的：一个人拿着啤酒。",
+          "用户说：“use only the supplied BLIP captions, CLIP tags and reliable time/location metadata.” 所以，我只能使用这些：标题是“a person holding a can of beer”，标签是[\"drinks\", \"fitness\", \"poster\"]，时间、地点。",
+          "但作为观察者，我不能直接说“标签”，因为标签是给照片的。我需要将标签融入描述中，但不推断。",
+          "例如：我注意到在利兹，时间是2025年10月2日下午1:34，有一个人拿着一罐啤酒。标签“drinks”可能暗示饮料，但我不应该说“饮料”作为动作；用户说“do not claim that the narrator performed a photographed action”，所以叙述者没有做动作。",
+          "写作风格：第一人称，观察者。",
+          "草拟内容：",
+          "标题：利兹的午后",
+          "正文：2025年10月2日，下午1点34分，我注意到利兹的街道上，有个人正拿着一罐啤酒。标签显示这与饮料、健身和海报相关，但我不确定具体含义。",
+          "但用户说：不要推断。所以，不能说“标签显示...”。我应该只描述观察到的，而不提标签。",
+          "用户说：“use only the supplied BLIP captions, CLIP tags and reliable time/location metadata.” 但“CLIP tags”是标签，我需要使用它们？不，用户说“use only”，但作为观察者，我不能直接引用标签。我应该将标签融入描述中，但不推断。",
+          "再读用户指令：\"Use only the supplied BLIP captions, CLIP tags and reliable time/location metadata.\"",
+          "BLIP captions：是“a person holding a can of beer”",
+          "CLIP tags：[\"drinks\", \"fitness\", \"poster\"]",
+          "可靠时间：2025-10-02T13:34:10",
+          "地点：Leeds, England, GB",
+          "在回忆录中，我可以说：我看到一个人拿着一罐啤酒，时间是2025年10月2日13:34，地点在利兹。标签“drinks”可能表示饮料，但我不应该添加解释"
+        ]
+      },
+      "story_b": {
+        "title": "街角的啤酒罐",
+        "paragraphs": [
+          "我总在街角那家便利店门口驻足，看人影晃动。",
+          "街角便利店门口，一个手握紫色啤酒罐的人影晃动，罐身有金属光泽和模糊的标签，手戴汗衫和手表，罐子微微敞开，露出里面浅色液体。",
+          "街角的啤酒罐，总在黄昏时分轻轻晃动。这晃动，像时间本身。"
+        ]
+      }
+    },
+    {
+      "review_index": 8,
+      "case_token": "5c8a4f5e2f2fe62dcb83",
+      "track": "creative",
+      "language": "zh",
+      "source_kind": "single",
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "trustworthiness"
+      ],
+      "photo_paths": [
+        "IMG_5414.jpg"
+      ],
+      "story_a": {
+        "title": "首先，用户要求创建一个第一人称的观察者回忆录（observer memoir）用中文。关键点是：只使用提供的BLIP标题、CLIP标签和可靠的元数据。元数据是：reliable_time: \"2026-01-19T15:36:27\"，loc",
+        "paragraphs": [
+          "用户指定了：叙述者不是被拍摄的人，所以要用观察者的记忆，比如“我看到”或“我注意到”。不要声称叙述者执行了被拍摄的动作。不要推断身份、关系、目的或原因。不要使用证据ID或JSON。开头是短标题（一行），然后是流畅的散文，有开头和克制的结尾。目标是220-360个中文字符。避免用标题列表的短语和通用的诗意陈词滥调。",
+          "提供的证据：\n- label: \"Creative evaluation case 01\"（这可能不重要，因为用户说“use only the supplied BLIP captions, CLIP tags and reliable time/location metadata”）\n- photos: 一个照片，caption: \"a close up of water with small waves\"，tags: [\"beach\", \"boat\", \"snow\"]，reliable_time: \"2026-01-19T15:36:27\"，location: \"Hoefn, East, IS\"",
+          "所以，我需要基于这些创建回忆录：\n- BLIP captions: 只有这个caption: \"a close up of water with small waves\"\n- CLIP tags: [\"beach\", \"boat\", \"snow\"] – 但用户说“CLIP tags”，可能是个笔误，应该是“CLIP”标签，但这里tags是[\"beach\", \"boat\", \"snow\"]\n- reliable time: 2026-01-19T15:36:27（2026年1月19日15:36:27）\n- location: Hoefn, East, IS（冰岛东部的Hoefn）",
+          "关键：叙述者是观察者，不是被拍摄的人。所以，我不能说“我拍了”或“我做了什么”。只能描述我看到的：水、小波浪，以及标签暗示的海滩、小船、雪。但要小心：不要推断原因。例如，标签有“snow”，但时间是2026年1月（冬季），冰岛有雪，但“water with small waves”在雪中？这有点矛盾，但用户说不要推断原因，所以我必须基于给定信息。",
+          "用户强调：不要推断身份、关系、目的或原因。所以，我不能说“雪在海滩上”或“小船在雪中”，因为标签有“snow”，但caption是“water with small waves”。在冰岛，海滩可能有雪，但要克制：只说观察到的。",
+          "目标：220-360中文字符。我需要计算字符数。",
+          "结构：\n1. 短标题：一行，例如“冬日海景”或类似，但要自然。\n2. 然后散文：开头描述看到的，结尾克制。",
+          "开头：我注意到...（用第一人称）\n结尾：不要太诗意，要克制。",
+          "避免：不要用“我看到”直接说动作，但用户说“use observer memory such as I saw or I noticed”，所以可以。",
+          "例如：我注意到2026年1月19日下午3点36分左右，在冰岛东部的Hoefn，水面上有细微的波纹。",
+          "但要融入标签：标签有“beach”（海滩）、“boat”（小船）、“snow”（雪）。所以，我可以说：水面上有小波浪，海滩边似乎有小船，远处有雪。",
+          "但不要推断：例如，不能说“小船在雪中”，因为雪可能不是在水里。用户说不要推断原因，所以只描述现象。",
+          "时间：2026-01-19T15:36:27，所以是2026年1月19日15:36:27。",
+          "地点：Hoefn, East, IS – Hoefn是冰岛的一个小镇，东边。",
+          "在冰岛，Hoefn可能有海滩，但标签有“snow”，冰岛在冬季有雪。",
+          "为了克制：只说观察到的水、小波浪、海滩、小船、雪（作为元素）。",
+          "但caption是“close up of water with small waves”，所以焦点在水。",
+          "写散文时，用中文。",
+          "草拟：",
+          "标题：冬日海隅",
+          "我注意到2026年1月19日下午3点36分，在冰岛东部的Hoefn，水面上泛着细小的波纹。那片水域似乎与海滩相连，隐约可见小船的轮廓，而远处的雪景在视野中若隐若现。",
+          "检查字符数：目标220-360中文字符。",
+          "先写中文。",
+          "标题：一行，例如“冬日海隅”（2个字）",
+          "然后散文：开头“我注意到...”",
+          "避免：不要说“我拍摄了”，因为是观察者。",
+          "不要推断：例如，不能说“雪在海滩上”，因为标签有“snow”，但caption是水，所以可能雪是背景。",
+          "用户说：不要推断身份、关系、目的或原因"
+        ]
+      },
+      "story_b": {
+        "title": "冰面的低语",
+        "paragraphs": [
+          "我站在湖边，风掠过脸颊时带着冰的凉意。冰层下暗流涌动，却看不见水的痕迹。",
+          "冰面像碎银铺就的镜面，映着天空的淡蓝与云影。细小的裂纹蜿蜒，每一道都藏着水的低语，冰层下是深不可测的暗流。",
+          "冰面的低语，终将化作春水的轻响。我转身离去，风里带着冰的余温。"
+        ]
+      }
+    },
+    {
+      "review_index": 9,
+      "case_token": "565fbffa5dc6292f866a",
+      "track": "faithful",
+      "language": "zh",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "IMG_2685.JPG",
+        "IMG_2686.JPG"
+      ],
+      "story_a": {
+        "title": "Okay, let's tackle this query. The user wants a warm personal photo diary entry in Chinese, using first-person prose. Th",
+        "paragraphs": [
+          "First, I need to parse the given JSON. The date is 2025-08-13, event 2. There are two photos. The first photo's caption is \"a man in a towel is sitting by the pool\" with tags computer, indoor, selfie. The time is 2025-08-13T17:13:51. Location is Huangcun, Guangdong, CN. The second photo's caption is \"a large indoor swimming pool with a skylight\", tags fitness, indoor, office. Time is 2025-08-13T17:14:33, same location.",
+          "I need to connect these into a coherent memory. The key is to make it personal and warm. Since it's a diary entry, start with a title on its own line. Then the body in first person.",
+          "Wait, the user said \"Write one short diary entry from these photos\". So the entry should be based on the two photos. Let me think about the sequence. The first photo is at 17:13:51, the second at 17:14:33, so the second photo is a few seconds after the first. The first photo shows someone in a towel sitting by the pool, the second is a large indoor pool with skylight.",
+          "Hmm, the tags for the first photo include \"selfie\", so maybe the person is taking a selfie. The second photo is the pool itself. So the story could be that after taking a selfie by the pool, the person looks around and sees the pool.",
+          "Wait, but the location is Huangcun, Guangdong, CN. Maybe it's a local place. The time is in 2025, so future date, but the user probably just wants the date as given.",
+          "The diary entry should be in Chinese. Let me make sure to write it in Chinese. The user specified \"in Chinese\".",
+          "Wait, the problem says \"You write a warm personal photo diary in Chinese.\" So the entire entry should be in Chinese.",
+          "First, the title: start with a short title on its own line. Maybe something like \"夏日泳池小憩\" (Summer Pool Nap) or \"泳池旁的午后时光\" (Afternoon Time by the Pool).",
+          "Then the body. Let's see. The person is sitting by the pool in a towel, taking a selfie. Then the next photo is the pool with skylight. So the entry could be about taking a break at the indoor pool.",
+          "Wait, the first photo is a man in a towel sitting by the pool, so maybe it's a man taking a selfie. The second photo is the pool itself. So the story is that after taking a selfie, he looks at the pool.",
+          "But the time is 17:13 and 17:14, so a few seconds apart. So the entry could be: \"今天下午五点十三分，我坐在室内泳池边，毛巾裹着身子，对着镜头摆了个pose。镜头里，那扇高高的天窗透进的阳光，正好洒在池水的波纹上。\"",
+          "Wait, but the first photo's caption says \"a man in a towel is sitting by the pool\", so maybe it's the person taking a selfie. The second photo is the pool with skylight. So the diary entry should connect these two.",
+          "Let me structure it. Start with the time, then describe the scene. Since it's a diary entry, use past tense in Chinese.",
+          "Wait, Chinese doesn't have tense markers like English, but the diary is written in past tense. So the entry would be in past tense.",
+          "Let me draft:",
+          "标题：泳池边的午后小憩",
+          "今天下午五点十三分，我裹着毛巾坐在室内泳池边，镜头对准自己时，阳光透过天窗洒在池水的波纹上。几秒后，我抬头望向那片开阔的泳池，水光潋滟间，仿佛整个夏天都藏在了这方寸之间。",
+          "Wait, but the second photo's caption is \"a large indoor swimming pool with a skylight\". So the pool has a skylight, which is why the sunlight is coming in. The time between the two photos is very short, so the person took a selfie (first photo) and then looked at the pool (second photo).",
+          "But the user wants a warm personal diary entry. Maybe the person is relaxing after work, taking a break.",
+          "Wait, the tags for the first photo include \"computer\", \"indoor\", \"selfie\". So maybe the person is working from home or in an office, and took a selfie by the pool. The second photo is the pool itself.",
+          "Hmm. Let me try to write it in Chinese.",
+          "First, the title: maybe \"夏日泳池小憩\" (Summer Pool Nap)",
+          "Then the entry:",
+          "今天下午五点十三分，我裹着毛巾坐在室内泳池边，对着手机自拍。镜头里，天窗透下的阳光在池水里划出细碎的光斑，水波轻轻荡漾，仿佛整个夏天都藏在了这方寸之间。几秒后，我抬头望向那片开阔的泳池，水光潋滟间，连呼吸都变得轻快起来。",
+          "Wait, but the second photo is the pool itself, so the person is looking at the pool. The time difference is 42 seconds (17:14:33 - 17:1"
+        ]
+      },
+      "story_b": {
+        "title": "2025-08-13 · Event 2",
+        "paragraphs": [
+          "2025年8月13日17时13分51秒，黄村镇，广东省，中国。一名男子穿着泳衣、泳帽和泳镜，坐在泳池边的椅子上，身体微微前倾，目光注视着泳池水面。",
+          "2025年8月13日17时14分33秒，黄村镇，广东省，中国。室内泳池内水体清澈，池壁瓷砖地面反射着天花板的灯光，泳池边缘摆放着座椅，池水与天花板形成镜面效果。"
+        ]
+      }
+    },
+    {
+      "review_index": 10,
+      "case_token": "18f886064c06c6f322de",
+      "track": "creative",
+      "language": "zh",
+      "source_kind": "date",
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "trustworthiness"
+      ],
+      "photo_paths": [
+        "IMG_7065.jpg",
+        "IMG_7069.jpg",
+        "IMG_7072.jpg",
+        "IMG_8989.jpg",
+        "IMG_7146.jpg",
+        "IMG_7148.jpg"
+      ],
+      "story_a": {
+        "title": "水与光的痕迹",
+        "paragraphs": [
+          "我站在一个陌生的街角，红毯铺满的房间和远处的尖顶 mosque 交织成一片模糊的光影。",
+          "那间红毯覆盖的房间，木制棺材静静躺在地板上，绣着细密的花纹，被布条轻轻裹住。天花板上悬挂的吊灯映着墙面上的马赛克，一扇窗透进微光，而我注意到一个穿帽子的人影站在棺材旁，手里握着相机。",
+          "街角的水汽弥漫着湿冷的气息，与红毯的暖意形成微妙的对比",
+          "街角的石板路被雨水浸湿，行人撑着伞匆匆走过，伞下的人影被云层遮住，远处的建筑在湿漉漉的街道上投下斑驳的影子。",
+          "水波的轻颤让桥的影子在水面拉长，仿佛时间在流动",
+          "水面上倒映着天空的蓝色，一座桥横跨水面，桥上有人影晃动，水边的树木和远处的山峦在夕阳下勾勒出柔和的轮廓。",
+          "桥的另一端，水波轻轻荡漾，夕阳将水面染成金红色，远处的山影渐渐模糊，仿佛时间在水面上轻轻一划。",
+          "水与光的痕迹，总在某个转角悄然留下。我转身离开，却不知何时，它们已融入了呼吸。"
+        ]
+      },
+      "story_b": {
+        "title": "首先，用户要求我创建一个第一人称的观察者回忆录（observer memoir）用中文。关键点是：只使用提供的BLIP标题（caption）、CLIP标签（tags）和可靠的元数据（时间/地点）。叙述者不是被拍摄的人，所以我必须用观察者的记",
+        "paragraphs": [
+          "提供的证据是JSON格式，但用户说“use only the supplied BLIP captions, CLIP tags and reliable time/location metadata”。所以，我需要提取：",
+          "- BLIP captions：每个照片的描述（caption）",
+          "- CLIP tags：每个照片的标签（tags）",
+          "- Reliable time/location metadata：每个照片的可靠时间（reliable_time）和地点（location）",
+          "从JSON中：",
+          "1. Photo 1: caption=\"a room with a red carpet\", tags=[\"indoor\", \"travel\", \"wedding\"], time=\"2026-07-04T10:51:57\", location=\"Eminoenue, Istanbul, TR\"",
+          "2. Photo 2: caption=\"a large building with a large dome on top\", tags=[\"architecture\", \"travel\", \"weather\"], time=\"2026-07-04T10:59:21\", location=\"Eminoenue, Istanbul, TR\"",
+          "3. Photo 3: caption=\"a group of people walking down a cobbed street\", tags=[\"architecture\", \"mall\", \"travel\"], time=\"2026-07-04T14:56:05\", location=\"Eminoenue, Istanbul, TR\"",
+          "4. Photo 4: caption=\"a large body of water\", tags=[\"architecture\", \"city\", \"travel\"], time=\"2026-07-04T19:04:55\", location=\"Eminoenue, Istanbul, TR\"",
+          "5. Photo 5: caption=\"a bridge over the water\", tags=[\"boat\", \"sunset\", \"travel\"], time=\"2026-07-04T19:56:17\", location=\"UEskuedar, Istanbul, TR\"",
+          "6. Photo 6: caption=\"a bridge over a body of water with a sunset in the background\", tags=[\"boat\", \"sunset\", \"travel\"], time=\"2026-07-04T19:56:26\", location=\"UEskuedar, Istanbul, TR\"",
+          "注意：地点有拼写错误？\"Eminoenue\" 可能是 \"Eminönü\"（Istanbul的一个区域），\"UEskuedar\" 可能是 \"Üsküdar\"（Istanbul的另一个区域）。在中文中，我应该用标准中文地名，但用户说“use only the supplied”，所以保持原样或用中文音译？用户指定用中文写回忆录，所以地名可以音译成中文。例如，Eminönü 可能译为“埃米诺努”或类似，但为了准确，我应该用通用中文地名。在中文中，Istanbul 常译为“伊斯坦布尔”，Eminönü 是“伊斯坦布尔的埃米诺努区”，Üsküdar 是“乌斯克达”。但用户说“reliable time/location metadata”，所以我应该用提供的字符串。或许在回忆录中，用中文描述地名。",
+          "目标是220-360中文字符。我需要计算字符数。",
+          "作为观察者，叙述者看到这些场景。不能说“我看到他们结婚了”，因为不能推断身份。只能描述：我看到一个房间有红色地毯，我注意到一个大建筑有圆顶，等等。",
+          "时间序列：从10:51开始，到19:56结束。地点：前四个在Eminönü，后两个在Üsküdar（可能拼写错误，但用原样）。",
+          "在中文中，写回忆录。",
+          "结构：",
+          "- 开头：简短标题（一行）",
+          "- 然后散文：开头描述第一个场景，然后时间流逝，描述后续场景。结尾克制：不解释原因，只描述观察。",
+          "避免：不能说“我注意到他们在婚礼上”，因为标签有wedding，但不能推断身份。所以，只说“我看到一个房间有红色地毯”。",
+          "时间：2026-07-04，是未来日期，但回忆录是过去事件，所以用“那天”或具体时间。",
+          "在中文中，时间可以描述为“上午10点51分”等。",
+          "字符数：目标220-360中文字符。中文字符是汉字、标点等。",
+          "草拟内容：",
+          "标题：例如“伊斯坦布尔的午后”",
+          "然后：那天上午10点51分，我注意到伊斯坦布尔的埃米诺努区有一间房间铺着红色地毯。随后，10分多钟后，我看到一座大建筑顶着圆顶。下午2点56分，一群人在石板路上行走。傍晚6点4分，我瞥见一片水域。最后，在19点56分左右，我看到一座桥横跨水面，夕阳映照。",
+          "但需要更流畅，避免列表式。",
+          "检查时间：photo1: 1"
+        ]
+      }
+    },
+    {
+      "review_index": 11,
+      "case_token": "49ea54ccad45914595b3",
+      "track": "creative",
+      "language": "en",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "trustworthiness"
+      ],
+      "photo_paths": [
+        "IMG_5605.jpg"
+      ],
+      "story_a": {
+        "title": "Waterfall Gathering",
+        "paragraphs": [
+          "I first noticed people standing near a waterfall on a clear day.",
+          "The group stands in front of the waterfall, some wearing jackets, hats, gloves, boots, scarves, and sunglasses, while others carry backpacks and cameras. They walk along a path, looking at the cascade, and a few take pictures as they gather to enjoy the view.",
+          "I watch them move away, the water continuing its flow."
+        ]
+      },
+      "story_b": {
+        "title": "We are given a single photo with a caption and tags, and reliable time and location metadata.",
+        "paragraphs": [
+          "Important: We cannot infer identity, relationship, purpose, or cause. We don't know who the people are, why they are there, etc.",
+          "Steps:\n 1. Start with a short title on its own line (e.g., \"Winter Waterfall View\")\n 2. Write flowing prose (140-230 words) with an opening and restrained ending.\n 3. Use only the supplied information: we don't have multiple photos, so we focus on this one event.\n 4. Avoid caption-list phrasing and generic poetic clichés.",
+          "What we can say:\n   - I saw a group of people standing in front of a waterfall in Vestmannaeyjar, Iceland on January 20, 2026 at 1:38 PM.\n   - The tags include \"snow\", so we can mention that it was snowy (but note: the caption doesn't say snow, but the tag does). However, the problem says: \"Use only the supplied BLIP captions, CLIP tags and reliable time/location metadata\". So we can use the tags as part of the observer's memory? But note: the instruction says \"Do not infer identity, relationship, purpose or cause\". We are allowed to use the tags as descriptive elements? The tags are provided as part of the evidence.",
+          "However, the problem says: \"Use only the supplied BLIP captions, CLIP tags and reliable time/location metadata\". So we can use the tags to describe what the observer noticed? But note: the tags are \"snow\", \"travel\", \"waterfall\". We have to be careful not to overstep.",
+          "Since the observer is not confirmed as a photographed person, we can say: I noticed the group of people standing in front of a waterfall in Vestmannaeyjar, Iceland on that day and time. And we can mention the snow because it's a tag? But the caption doesn't mention snow. However, the tags are provided as part of the evidence. The problem says: \"Use only the supplied ...\". So we can use the tags as part of the observer's memory? But note: the instruction says \"Do not infer\". We are not inferring, we are using the provided tags.",
+          "However, the problem states: \"The narrator is not confirmed as a photographed person: use observer memory such as I saw or I noticed\". So we can say: I noticed the group of people standing in front of a waterfall, and the tags (which are part of the evidence) tell us that it was snowy? But wait: the tags are for the photo, so the observer might have seen snow? Actually, the tags are metadata that the system has. We are the observer, so we can only describe what we saw. But the problem says: \"Use only the supplied ...\". So we have to be cautious.",
+          "Let me re-read: \"Use only the supplied BLIP captions, CLIP tags and reliable time/location metadata\". So we can use the tags as part of the description? But note: the tags are not what the observer saw, they are the system's tags. However, the problem says: \"reliable time/location metadata\" and the tags are provided as part of the evidence. We are to write as if we are an observer who has this evidence? Actually, the problem says: \"observer memoir\" meaning the observer is writing about what they saw, but they have access to this evidence?",
+          "Clarification: The problem says \"The narrator is not confirmed as a photographed person\". So the narrator is an observer who has seen this event and now is writing about it. But the evidence we have is from a photo. So the narrator might have seen the photo? Or the narrator is a witness?",
+          "However, the problem says: \"Do not claim that the narrator performed a photographed action\". So the narrator is not the one in the photo.",
+          "Approach: We write as if the narrator is a person who was present at the location at that time? But the problem says: \"The narrator is not confirmed as a photographed person\". So we don't know if the narrator was there. We have to be careful.",
+          "The problem says: \"use observer memory such as I saw or I noticed\". So we can say: I saw a group of people standing in front of a waterfall in Vestmannaeyjar, Iceland on January 20, 2026 at 1:38:38 PM. And we can mention the snow because the tag says \"snow\", but note: the tag is for the photo. However, the problem says: \"Use only the supplied ...\". So we can say that the scene included snow? But the caption doesn't say snow.",
+          "Since the problem says: \"Do not infer\", we must not add anything that isn't in the evidence. The evidence has a tag \"snow\", so we can say: I noticed the scene was snowy? But wait, the tag is \"snow\", so we can use that as a fact"
+        ]
+      }
+    },
+    {
+      "review_index": 12,
+      "case_token": "37ce9a8dbfa113422949",
+      "track": "faithful",
+      "language": "en",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "DSCF0009.JPG",
+        "DSCF0011.JPG",
+        "IMG_4591.jpg",
+        "DSCF0066.JPG",
+        "DSCF0098.JPG",
+        "DSCF0106.JPG",
+        "IMG_4605.jpg",
+        "IMG_4606.jpg"
+      ],
+      "story_a": {
+        "title": "Event 1: December 16, 2025",
+        "paragraphs": [
+          "At 12:01:30, a white clock tower surrounded by trees was captured in the first photograph. The scene includes a person walking on the sidewalk, a bench placed in the park, and a car parked on the street. By 12:03:21, the same location shows a tree with no leaves, a person sitting on a bench wearing a coat, and a clear sky with blue clouds.",
+          "At 12:06:42, a table with a plate of food and a glass of water was observed in Levallois-Perret, Ile-de-France, France. The person wearing a sweater and scarf sits at the table, eating food and drinking water from a glass.",
+          "At 12:33:35, a man stands in front of the Arc de Triomphe, wearing sunglasses and a jacket, with his shadow extending across the monument and the surrounding buildings.",
+          "Between 13:02:36 and 13:05:42, a statue of a man on a horse is visible in the background, with the archway featuring columns and detailed reliefs depicting battle scenes. A man stands on a ledge, wearing sunglasses and a jacket, facing the camera.",
+          "At 14:02:17, a statue of a man on a horse is again captured, this time with the person wearing a hat and holding a sword, riding a horse on stone ground near the archway. A near-duplicate photograph shows the same scene with minimal differences."
+        ]
+      },
+      "story_b": {
+        "title": "We are given a JSON object with a label and a list of photos. Each photo has a caption, tags, reliable_time, and locatio",
+        "paragraphs": [
+          "Steps:\n 1. The label is \"2025-12-16 · Event 1\", so we can use that as the date for the diary entry.\n 2. We have 8 photos. We need to write a coherent story that connects them in chronological order (by reliable_time).\n 3. The time stamps are in ISO format (e.g., \"2025-12-16T12:01:30\"). We can sort by time.",
+          "Let's sort the photos by reliable_time:",
+          "Photo 1: 2025-12-16T12:01:30 -> \"a large white clock tower surrounded by trees\"\n  Photo 2: 2025-12-16T12:03:21 -> \"a tree with no leaves\"\n  Photo 3: 2025-12-16T12:06:42 -> \"a table with a plate of food and a glass of water\" (location: Levallois-Perret)\n  Photo 4: 2025-12-16T12:33:35 -> \"a man standing in front of a tall building\"\n  Photo 5: 2025-12-16T13:02:36 -> \"a statue of a man on a horse\"\n  Photo 6: 2025-12-16T13:05:42 -> \"a man standing on a ledge\"\n  Photo 7: 2025-12-16T14:02:17 -> \"a statue of a man on a horse\" (location: Levallois-Perret)\n  Photo 8: 2025-12-16T14:02:27 -> \"a statue of a man on a horse\" (location: Levallois-Perret)",
+          "Note: Photos 5, 7, and 8 are all about the same statue (a man on a horse) but at different times and locations (only 7 and 8 have location).",
+          "We are to write a warm personal photo diary entry. So we should describe the day as if we were there.",
+          "Idea for the story:\n - Start at 12:01:30: I see a clock tower in a park (with trees) -> maybe in a city park?\n - Then at 12:03:21: I notice a tree without leaves (could be winter or early spring? but the date is Dec 16, 2025 -> winter in the northern hemisphere)\n - Then at 12:06:42: I'm at a table with food and water in Levallois-Perret (a suburb of Paris). So I might have eaten lunch there?\n - Then at 12:33:35: I'm in front of a tall building (maybe the same area? Levallois-Perret is near Paris, so it could be a building in the city)\n - Then at 13:02:36: I see a statue of a man on a horse (this is likely a famous statue, e.g., in Paris? But note: Levallois-Perret is a commune in the Paris region. There's a famous statue of a man on a horse in Paris? Actually, the equestrian statue of Napoleon in Paris is one of the most famous, but it's in the Place de la Concorde. However, Levallois-Perret has its own parks and monuments. Alternatively, it could be a local statue.)\n - Then at 13:05:42: I'm standing on a ledge (maybe a bridge or a building ledge)\n - Then at 14:02:17 and 14:02:27: I'm back at the same statue (the same statue) in Levallois-Perret? But note: the time is 14:02, so about 1 hour and 10 minutes after the previous one.",
+          "However, the problem says: \"connect the supplied photo descriptions into a readable memory\". We don't have to be too literal, but we should make it flow.",
+          "Let's try to write a story that makes sense:",
+          "I'm in Levallois-Perret (a suburb of Paris) on a cold December day. The clock tower is from the city center? But the location for the food is Levallois-Perret, so we can set the story there.",
+          "Alternatively, the clock tower might be in Paris (the city) and then I traveled to Levallois-Perret? But the time stamps are close (within 1 hour) so it's a short trip.",
+          "Since the problem says \"warm personal\", we can write as if I'm a tourist or a local.",
+          "Plan:",
+          "Title: \"A Day in Levallois-Perret\"",
+          "Then the diary entry:",
+          "I woke up early on December 16th, 2025, and headed out to explore the quiet streets of Levallois-Perret. By 12:01, I was standing in front"
+        ]
+      }
+    },
+    {
+      "review_index": 13,
+      "case_token": "077751e2d77e15f05254",
+      "track": "faithful",
+      "language": "zh",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "IMG_3536.JPG",
+        "IMG_3566.JPG",
+        "IMG_3585.JPG",
+        "IMG_3587.JPG",
+        "IMG_3589.JPG",
+        "IMG_3591.JPG"
+      ],
+      "story_a": {
+        "title": "Okay, let's tackle this query. The user wants a warm personal photo diary entry in Chinese, using first-person prose. Th",
+        "paragraphs": [
+          "First, I'll check the time and location. All photos are from Knaresborough, England, on 2025-09-21. The times are sequential: 10:38, 10:49, 10:56, 10:57, 11:09, 11:10. So the diary should flow from morning to early afternoon.",
+          "Looking at the captions and tags. The first photo is a train crossing a bridge over a river. Tags: landscape, train, travel. Then a man on a park bench with tags artwork, bicycle, sports. Next, a man in a suit with camera, mountains, selfie. Then a castle with clock tower (city, concert, travel). Then river with boats and bridge, and river with boats again.",
+          "Hmm, the castle part is a bit confusing because Knaresborough is a town in England, not a city with a castle. Maybe it's a local landmark? The user says to use the provided data, so I shouldn't question the location. The tags for the castle photo include \"city\", which might be a mistake, but I'll go with it.",
+          "I need to create a narrative that connects these moments. The user wants it warm and personal. Start with a title on its own line. Then the diary entry in Chinese.",
+          "Let me structure the timeline:",
+          "10:38: Train crossing bridge over river (landscape, travel)\n10:49: Man on park bench (artwork, bicycle, sports)\n10:56: Man in suit taking selfie (camera, mountains, selfie)\n10:57: Castle with clock tower (city, concert, travel)\n11:09: River with boats and bridge\n11:10: River with boats",
+          "Wait, the castle photo's location is Knaresborough, which is a town, but the caption says \"a large castle with a clock tower\". Maybe it's the Knaresborough Castle? Or perhaps a mislabeling. But the user says to use the provided data, so I'll proceed.",
+          "The challenge is to make the diary flow naturally. Maybe the person is walking around Knaresborough, taking photos at different times.",
+          "Start with the train: \"清晨的Knaresborough，火车从桥上驶过...\" but the time is 10:38, so morning. Wait, 10:38 is early morning? Maybe in the UK, 10:38 AM is morning.",
+          "Wait, the user wants Chinese. So I need to write in Chinese.",
+          "Let me think of the story. Maybe the person is a tourist or local visiting Knaresborough. They took photos at different spots.",
+          "First photo: Train crossing bridge over river. So maybe they were near the river, saw the train.",
+          "Then at 10:49, sitting on a park bench. Maybe the park is near the river.",
+          "Then 10:56, man in suit taking selfie. Maybe they were taking a selfie with mountains in the background? But Knaresborough is in the UK, which has hills, but mountains might be a bit far. Hmm, but the tags say \"mountains\" for that photo.",
+          "Then 10:57, castle with clock tower. Knaresborough has a castle? Let me check... Actually, Knaresborough has a historic castle, but it's not a large one. Maybe the photo is of the town's clock tower.",
+          "Then river with boats and bridge (11:09), then river with boats (11:10).",
+          "So the narrative could be: Walking around Knaresborough, taking photos of the river, train, park, and the castle.",
+          "The diary entry should be warm, personal. Maybe the person is reflecting on the day.",
+          "Start with a title: 2025年9月21日·Knaresborough的晨光",
+          "Then the entry in Chinese.",
+          "Let me draft:",
+          "清晨的Knaresborough，火车从桥上呼啸而过，水声与铁轨的震动透过脚底传来。我坐在河畔的长椅上，看一位骑着单车的老人在公园里慢跑，阳光把他的影子拉得老长。十点五十六分，我举起相机，山峦在镜头里温柔地起伏，而自己却成了最渺小的风景。十点五十七分，远处的城堡钟楼在薄雾中若隐若现，仿佛在低语着千年的故事。直到十一点，河水载着小船缓缓流淌，桥影与波光交织成一首无声的诗。",
+          "Wait, but the times are 10:38, 10:49, 10:56, 10:57, 11:09, 11:10. So the entry should mention the sequence.",
+          "Wait, the user wants the diary entry to connect the photos into a readable memory. So the entry should be a coherent story that flows through the times.",
+          "Let me check the tags again. The second photo has tags \"artwork\", \"bicycle\", \"sports\". So maybe the park bench is where someone is doing sports, like cycling.",
+          "The third photo: man in a suit, tags \"camera\", \"mountains\", \"selfie\". So he's taking a selfie with mountains in the background.",
+          "Fourth photo: castle with clock tower"
+        ]
+      },
+      "story_b": {
+        "title": "2025-09-21 · Event 3",
+        "paragraphs": [
+          "2025年9月21日10时38分41秒，Knaresborough英格兰地区，一座石桥横跨河流，一列火车正驶过桥面。",
+          "2025年9月21日10时49分16秒，Knaresborough英格兰地区，公园长椅上一位男子佩戴眼镜、手表和耳机，朝镜头做出点赞手势。",
+          "2025年9月21日10时56分20秒，Knaresborough英格兰地区，一位穿西装的男子站在石桥栏杆旁，低头凝视桥下水流。",
+          "2025年9月21日10时57分34秒，Knaresborough英格兰地区，一座钟楼矗立在城堡中央，周围可见行人与自然景观。",
+          "2025年9月21日11时09分30秒至11时10分35秒，Knaresborough英格兰地区，河流上多艘船只停泊，桥下有行人交谈，河面倒映着桥梁结构。"
+        ]
+      }
+    },
+    {
+      "review_index": 14,
+      "case_token": "6d64d5583b49acf45e96",
+      "track": "faithful",
+      "language": "zh",
+      "source_kind": "single",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "gradient.jpg"
+      ],
+      "story_a": {
+        "title": "Okay, let's tackle this query. The user wants a warm personal photo diary entry in Chinese, using first-person prose. Th",
+        "paragraphs": [
+          "First, I need to make sure I understand the task. The diary entry should be a short, personal memory based on the photo description. Since there's no time or location, I have to be creative but keep it realistic. The tags are elderly, games, sports. So the photo probably shows an elderly person playing a game or sport.",
+          "The user specified to start with a short title on its own line. Then the diary entry in Chinese. No JSON output, no evidence citations. Just the diary entry.",
+          "Wait, the example response they gave earlier (in the problem statement) shows a title like \"秋日的午后\" followed by the diary text. So I need to follow that structure.",
+          "Let me think about the content. The photo is of an elderly person involved in games or sports. Maybe a game like chess, or a sport like badminton? But since it's elderly, maybe something less intense. The tags are games and sports, so perhaps a casual activity.",
+          "The diary entry should be warm and personal. So I need to write in first person, describing a memory related to the photo. Since the time and location aren't specified, I can use generic terms like \"某个秋日的下午\" (a certain autumn afternoon) or \"去年秋天\" (last autumn).",
+          "Wait, the user said \"connect the supplied photo descriptions into a readable memory\". The photo has a caption \"an image\", which is a bit vague. But the tags give clues. Let's try to make up a plausible memory.",
+          "For example: Maybe the person is playing a game with an elderly friend, or participating in a sports event. Since it's elderly, perhaps a traditional game like mahjong, or a simple sport like walking.",
+          "Wait, the tags are \"elderly\", \"games\", \"sports\". So maybe the elderly person is playing a game that's considered a sport, like badminton, or a traditional game.",
+          "Let me draft a possible entry. Start with a title. Then the diary text.",
+          "Title: 秋日的午后",
+          "Diary entry: \"去年秋天，阳光暖融融的午后，我坐在老槐树下，和爷爷一起玩着老式羽毛球。他那双布满皱纹的手握着球拍，动作却轻快得像小时候一样。球拍划过空气的声响，和他爽朗的笑声，成了我记忆里最温暖的回响。\"",
+          "Wait, but the photo is a single image. The tags are elderly, games, sports. So maybe the person is playing a game with an elderly person. The entry should be a memory that the photo represents.",
+          "Wait, the user says \"connect the supplied photo descriptions into a readable memory\". So the photo is part of a memory. The diary entry should be a short entry that describes the memory that the photo captures.",
+          "Since the time and location are null, I can use a generic time and place. For example, \"去年秋天\" (last autumn) and \"老街的巷口\" (old street corner).",
+          "Let me check if the Chinese is correct. The phrase \"老式羽毛球\" is \"old-style badminton\", but maybe it's better to use a game that's more common for elderly, like mahjong or table tennis. Alternatively, maybe a simple game like skipping rope.",
+          "Wait, the tags are games and sports, so maybe a sport like jogging or walking. But the photo is a single image, so perhaps a specific moment.",
+          "Another angle: The elderly person is playing a game that's considered a sport, like a traditional Chinese game. For example, \"丢手绢\" (passing handkerchief game) is a traditional game for children, but maybe the elderly are playing it as a memory game.",
+          "Alternatively, the person is playing chess, which is a game but not a sport. Hmm.",
+          "Wait, the user's example response in the problem statement (the previous example) used \"羽毛球\" (badm'ton), so maybe that's acceptable.",
+          "Let me try to write the entry.",
+          "Title: 秋日的午后",
+          "Then the text: \"去年秋天，阳光暖融融的午后，我坐在老槐树下，和爷爷一起玩着老式羽毛球。他那双布满皱纹的手握着球拍，动作却轻快得像小时候一样。球拍划过空气的声响，和他爽朗的笑声，成了我记忆里最温暖的回响。\"",
+          "Wait, but the photo's caption is \"an image\", so maybe it's a single person? The tags are elderly, games, sports. So maybe the photo is of an elderly person playing a game alone.",
+          "Wait, the problem says \"connect the supplied photo descriptions into a readable memory\". So the memory should be based on the photo. If the photo is of an elderly person playing games/sports, then the memory could be about that person doing that activity.",
+          "But the user's example response (the previous one) had a title and then the text. Let me check the example they gave in the problem statement.",
+          "Wait, the user provided a JSON with a single photo. The task is to write one short diary entry from these photos.",
+          "Wait, the user says: \"Write one short diary entry from these photos: { ... }\"",
+          "So the answer should be a title followed by the diary entry in Chinese.",
+          "Let me make sure the Chinese is natural. The phrase \"老式羽毛球\" might not be the best term. Maybe \"羽毛球\" is just \"badminton\", and \"老式\" means old-style"
+        ]
+      },
+      "story_b": {
+        "title": "单张照片笔记1",
+        "paragraphs": [
+          "2023年8月17日9时58分54秒，一张纸张上清晰呈现的数独谜题。该数独网格包含数字、规则说明、难度提示及解题指引，同时标注了日期、作者信息和解题方法。纸张表面可见手写文字，内容涉及数独的解题步骤与基础规则。"
+        ]
+      }
+    },
+    {
+      "review_index": 15,
+      "case_token": "dd3e7c28422b71dddd01",
+      "track": "creative",
+      "language": "zh",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "trustworthiness"
+      ],
+      "photo_paths": [
+        "DSCF0219.JPG",
+        "IMG_4844.jpg",
+        "IMG_4845.jpg",
+        "DSCF0225.JPG",
+        "IMG_4855.jpg",
+        "IMG_4862.jpg",
+        "IMG_4863.jpg",
+        "IMG_4875.jpg",
+        "DSCF0302.JPG",
+        "IMG_4877.jpg",
+        "IMG_4878.jpg",
+        "DSCF0323.JPG"
+      ],
+      "story_a": {
+        "title": "首先，用户要求我创建一个第一人称的观察者回忆录（observer memoir）的中文版本。关键点是：使用提供的BLIP标题（captions）、CLIP标签（tags）和可靠的元数据（time/location）。叙述者不是被拍摄的人，所",
+        "paragraphs": [
+          "提供的证据是JSON格式，但用户说“use only the supplied BLIP captions, CLIP tags and reliable time/location metadata”。所以，我需要从JSON中提取：",
+          "- BLIP captions：每个照片的描述（caption）",
+          "- CLIP tags：每个照片的标签（tags）",
+          "- reliable_time：可靠的时间",
+          "- location：位置",
+          "时间序列：从2025-12-18T12:19:53开始，到2025-12-18T16:25:43结束。所有照片都在同一天（2025-12-18），但位置有巴黎（Paris, Ile-de-France, FR）和null（无位置）。",
+          "关键点：叙述者是观察者，不是被拍摄的人。所以，我不能说“我吃披萨”；只能说“我看到一个有水果的披萨”。",
+          "目标字符数：220-360个中文字符。中文字符计数：每个汉字、标点、空格都算。我需要确保字数在范围内。",
+          "结构：",
+          "1. 开头：一个简短的标题（在单独一行）",
+          "2. 然后：流畅的散文，开头和克制的结尾。",
+          "内容：基于时间顺序描述观察到的事件。",
+          "时间线：",
+          "- 12:19:53：披萨有水果（dessert, fruits, vegetables）— 位置null",
+          "- 12:36:27：食物盘子有刀叉（dessert, food, Western food）— 位置Paris",
+          "- 13:06:05：旗帜在天空上（airplane, birds, sky）— 位置Paris",
+          "- 13:28:19：男人雕像在彩绘玻璃窗前（artwork, indoor, travel）— 位置null",
+          "- 13:30:50：教堂的大型彩绘玻璃窗（architecture, artwork, travel）— 位置Paris",
+          "- 13:37:43：骑士雕像（artwork, indoor, travel）— 位置Paris",
+          "- 13:37:54：大型彩绘玻璃窗（artwork, indoor, travel）— 位置Paris",
+          "- 14:58:36：有钟的大型教堂（architecture, sky, travel）— 位置Paris",
+          "- 14:59:36：有钟的大型建筑（architecture, artwork, travel）— 位置null",
+          "- 15:50:40：顶部有钟的大型建筑（artwork, concert, travel）— 位置Paris",
+          "- 16:15:40：人举着手机（phone, selfie, travel）— 位置Paris",
+          "- 16:25:43：人站在人行道上（birds, boat, city）— 位置null",
+          "作为观察者，我需要描述我看到的，而不指定谁在做什么。例如：",
+          "- \"我注意到12:19时，一个有水果的披萨。\"",
+          "但不能说“我吃披萨”；只能是“我看到”。",
+          "克制的结尾：不要过度解释；保持中性。",
+          "避免：caption-list phrasing（不要像列表一样描述），避免通用的诗意陈词滥调（如“时光如梭”）。",
+          "目标：220-360中文字符。",
+          "先写标题：简短，比如“巴黎午后观察” 或类似。中文标题。",
+          "然后散文：开头描述第一个事件，然后时间顺序，但要流畅，不是按时间点罗列。",
+          "由于时间很接近（12:19到16:25），可以描述为一天中的下午。",
+          "关键：位置：大部分在巴黎，但有些null。我不能推断位置；只说“巴黎”或“某处”。",
+          "在描述中，用“我注意到”开头。",
+          "草拟内容：",
+          "标题：巴黎街角记忆",
+          "然后：我注意到2025年12月18日中午12点19分，一个水果披萨的景象。随后，12点36分，巴黎街角的餐盘旁有刀叉。下午1点06分，天空中飘着旗帜。接着，教堂的彩绘玻璃窗和骑士雕像在13点28分后陆续出现。14点58分，一座钟楼教堂矗立，15点50分，建筑顶部的钟声隐约可闻。最后，16点15分，有人举起手机，16点25分，人行道上的人影渐远。",
+          "但需要检查字符数和避免推断。",
+          "确保不声称叙述者执行动作：例如，不说“我吃披萨”，只说“我看到披萨”。",
+          "在时间中，用“我注意到”或“我看见”。",
+          "克制的结尾：例如，“街角的光影在记忆中淡去。”",
+          "目标字符"
+        ]
+      },
+      "story_b": {
+        "title": "街角的时光碎片",
+        "paragraphs": [
+          "我总在街角的咖啡店外驻足，看时间如何被风轻轻推着走。",
+          "那家咖啡店的玻璃门后，有人正吃着水果披萨，手指沾着光滑的酱汁，另一只手却稳稳托着一杯冰凉的水果奶昔，玻璃窗映出他低头看窗外的剪影。",
+          "风卷起落叶，又轻轻放下，像时间在街角打了个转。",
+          "天空中飘着一面三色旗，云层被风拉成细长的丝带，缓缓地向远方延伸。",
+          "云影掠过教堂的尖顶，把光线切成细碎的金屑。",
+          "教堂的彩绘玻璃窗里，骑士雕像的影子投在石墙上，而窗内流动的光影正将宗教故事的色彩一层层剥开，仿佛时间在玻璃上缓缓流淌。",
+          "街角的长椅上，一个穿黑外套的人低头看着手机屏幕，画面里是她沿着树影小径走远的背影，夕阳把天空染成淡紫色。",
+          "街角的咖啡店，依旧安静地等风来。风一吹，时间就又回到起点。"
+        ]
+      }
+    },
+    {
+      "review_index": 16,
+      "case_token": "66332c696eec745ce7f7",
+      "track": "faithful",
+      "language": "en",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "IMG_2671.JPG",
+        "DHBP1187.JPG",
+        "IMG_2674.JPG"
+      ],
+      "story_a": {
+        "title": "We are given a JSON object with a label and a list of photos. Each photo has a caption, tags, reliable_time, and locatio",
+        "paragraphs": [
+          "Steps:\n 1. Extract the key information from the photos:\n    - All photos have the same date: 2025-08-13 (the label says \"Event 1\")\n    - The first photo: \n        caption: \"a table with bowls of food and a plate of limes\"\n        tags: [\"Chinese food\", \"food\", \"Western food\"]\n        time: 2025-08-13T11:56:20\n        location: \"Tonghe, Guangdong, CN\"\n    - Second photo:\n        caption: \"a table with a variety of food on it\"\n        tags: [\"Chinese food\", \"food\", \"vegetables\"]\n        time: 2025-08-13T11:56:41\n        location: null\n    - Third photo:\n        caption: \"a plate with a fork and a bowl of food\"\n        tags: [\"Chinese food\", \"food\", \"fruits\"]\n        time: 2025-08-13T12:37:04\n        location: \"Tonghe, Guangdong, CN\"",
+          "2. We note that the first and third photos have the same location (Tonghe, Guangdong, CN) and the second photo has no location.",
+          "3. The time progression: \n      first photo: 11:56:20\n      second photo: 11:56:41 (very close, almost simultaneous)\n      third photo: 12:37:04 (about 40 minutes later)",
+          "4. We are to write a warm personal diary entry. We'll create a narrative that flows from the first photo to the second and then to the third.",
+          "5. Since the second photo has no location, we can assume it's taken at the same place as the first (because the first and third have the same location and the second is very close in time to the first).",
+          "6. The diary should be in first person and warm.",
+          "7. Start with a short title on its own line.",
+          "8. We don't output JSON and don't add evidence citations.",
+          "Plan for the diary entry:",
+          "Title: Maybe something like \"A Day of Shared Meals in Tonghe\"",
+          "Then the body:",
+          "I was sitting at a table in Tonghe, Guangdong, when I noticed the bowls of food and the plate of limes on the table. The limes were a little bit of a surprise, but they made me smile. Then, just a few seconds later, I saw the table was already filled with a variety of dishes — fresh vegetables, colorful Chinese food, and even a hint of Western influence in the way the food was arranged. By the time I got up to get a fork and a bowl of food, it was about an hour later, and the table was still full of delicious meals. I felt so happy to be sharing this moment with my family and friends.",
+          "However, we have to be careful: the second photo was taken at 11:56:41 (just 21 seconds after the first) and the third at 12:37:04 (about 40 minutes later). So the narrative should reflect that the second photo was taken almost immediately after the first, and then the third photo was taken later.",
+          "Let's write it more naturally:",
+          "Title: \"Tonghe Table Time\"",
+          "Body:",
+          "Today in Tonghe, Guangdong, I was sitting at a table with a plate of limes and bowls of food. The limes were a little bit of a surprise, but they made me smile. Then, just a few seconds later, I looked around and saw the table was already filled with a variety of dishes — fresh vegetables, colorful Chinese food, and even a hint of Western influence in the way the food was arranged. By the time I got up to get a fork and a bowl of food, it was about 40 minutes later, and the table was still full of delicious meals. I felt so happy to be sharing this moment with my family and friends.",
+          "But note: the third photo has a plate with a fork and a bowl of food. So we can say that I was eating.",
+          "Let me adjust to be more precise and warm.",
+          "Alternative:",
+          "I found myself at a table in Tonghe, Guangdong, on August 13th, 2025. At around 11:56, I saw bowls of food and a plate of limes. Then, just a few seconds later, the table was already overflowing with a variety of dishes — fresh vegetables, Chinese food, and even some Western touches. By the time I reached for a fork and a bowl of food at 12:37, the meal was still warm and full of life. It was such a simple, happy moment.",
+          "However, the problem says: \"Do not output JSON and do not add evidence citations\". So we just write the diary.",
+          "Let's write a concise and warm entry.",
+          "Final draft:",
+          "Title: \"Tonghe Table Time\"",
+          "Body:",
+          "Today in Tonghe, Guangdong, I was sitting at a table with bowls of food and a plate of limes. Just a few seconds later, the table was already filled with a variety of dishes — fresh vegetables, colorful Chinese food, and even a hint of Western influence. By the time I got up to take"
+        ]
+      },
+      "story_b": {
+        "title": "Lunch at a Tonghe Restaurant",
+        "paragraphs": [
+          "On August 13, 2025, at 11:56:20, a person was seated at a table in Tonghe, Guangdong, China, with bowls of food and a plate of limes. The individual wore a shirt, jacket, pants, shoes, earrings, a bracelet, a ring, a necklace, and sunglasses, and was using chopsticks to eat while holding a phone and wearing a watch.",
+          "At 11:56:41, the same person was observed sitting at a table with a variety of food, including dim sum and tea, while eating, drinking, and sharing a meal with a friend. The person was wearing a mask and engaged in activities such as tasting, smelling, and enjoying the food, posting on social media, and laughing.",
+          "At 12:37:04, the person was seen holding a plate with a fork and a bowl of food that resembled a bear with red eyes and a white nose, resting on a white plate with a silver patterned rim."
+        ]
+      }
+    },
+    {
+      "review_index": 17,
+      "case_token": "5c3eac365466be4836be",
+      "track": "faithful",
+      "language": "en",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "IMG_3597.JPG",
+        "IMG_3598.JPG",
+        "IMG_3600.JPG",
+        "IMG_3602.JPG",
+        "IMG_3605.JPG",
+        "IMG_3606.JPG"
+      ],
+      "story_a": {
+        "title": "We are given a set of photos with captions, tags, reliable time, and location. All photos are from Knaresborough, Englan",
+        "paragraphs": [
+          "Steps:\n 1. Start with a short title on its own line (e.g., \"A Day in Knaresborough\")\n 2. Write a warm, personal diary entry in first person.",
+          "Approach:\n - We have 6 photos taken in the same day and location (Knaresborough) over a short period (from 12:39 to 13:08).\n - The photos show: \n      a) Bridge over a river (with boats in the water) at 12:39:48 and 12:39:51 (very close in time)\n      b) A grassy field with a bench (12:50:39)\n      c) A tree with brown leaves (12:53:01)\n      d) A row of houses (12:56:34)\n      e) A group of people sitting on a bench in a square (13:08:21)",
+          "- We can create a narrative that flows from the early morning (or early afternoon) to the late afternoon.",
+          "Idea for the diary entry:\n   Start at the bridge (the first two photos are very close together, so we can say we were there at the start of the day).\n   Then move to the field with the bench (a bit later).\n   Then the tree (a short time after).\n   Then the row of houses (a bit later).\n   Finally, the group of people on the bench in the square (the last photo).",
+          "We want to make it warm and personal. We can imagine the narrator is walking around Knaresborough.",
+          "Let's write:",
+          "Title: \"A Knaresborough Afternoon\"",
+          "Then the entry:",
+          "\"Today in Knaresborough was a gentle rhythm of quiet moments. I started by crossing the bridge over the river at around noon, the water chuckling with the occasional boat passing by. The sun was warm but not too harsh, and I felt the light breeze as I walked along the riverbank.",
+          "Soon after, I found myself in a grassy field with a bench waiting for me. I sat down for a moment, watching the tree with its brown leaves sway in the breeze. It was a small, quiet scene that made me pause.",
+          "Then I wandered past a row of houses, their rooftops catching the afternoon light. By the time I reached the square, I was joined by a group of people sitting on a bench, sharing stories and laughter. It was a simple day, but the moments felt precious.\"",
+          "However, note: the last photo is at 13:08:21, which is about 20 minutes after the first photo (12:39:48). So we have a timeline.",
+          "Let's adjust to be more precise and warm.",
+          "Revised entry:",
+          "\"A Knaresborough Afternoon",
+          "Today, the sun was just right for a walk in Knaresborough. I started at the bridge over the river at 12:39 — the water was quiet, with a few boats gliding past. I kept walking, and by 12:50 I found a grassy field with a bench. I sat down for a moment, watching the tree with its brown leaves rustle in the breeze.",
+          "Then, as the afternoon grew, I passed a row of houses with their quiet charm. By 1:08, I was in the square where a group of friends was sitting on a bench, sharing stories and the warmth of the day. It was a simple, peaceful afternoon that I’ll remember.\"",
+          "But note: the problem says \"do not add evidence citations\" and we are to write a warm personal photo diary.",
+          "Let's make it even more personal and flowing.",
+          "Final version:",
+          "Title: \"A Knaresborough Afternoon\"",
+          "Entry:\n \"Today in Knaresborough was a gentle rhythm of quiet moments. I started at the bridge over the river at around 12:39 — the water was quiet, with a few boats gliding past. I kept walking, and by 12:50 I found a grassy field with a bench. I sat down for a moment, watching the tree with its brown leaves sway in the breeze.",
+          "Then, as the afternoon grew, I passed a row of houses and eventually reached the square where a group of friends was sitting on a bench, sharing stories and laughter. It was a simple day, but the moments felt precious.\"",
+          "However, the problem says: \"connect the supplied photo descriptions into a readable memory\". We have to be careful not to add extra details that aren't in the photos.",
+          "Let's check the photos:",
+          "- The first two photos: bridge over river (with boats) -> so we say \"a few boats gliding past\"\n   - The third photo: grassy field with a bench -> we have that\n   - The fourth: tree with brown leaves -> we have that\n   - The fifth: row of houses -> we have that\n   - The sixth: group of people sitting on a bench in a square -> we have that",
+          "We don't have any specific details beyond what's in the captions and tags.",
+          "We'll write in a way that the timeline is clear and the photos are connected.",
+          "Let's write it as one continuous memory.",
+          "Important: The diary entry should be short (one entry).",
+          "Final draft:",
+          "Title: \"A Knaresborough Afternoon\"",
+          "Today in Knaresborough was a gentle rhythm of quiet moments. I"
+        ]
+      },
+      "story_b": {
+        "title": "Knaresborough Bridge and Park Walk",
+        "paragraphs": [
+          "On September 21, 2025, at 12:39:48, a bridge spans a river in Knaresborough, England, with houses visible on the hillside and people gathering at a dock. Boats are anchored nearby, umbrellas are propped at tables, and trees line the riverbank. Clouds float in the sky, reflecting the water.",
+          "At 12:50:39, a grassy field with a bench in the center is observed, surrounded by trees and a clear sky. The field stretches into the distance with scattered flowers and bushes, and a path winds through the green space.",
+          "At 12:56:34, a row of houses with chimneys and gardens is captured on a hillside path, with streetlights and cars visible in the background.",
+          "At 13:08:21, a group of people sits on a bench in a square, with a dog lying on the ground nearby."
+        ]
+      }
+    },
+    {
+      "review_index": 18,
+      "case_token": "4ff5d9fe80aa8c1b136c",
+      "track": "faithful",
+      "language": "en",
+      "source_kind": "date",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "IMG_3533.JPG",
+        "IMG_3535.JPG",
+        "IMG_3536.JPG",
+        "IMG_3566.JPG",
+        "IMG_3585.JPG",
+        "IMG_3587.JPG",
+        "IMG_3589.JPG",
+        "IMG_3591.JPG",
+        "IMG_3596.JPG",
+        "IMG_3597.JPG",
+        "IMG_3598.JPG",
+        "IMG_3600.JPG",
+        "IMG_3602.JPG",
+        "IMG_3605.JPG",
+        "IMG_3606.JPG"
+      ],
+      "story_a": {
+        "title": "We are given a set of photos with captions, tags, and reliable time/location metadata for the date 2025-09-21.",
+        "paragraphs": [
+          "Steps:\n 1. Start with a short title on its own line (e.g., \"A Day in Leeds and Knaresborough\")\n 2. Then write the diary entry in first person, weaving together the photos in the order of time (from earliest to latest) to form a coherent memory.",
+          "Important: \n   - We have the time stamps in the photos (reliable_time) and location. We note that the first photo is at 08:28:21 in Leeds, and the rest are in Knaresborough (with some time stamps in the afternoon).\n   - The diary should be warm and personal.",
+          "Let's list the photos in chronological order by their reliable_time:",
+          "1. 2025-09-21T08:28:21: Leeds, England, GB -> \"a pan of food with a wooden spoon\" (dessert, food, Western food)\n  2. 2025-09-21T09:06:06: Leeds, England, GB -> \"a street with a clock tower in the background\" (architecture, city, street)\n  3. 2025-09-21T10:38:41: Knaresborough, England, GB -> \"a train crossing a bridge over a river\" (landscape, train, travel)\n  4. 2025-09-21T10:49:16: Knaresborough, England, GB -> \"a man sitting on a bench in a park\" (artwork, bicycle, sports) [Note: tags seem odd but we go by the caption]\n  5. 2025-09-21T10:56:20: Knaresborough, England, GB -> \"a man in a suit\" (camera, mountains, selfie) [Note: tags are a bit odd but we use the caption]\n  6. 2025-09-21T10:57:34: Knaresborough, England, GB -> \"a large castle with a clock tower in the middle\" (city, concert, travel) [Note: Knaresborough has a castle? Actually, Knaresborough is a town in Yorkshire with a historic castle, but the description says \"a large castle\"]\n  7. 2025-09-21T11:09:30: Knaresborough, England, GB -> \"a river with boats and a bridge in the background\" (bag, family, travel)\n  8. 2025-09-21T11:10:35: Knaresborough, England, GB -> \"a river with boats\" (boat, concert, travel)\n  9. 2025-09-21T11:53:55: Knaresborough, England, GB -> \"a plate of food on a table\" (food, vegetables, Western food)\n  10. 2025-09-21T12:39:48: Knaresborough, England, GB -> \"a bridge over a river\"\n  11. 2025-09-21T12:39:51: Knaresborough, England, GB -> \"a bridge over a river with boats in the water\"\n  12. 2025-09-21T12:50:39: Knaresborough, England, GB -> \"a grassy field with a bench in the middle\"\n  13. 2025-09-21T12:53:01: Knaresborough, England, GB -> \"a tree with brown leaves\"\n  14. 2025-09-21T12:56:34: Knaresborough, England, GB -> \"a row of houses\"\n  15. 2025-09-21T13:08:21: Knaresborough, England, GB -> \"a group of people sitting on a bench in a square\"",
+          "How to weave into a diary entry?\n   - Start early morning in Leeds (the first photo) -> then move to Knaresborough in the morning (the train photo at 10:38) and then the rest of the day.",
+          "Idea for the story:\n   - I woke up early in Leeds (8:28) and was cooking breakfast (the pan of food).\n   - Then I went for a walk in Leeds (the street with clock tower at 9:06).\n   - Then I took a train to Knaresborough (the train crossing the bridge at 10:38) and spent the rest of the day there.",
+          "We can create a narrative that flows:",
+          "\"Today started in Leeds with a simple breakfast: a pan of food with a wooden spoon. By the time I got to the clock tower in the city, it was just after nine, and the morning light was perfect. Then, I took the train to Knaresborough, where I spent the rest of the day exploring"
+        ]
+      },
+      "story_b": {
+        "title": "A Day in Leeds and Knaresborough",
+        "paragraphs": [
+          "At 8:28 AM on September 21, 2025, a black pan sits on a white table in Leeds, England, containing a cooked egg with a smear of red ketchup on the wooden spoon.",
+          "By 9:06 AM, the observer notes a street scene in Leeds with a clock tower in the background, where a person walks along the sidewalk wearing a coat and hat.",
+          "From 10:38 AM to 11:10 AM, the observer moves to Knaresborough, England, where a train crosses a stone bridge over a river, and people walk along a shaded path through trees.",
+          "At 11:53 AM, the observer returns to Knaresborough to find a plate on a table with a sandwich, fries, salad, soup, meat, tomato, and cucumber.",
+          "Between 12:39 PM and 1:08 PM, the observer observes a river with boats and bridges in Knaresborough, where people gather at docks, walk paths, and sit on benches in grassy fields."
+        ]
+      }
+    },
+    {
+      "review_index": 19,
+      "case_token": "21aeb739ba6b896a645f",
+      "track": "creative",
+      "language": "en",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "trustworthiness"
+      ],
+      "photo_paths": [
+        "IMG_5331.jpg",
+        "IMG_5335.jpg",
+        "IMG_5340.jpg",
+        "IMG_5856.jpg",
+        "DSCF0644.JPG",
+        "DSCF0692.JPG",
+        "DSCF0730.JPG",
+        "IMG_5372.jpg"
+      ],
+      "story_a": {
+        "title": "We are creating an observer memoir in first person, but the narrator is not confirmed as a photographed person.",
+        "paragraphs": [
+          "Steps:\n 1. Start with a short title on its own line.\n 2. Write flowing prose (140-230 words) with an opening and restrained ending.\n 3. Use only the provided information: the captions and the time/location metadata.\n 4. Avoid listing captions as a list. Weave them into the narrative.\n 5. Do not use evidence IDs or JSON.",
+          "Important: The narrator is an observer, so we say \"I saw\" or \"I noticed\" for what we observed.",
+          "Let's note the time and location for each photo:",
+          "- 2026-01-19T11:42:26: rainbow over mountain with snow (Hoefn, East, IS)\n - 2026-01-19T11:42:34: rainbow over road in mountains (Hoefn, East, IS)\n - 2026-01-19T11:48:51: large pile of rocks (Hoefn, East, IS)\n - 2026-01-19T11:49:43: man standing on beach holding kite (Hoefn, East, IS) [Note: beach? But location is Hoefn, East, IS? This seems odd. We have to use the given location as is.]\n - 2026-01-19T12:03:04: person climbing mountain with ice (location null)\n - 2026-01-19T12:35:14: man standing on rock next to large iceberg (location null)\n - 2026-01-19T12:51:23: person reaching up to sky (location null)\n - 2026-01-19T13:08:27: mountain with snow (Hoefn, East, IS)",
+          "However, note: the location for the first four is \"Hoefn, East, IS\" (which is a place in Iceland? IS is Iceland). But the fifth and beyond have null location.",
+          "We have to be careful: the observer is not the person in the photos. We are an external observer.",
+          "Approach for the narrative:\n - We can set the scene at Hoefn, East, Iceland on January 19, 2026.\n - We note the time progression: from 11:42 to 13:08.",
+          "But note: the photos are taken at different times and locations. We have to be truthful about what we saw.",
+          "We cannot say: \"I saw a man holding a kite on the beach\" because the location is given as Hoefn, East, IS. But Hoefn is in Iceland? And beaches in Iceland? Maybe it's a mistake in the data? We have to use the data as given.",
+          "However, the instruction says: use only the supplied BLIP captions, CLIP tags and reliable time/location metadata.",
+          "So we'll write about what we saw at the times and places.",
+          "Important: We cannot claim the narrator did anything. We are an observer.",
+          "Let's try to write a narrative that flows:",
+          "Title: \"Icelandic Skywatch\"",
+          "Then the prose:",
+          "I remember the early morning in Hoefn, East, Iceland on January 19th, 2026. The sky was clearing by 11:42 when I saw a rainbow arcing over the snow-capped mountains. Just seconds later, another rainbow appeared above a winding road in the same valley. By 11:49, I noticed a large pile of rocks near the same spot, and then a man standing on what looked like a beach holding a kite — though the location tag said Hoefn, East, IS, which was confusing. Later that day, at 12:03, I saw someone climbing a snowy mountain, and by 12:35, a man stood on a rock near a massive iceberg. At 12:51, a person reached upward toward the sky. By afternoon, the mountains were still covered in snow, as I observed from Hoefn.",
+          "But wait: the last photo (13:08) is at Hoefn, East, IS. So we can tie it to the morning.",
+          "However, we have to be restrained and not infer too much.",
+          "Let's count words and adjust to 140-230.",
+          "Revised to be more precise and avoid the beach confusion (since the location is Hoefn, East, IS, which is in Iceland, and beaches in Iceland are not typical for Hoefn? But we have to use the data).",
+          "We'll write:",
+          "Title: \"Hoefn Skywatch\"",
+          "I saw a rainbow over snow-dusted mountains at 11:42 in Hoefn, East, Iceland. Moments later, another rainbow spanned the road ahead. By 11:49, a large rock pile stood near the same area, and I noticed a man on what appeared to be a beach holding a kite. Later, at 12:03, someone climbed a snowy mountain. Then, at 12:35, a man stood on a rock close to an iceberg. At"
+        ]
+      },
+      "story_b": {
+        "title": "Shifting Light",
+        "paragraphs": [
+          "I first saw the rainbow after the snow melted, a moment that felt both vast and small.",
+          "A rainbow arched over a snow-dusted mountain, its colors soft against the pale sky. The road ran through the valley, water flowing steadily beneath it, while the hill stood still in the distance.",
+          "I saw the sun move slowly across the landscape, warming the ice and the earth.",
+          "Later, I noticed a large pile of rocks near the shore where ice clusters glinted under the sun. A man stood on the beach, holding a kite that seemed to catch the light, his face turned toward the camera with quiet focus.",
+          "I noticed the ice begin to glow with the sun’s reflection as the light faded.",
+          "That afternoon, I watched a person climb a snowy slope, their shadow stretching long against the ice. Nearby, another man stood on a rock beside a massive iceberg, its blue surface reflecting the sky, while someone else raised their arms toward the heavens, their silhouette merging with the clouds.",
+          "By dusk, the mountains were draped in snow, their peaks hidden beneath a layer of green forest, the sky a soft blue as the light shifted.",
+          "Now, I see the same sky—wide and changing—where the rainbow once appeared."
+        ]
+      }
+    },
+    {
+      "review_index": 20,
+      "case_token": "39514b4b192bfe08c015",
+      "track": "creative",
+      "language": "zh",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "trustworthiness"
+      ],
+      "photo_paths": [
+        "IMG_5238.jpg",
+        "IMG_5245.jpg"
+      ],
+      "story_a": {
+        "title": "水声",
+        "paragraphs": [
+          "我站在河岸，水声从远处传来，像一串细碎的铃铛。",
+          "河水在石缝间奔流，水花溅起时泛着细碎的光，远处瀑布的轰鸣与近处水滴的轻响交织成一片。",
+          "水声依旧，只是此刻我听见了自己呼吸的节奏。"
+        ]
+      },
+      "story_b": {
+        "title": "首先，用户要求创建一个第一人称的观察者回忆录（observer memoir）用中文。关键点是：只使用提供的BLIP标题（caption）、CLIP标签（tags）和可靠的元数据（时间/地点）。叙述者不是被拍摄的人，所以要用观察者的记忆，比",
+        "paragraphs": [
+          "提供的证据是：\n- 标签：Creative evaluation case 03\n- 照片：\n  1. 标题：\"a river with a waterfall in the middle\"，标签：[\"landscape\", \"travel\", \"waterfall\"]，可靠时间：\"2026-01-18T12:58:09\"，地点：\"Selfoss, South, IS\"\n  2. 标题：\"a river with a waterfall in the middle\"，标签：[\"landscape\", \"snow\", \"waterfall\"]，可靠时间：\"2026-01-18T12:58:57\"，地点：\"Selfoss, South, IS\"",
+          "我需要提取关键信息：\n- 时间：两个照片的时间很接近（12:58:09 和 12:58:57），相差约48秒。\n- 地点：Selfoss, South, IS（这应该是冰岛的Selfoss，南边）。\n- 标题：都是“a river with a waterfall in the middle”（一条河中间有瀑布）。\n- 标签：第一个有\"landscape\", \"travel\", \"waterfall\"；第二个有\"landscape\", \"snow\", \"waterfall\"。所以，第二个照片有雪的元素。",
+          "作为观察者，我不能说“我看到瀑布”，因为叙述者不是被拍摄的人。我应该用“我注意到”或“我看到”来描述场景。例如：“我注意到一条河中间有瀑布”。",
+          "关键点：\n- 不能推断身份：叙述者是谁？不能说“我是一个旅行者”，因为标签有\"travel\"，但不能推断叙述者是旅行者。标签是\"travel\"，但叙述者可能不是旅行者；我只能描述场景。\n- 不能推断目的：为什么在那儿？不能说“我来旅行”。\n- 不能推断原因：为什么有雪？不能说“因为天气冷”。\n- 不能使用证据ID：所以不要提\"Creative evaluation case 03\"。\n- 开头：简短标题（一行）\n- 然后散文：开头和克制的结尾。目标220-360中文字符。",
+          "结构散文：\n- 开头：描述场景，基于时间、地点、标题和标签。\n- 由于时间很接近，可以描述两个瞬间：第一个照片（12:58:09）和第二个（12:58:57），但要自然。\n- 地点：Selfoss, South, IS – 冰岛的Selfoss市，南边。在中文中，可以写成“冰岛塞尔福斯南”或简化为“冰岛塞尔福斯”。\n- 标签：第二个有\"snow\"，所以可能有雪景。\n- 用中文写：要流畅、自然。",
+          "草拟标题：例如“冰岛河畔的瞬间”",
+          "散文内容：\n- 开头：我注意到在冰岛塞尔福斯附近，一条河中间有瀑布。\n- 时间：两个照片时间很近，所以可以说“在12月18日中午12点58分左右”（但时间格式是2026-01-18，所以是2026年1月18日）。\n- 但用户说“reliable_time”是2026-01-18，所以是2026年1月18日。\n- 在中文中，日期可以写成“2026年1月18日中午12点58分”。\n- 第二个照片有雪，所以描述雪景。\n- 不能说“我拍了照片”，因为叙述者不是被拍摄的人；要强调观察。\n- 例如：“我注意到，2026年1月18日中午12点58分，冰岛塞尔福斯南边，一条河中间有瀑布。几秒后，雪片飘落，河面泛起白雾。”",
+          "检查字符数：目标220-360中文字符。",
+          "避免陈词滥调：不要用“如诗如画”之类。",
+          "克制的结尾：不要太长，要结束在观察点。",
+          "完整草稿：\n标题：冰岛河畔的瞬间",
+          "正文：我注意到2026年1月18日中午12点58分，冰岛塞尔福斯南边，一条河中间有瀑布。几秒后，雪片飘落，河面泛起白雾。这短暂的景象，水声与风声交织，却无人驻足。",
+          "计算字符：\n- 标题：4个字（冰岛河畔的瞬间） – 但中文字符：冰(1)岛(1)河(1)畔(1)的(1)瞬(1)间(1) = 7个字符？等一下，中文字符计"
+        ]
+      }
+    },
+    {
+      "review_index": 21,
+      "case_token": "325f710e79c5d47594fb",
+      "track": "faithful",
+      "language": "zh",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "informativeness",
+        "evidence_consistency"
+      ],
+      "photo_paths": [
+        "135.jpg",
+        "136.jpg",
+        "137.jpg",
+        "138.jpg",
+        "140.jpg",
+        "144.jpg",
+        "145.jpg",
+        "148.jpg",
+        "150.jpg",
+        "151.jpg",
+        "152.jpg",
+        "153.jpg",
+        "154.jpg",
+        "155.jpg"
+      ],
+      "story_a": {
+        "title": "事件照片记录",
+        "paragraphs": [
+          "开头的照片组按可靠时间保存了画面中可直接观察的场景与物体。",
+          "随后的一组照片记录了可见的人物、物体与周围环境，不加入额外解释。",
+          "中间的照片组保留了所选画面中能够直接核查的视觉内容。",
+          "接下来的图像继续按时间记录可观察的环境与物体信息。",
+          "最后一组照片以画面中可见的场景内容结束这段记录。"
+        ]
+      },
+      "story_b": {
+        "title": "Okay, let's tackle this query. The user wants a warm personal photo diary entry in Chinese, using first-person prose. Th",
+        "paragraphs": [
+          "First, I'll check the date: 2026-07-12. All photos are from that day. The timestamps go from 21:23 to 21:50. So the diary should be a single night, maybe around 9 PM to 10 PM.",
+          "Looking at the captions and tags. The first photo is someone reaching into a bathroom sink. Tags: clothing, indoor, shoes. Then a blur of walking down a hallway (office, room). Next, playing Wii. Wait, the Wii is a video game console, so maybe the person is gaming. Then holding a dish rack in the kitchen. Then standing with a white shirt. Then multiple shots of typing on a laptop, sitting at a desk, using a laptop. Also, reaching into a toilet, holding a phone and sandwich.",
+          "Hmm, the tags have some inconsistencies. For example, the third photo says \"birds\" and \"pets\" but the caption is playing Wii. Maybe that's a mistake in the tags, but the user said to use the supplied data. I should focus on the captions and reliable times.",
+          "I need to create a narrative that flows through the night. Start with the bathroom sink (21:23), then hallway (21:24), then Wii game (21:31), kitchen dish rack (21:32), white shirt (21:34), then desk with laptop (21:38 onwards). Then toilet (21:42), phone and sandwich (21:44), more typing (21:45-21:47), and ending with sitting at desk.",
+          "Wait, the user wants a warm, personal diary. So the tone should be nostalgic, maybe a bit messy but cozy. The person is probably working or studying, gaming, eating, etc.",
+          "Let me try to order the events chronologically based on timestamps:",
+          "1. 21:23: Reaching into bathroom sink (clothing, shoes)\n2. 21:24: Walking down hallway (office, room)\n3. 21:31: Playing Wii\n4. 21:32: Holding dish rack in kitchen\n5. 21:34: Standing with white shirt\n6. 21:38: Sitting at desk with laptop\n7. 21:39: Typing on laptop\n8. 21:42: Reaching into toilet\n9. 21:44: Holding phone and sandwich\n10. 21:45-21:47: Typing on laptop\n11. 21:49: Sitting at desk with laptop\n12. 21:50: Sitting at desk with laptop",
+          "So the story starts with a quick bathroom routine, then moves to the kitchen, then gaming, then desk work. Maybe the person is a student or office worker who's multitasking.",
+          "In Chinese, the diary should be in first person. Start with a title like \"2026年7月12日的深夜小记\" or something warm.",
+          "I need to make it flow naturally. Maybe the person is preparing for a night of work, gaming, then eating a sandwich while working.",
+          "Wait, the \"holding a sandwich\" photo is at 21:44, so maybe they're eating a sandwich while working. The toilet photo might be after eating, but the timeline shows 21:42 (toilet) then 21:44 (sandwich). Hmm, maybe the person is in a hurry.",
+          "But the diary should be warm, so focus on the cozy moments. Maybe the person is a student who's studying, gaming, and eating snacks.",
+          "Let me draft the diary entry in Chinese.",
+          "Start with the title: 2026年7月12日的深夜小记",
+          "Then the body: Describe the night from the first photo onwards. Mention the bathroom, hallway, gaming, kitchen, then desk work. Use the timestamps to show the progression.",
+          "For example:",
+          "“2026年7月12日的深夜小记",
+          "夜已深，我刚从浴室里出来，水珠顺着指尖滑落。手指还沾着洗洁精的凉意，却忍不住想先去客厅玩会儿Wii。客厅的走廊里，影子被灯光拉得细长，我匆匆穿过，鞋尖还沾着水渍。",
+          "（21:23）",
+          "Wii的按键声在客厅里响起，游戏画面在屏幕上跳跃。厨房的水槽边，我正把洗好的碗碟摆回架上，白衬衫的袖口还沾着一点水渍。",
+          "（21:32）",
+          "接着，我坐在书桌前，键盘的敲击声和屏幕的微光成了这间小屋的唯一节奏。指尖在键盘上飞舞，偶尔抬头，瞥见桌上那半块三明治——是昨晚剩下的，还带着一点温热的香气。",
+          "（21:44）",
+          "夜色渐深，我终于放下手机，把最后一口三明治咽下。窗外的月光悄悄爬上窗台，而我的屏幕，依旧亮着。”",
+          "Wait, but the user said to connect the photos into a readable memory. Need to make sure the timeline is accurate. The first photo is 21:23, then 21:"
+        ]
+      }
+    },
+    {
+      "review_index": 22,
+      "case_token": "06225cbea135e0c277dd",
+      "track": "creative",
+      "language": "zh",
+      "source_kind": "single",
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "trustworthiness"
+      ],
+      "photo_paths": [
+        "IMG_3691.JPG"
+      ],
+      "story_a": {
+        "title": "一碗饭的温度",
+        "paragraphs": [
+          "我坐在窗边，看窗外的雨滴在玻璃上蜿蜒。这碗饭的温度，总让我想起小时候。",
+          "桌上摆着一盘米饭和肉，青菜点缀其中，木勺静静倚在盘边。白瓷盘映着灰桌，米粒泛着微光，肉块泛着棕褐色，青菜绿意盎然。",
+          "雨停了，碗里的饭还温着。我忽然明白，有些温度，是时间留下的余温。"
+        ]
+      },
+      "story_b": {
+        "title": "首先，用户要求创建一个第一人称的观察者回忆录（observer memoir）用中文。关键点是：只使用提供的BLIP标题、CLIP标签和可靠的元数据。元数据是：时间是2025-09-26T17:41:47，地点是Leeds, England",
+        "paragraphs": [
+          "用户指定了：\n- 叙述者不是被拍摄的人：使用观察者的记忆，如“我看到”或“我注意到”。\n- 不要声称叙述者执行了被拍摄的动作。\n- 不要推断身份、关系、目的或原因。\n- 不要使用证据ID或JSON。\n- 以简短的标题开头（单独一行），然后是流畅的散文，有开头和克制的结尾。\n- 目标字符数：220–360个中文字符。\n- 避免标题列表的表述和通用的诗意陈词滥调。",
+          "提供的证据：\n- 标签：Creative evaluation case 01\n- 照片：caption是“a plate of food with rice and meat”，tags是[\"Chinese food\", \"food\", \"vegetables\"]，可靠时间：2025-09-26T17:41:47，地点：Leeds, England, GB",
+          "我需要创建一个第一人称的观察者回忆录。既然是观察者，我不能说“我吃”或“我做了什么”，只能描述我看到的。例如，“我注意到一个盘子上有米饭和肉”。",
+          "关键点：\n- 用中文写。\n- 标题：简短，单独一行。\n- 内容：流畅的散文，开头和克制的结尾。\n- 字符数：220–360个中文字符（注意：中文字符计数，每个汉字算一个字符）。\n- 避免：不要推断身份、关系等；只基于给定的元数据和caption。",
+          "从元数据：\n- 时间：2025-09-26T17:41:47（2025年9月26日17:41:47）\n- 地点：Leeds, England, GB（英国利兹）",
+          "Caption：a plate of food with rice and meat → 一个盘子上有米饭和肉\nTags：Chinese food, food, vegetables → 中餐、食物、蔬菜",
+          "作为观察者，我可以说：我看到在利兹的某个地方，一个盘子上有米饭和肉，可能还有蔬菜（因为tags有vegetables）。",
+          "但不能推断：不能说“这是中餐”，因为tags是“Chinese food”，但作为观察者，我不能确认是中餐；我只能描述我看到的。用户说“不要推断身份、关系、目的或原因”，所以我要小心。",
+          "用户说：“Do not infer identity, relationship, purpose or cause.” 所以，我不能说“这是中餐”，因为tags是“Chinese food”，但作为观察者，我应该基于看到的描述，而不添加解释。",
+          "在回忆录中，我可以用观察者的语言：例如，“我注意到一个盘子上摆着米饭和肉，旁边似乎有蔬菜。”",
+          "但要克制：结尾要克制，不添加太多。",
+          "结构：\n1. 标题：简短，如“利兹街角” 或 “2025年9月26日的观察” – 但要自然。\n2. 开头：描述我看到的场景。\n3. 结尾：克制，可能以时间或地点结束。",
+          "目标字符数：220–360中文字符。",
+          "先草拟内容。",
+          "标题：例如 “利兹的午后” （Leeds afternoon）",
+          "内容：我注意到在利兹的街道旁，一个盘子上盛着米饭和肉，旁边散落着几片蔬菜。时间是2025年9月26日下午5点41分。",
+          "但要避免具体时间：用户说“reliable_time”是2025-09-26T17:41:47，我可以转换为中文时间格式。",
+          "在中文中，时间可以写成“2025年9月26日17:41”。",
+          "但要克制：不要过度描述。",
+          "关键：不要说“我吃”或“我做了什么”。只说“我看到”。",
+          "例如：我看到一个盘子上摆着米饭和肉，旁边有几片蔬菜。地点在利兹，时间是2025年9月26日17:41。",
+          "但要流畅。",
+          "避免通用陈词：如“夕阳西下”等。",
+          "目标：220–360字符。",
+          "计算字符：中文字符每个算一个。",
+          "草拟：",
+          "标题：利兹街角",
+          "内容：2025年9月26日17:41，我注意到利兹的一处街角，一个盘子上盛着米饭和肉，旁边散落着几片蔬菜。这景象在午后时分显得格外平凡。",
+          "检查字符数：先写出来。",
+          "在中文中，数字和时间：2025年9月26日17:41 – 这算字符。",
+          "\"我注意到利兹的一处街角\" – 大约5个字。",
+          "\"一个盘子上盛着米饭和肉\" – 6个字。",
+          "\"旁边散落着几片蔬菜\" – 5个字。",
+          "\"这景象在午后时分显得格外平凡\" – 7个字。",
+          "总字数：约23字。但目标220-36"
+        ]
+      }
+    },
+    {
+      "review_index": 23,
+      "case_token": "acc657122a5bddb70fc7",
+      "track": "creative",
+      "language": "zh",
+      "source_kind": "event",
+      "dimensions": [
+        "coherence",
+        "personalization",
+        "trustworthiness"
+      ],
+      "photo_paths": [
+        "IMG_6695.jpg",
+        "IMG_6696.jpg",
+        "IMG_6697.jpg",
+        "IMG_6698.jpg",
+        "IMG_6699.jpg",
+        "IMG_6700.jpg",
+        "IMG_6721.jpg",
+        "IMG_6725.jpg",
+        "IMG_6728.jpg"
+      ],
+      "story_a": {
+        "title": "首先，用户要求我创建一个第一人称的观察者回忆录（observer memoir）的中文版本。关键点是：使用提供的BLIP标题（captions）、CLIP标签（tags）和可靠的元数据（time/location）。叙述者不是被拍摄的人，所",
+        "paragraphs": [
+          "提供的证据是JSON格式，但用户说“use only the supplied BLIP captions, CLIP tags and reliable time/location metadata”。所以，我需要提取：",
+          "- BLIP captions：每个照片的描述（caption）",
+          "- CLIP tags：每个照片的标签（tags）",
+          "- Reliable time and location：每个照片的可靠时间（reliable_time）和位置（location）",
+          "所有照片的location都是“Venice, Veneto, IT”，时间在2026-04-23T15:21:37到2026-04-23T16:51:02之间。",
+          "我需要将这些信息转化为一个第一人称的观察者回忆录。叙述者是观察者，不是被拍摄的人。所以，我不能说“我看到一个火车停在车站”，而是要写成“我注意到一辆火车停在车站”。",
+          "关键规则：",
+          "- 不要声称叙述者执行了被拍摄的动作：例如，不能说“我坐了火车”，因为照片是火车停着的，叙述者可能只是看到它。",
+          "- 不要推断身份、关系、目的或原因：所以，不能说“我看到一个朋友在车站”，因为没有证据表明是谁。",
+          "- 开头：简短标题（一行）",
+          "- 然后流畅的散文：有开头和克制的结尾（不拖沓）",
+          "- 字符数：220-360中文字符（注意：中文字符计数，每个汉字算一个字符）",
+          "- 避免标题列表的表述：意思是不要用列表形式，要写成连贯的段落。",
+          "- 避免通用的诗意陈词滥调：比如“时光如梭”之类的。",
+          "首先，提取关键信息：",
+          "- 时间：2026年4月23日（从时间戳推断，但要写成自然语言）",
+          "- 地点：威尼斯，意大利（Venice, Veneto, IT）",
+          "- 事件序列：",
+          "- 15:21:37：火车停在车站",
+          "- 15:40:12：船在城市运河中航行",
+          "- 15:40:33：船在城市运河中航行（类似）",
+          "- 15:40:38：船在城市运河中航行（类似）",
+          "- 16:09:26：船在城市运河中航行",
+          "- 16:09:30：运河有船和建筑物",
+          "- 16:35:43：大型建筑周围有很多人",
+          "- 16:50:48：一只白鸟站在水中的岩石上",
+          "- 16:51:02：鸟在水中",
+          "我需要将这些时间点整合成一个连贯的叙述。既然是观察者回忆，时间顺序很重要。",
+          "目标是220-360中文字符。我得计算字符数。",
+          "先草拟标题：简短标题。例如：“威尼斯的午后观察” 或 “威尼斯时光片段”。但要自然。",
+          "然后散文：开头描述看到火车，然后船，然后建筑，最后鸟。时间从早到晚。",
+          "避免推断：不能说“我看到一个游客在购物”，因为照片是“大型建筑周围有很多人”，但标签有“mall”，所以是商场。但不能推断目的，所以只说“人很多”。",
+          "克制的结尾：不结束在鸟上，而是暗示一个平静的结束。",
+          "结构：",
+          "1. 标题：一行",
+          "2. 开头：我注意到在威尼斯的某个时间点，火车停着。",
+          "3. 然后：随着时间推移，看到船在运河中。",
+          "4. 之后：运河有建筑。",
+          "5. 然后：商场周围人多。",
+          "6. 最后：鸟在水中。",
+          "结尾要克制：例如，“水波轻漾，鸟影渐远” 但避免陈词滥调。",
+          "确保字符数：目标220-360中文字符。",
+          "先写草稿。",
+          "标题：威尼斯午后",
+          "然后：2026年4月23日，我注意到威尼斯的火车在站台停驻。随后，运河中船只缓缓驶过，水波轻拍着石岸。约莫半小时后，我瞥见运河两岸的建筑与船只交织，人群在商场前流动。最后，一只白鸟立于水石，静默中融入暮色。",
+          "计算字符数：中文字符。",
+          "在中文中，每个汉字、标点都算一个字符。",
+          "草稿：",
+          "威尼斯午后",
+          "2026年4月23日，我注意到威尼斯的火车在站台停驻。随后，运河中船只缓缓驶过，水波轻拍着石岸。约莫半小时后，我瞥见运河两岸的建筑与船只交织，人群在商场前流动。最后，一只白鸟立于水石，静默中"
+        ]
+      },
+      "story_b": {
+        "title": "城市角落的流动",
+        "paragraphs": [
+          "我站在城市边缘，看时间在铁轨与水道间缓缓流动。",
+          "铁轨旁的站台静止着，列车停在站台尽头，站牌上印着模糊的站名，天空的光线穿过站台顶棚的缝隙，映在干净的地板上。",
+          "水道的波纹与铁轨的寂静在远处悄然交汇，仿佛时间在两个方向同时呼吸。",
+          "水道中，小船轻摇着划过桥下，岸边有行人走过人行道，有人坐在长椅上，水面上倒映着桥梁的轮廓，水流轻轻推动着船身。",
+          "船影掠过桥面时，站台的光线也微微晃动，像一场无声的对话。",
+          "船继续前行，水面上的阳光被反射，偶尔有另一艘船从旁经过，岸边的建筑在水边投下阴影，船身载着人影缓缓移动。",
+          "商场前人潮涌动，行人穿着各色衣物，有人低头看手机，有人抬头望向建筑，水边的白鸟站在岩石上，水波轻轻拍打着岸边。",
+          "站台的站牌与水边的白鸟，都静止在流动的街景里，成为城市呼吸的节拍。"
+        ]
+      }
+    }
+  ]
+}

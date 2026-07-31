@@ -1,0 +1,133 @@
+{
+  "ollama_used": false,
+  "qwen_used": false,
+  "channel": "scene_graph",
+  "query_count": 3,
+  "all_passed": true,
+  "elapsed_ms": 27600.312,
+  "checks": [
+    {
+      "query": "person wearing jacket",
+      "elapsed_ms": 27186.864,
+      "result_count": 3,
+      "passed": true,
+      "results": [
+        {
+          "photo_id": "019acd0a-a9d2-429b-9489-8108b5f5c8a7",
+          "relative_path": "IMG_4071.JPG",
+          "score": 1.0,
+          "matched_scene_graph_triples": [
+            "person wear jacket"
+          ],
+          "modalities": [
+            "scene_graph"
+          ]
+        },
+        {
+          "photo_id": "093c27b5-c430-4301-b471-79daf0524268",
+          "relative_path": "IMG_6251.jpg",
+          "score": 0.983871,
+          "matched_scene_graph_triples": [
+            "person wear jacket"
+          ],
+          "modalities": [
+            "scene_graph"
+          ]
+        },
+        {
+          "photo_id": "0d46336a-475a-4b26-bde6-7f5ae3d0267a",
+          "relative_path": "IMG_6298.jpg",
+          "score": 0.968254,
+          "matched_scene_graph_triples": [
+            "person wear jacket"
+          ],
+          "modalities": [
+            "scene_graph"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "tree beside road",
+      "elapsed_ms": 94.658,
+      "result_count": 3,
+      "passed": true,
+      "results": [
+        {
+          "photo_id": "45980745-de4d-48a2-ac01-05720e5fe1a1",
+          "relative_path": "IMG_3846.JPG",
+          "score": 1.0,
+          "matched_scene_graph_triples": [
+            "tree near cathedral"
+          ],
+          "modalities": [
+            "scene_graph"
+          ]
+        },
+        {
+          "photo_id": "72bb70ef-8b44-4099-81c9-929b8341cf19",
+          "relative_path": "IMG_4738.jpg",
+          "score": 0.983871,
+          "matched_scene_graph_triples": [
+            "tree grow nearby"
+          ],
+          "modalities": [
+            "scene_graph"
+          ]
+        },
+        {
+          "photo_id": "657d988b-853a-425e-8e25-14418c64a90a",
+          "relative_path": "IMG_8989.jpg",
+          "score": 0.968254,
+          "matched_scene_graph_triples": [
+            "trees line sidewalk"
+          ],
+          "modalities": [
+            "scene_graph"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "building with windows",
+      "elapsed_ms": 84.641,
+      "result_count": 3,
+      "passed": true,
+      "results": [
+        {
+          "photo_id": "d1d665d1-c285-43cd-80bc-b770f379ff00",
+          "relative_path": "IMG_4796.jpg",
+          "score": 1.0,
+          "matched_scene_graph_triples": [
+            "building have windows"
+          ],
+          "modalities": [
+            "scene_graph"
+          ]
+        },
+        {
+          "photo_id": "fd87ecea-290c-46d8-a7fa-11c534a5bae3",
+          "relative_path": "DSCF0158.JPG",
+          "score": 0.983871,
+          "matched_scene_graph_triples": [
+            "building have windows"
+          ],
+          "modalities": [
+            "scene_graph"
+          ]
+        },
+        {
+          "photo_id": "299b8dfa-13a9-4706-8248-89f5900608d2",
+          "relative_path": "DSCF0011.JPG",
+          "score": 0.968254,
+          "matched_scene_graph_triples": [
+            "building have windows"
+          ],
+          "modalities": [
+            "scene_graph"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+失败/未生成照片审查清单 (48 张)
+复制到: E:\leeds\smart-photo-narrative\outputs\failed_review
+====================================================================================================
+
+[ 11] IMG_5274.jpg         status=query_generation_error words=18 attempts=2 repair=True
+      Wide cascading waterfall flowing through dark rocky canyon with snow-dusted foreground and frozen ice formations on cliff walls
+      photo_id=0900eecd-e927-457e-8efd-8214f7a84a16
+
+[ 15] IMG_7146.jpg         status=query_generation_error words=15 attempts=2 repair=True
+      Sunset view of suspension bridge with sun shining through tower and golden reflection on water
+      photo_id=0c1efa10-69af-479b-a18d-5e86f2bbbdf3
+
+[ 18] IMG_4794.jpg         status=query_generation_error words=23 attempts=2 repair=True
+      White marble statue of standing bearded man with raised right hand, flanked by two reclining figures on gray pedestal against solid orange wall
+      photo_id=0d98335a-e9b8-4284-b1bc-f6341acdbf3c
+
+[ 25] IMG_4293.JPG         status=query_generation_error words=21 attempts=2 repair=True
+      Open blue rectangular tub of white ice cream with circular indentation and scooped side sitting on desk next to laptop keyboard
+      photo_id=1454b07a-5c43-44d8-b746-2714534493db
+
+[ 28] IMG_5238.jpg         status=query_generation_error words=28 attempts=2 repair=True
+      Wide glacial river with turquoise water flowing over dark volcanic rocks, featuring a central circular whirlpool and scattered white ice patches along the banks under an overcast sky.
+      photo_id=14f4466e-edf1-482b-b9d3-abd79c26ade4
+
+[ 32] IMG_7204.jpg         status=query_generation_error words=16 attempts=2 repair=True
+      Aerial view of rocky valley with winding road, green YUNAK balloon bottom left, striped balloons right
+      photo_id=16632449-f69e-43f5-9544-3e73a51725c4
+
+[ 43] IMG_7148.jpg         status=query_generation_error words=14 attempts=2 repair=True
+      Suspension bridge silhouette with sun bursting through tower over rippling water and cloudy sky
+      photo_id=23b4836a-78a1-4478-809b-79d53a4a1569
+
+[ 45] 9.jpg                status=query_generation_error words=17 attempts=2 repair=True
+      Office desk with 2025/26 calendar, laptop showing man and woman dining, black mousepad, silver mouse, water bottle
+      photo_id=24176ee3-9b7e-4680-a54a-f17aebe74575
+
+[ 60] 3.jpg                status=query_generation_error words=10 attempts=2 repair=True
+      Office cubicle desk with 2025/26 calendar and laptop playing Seinfeld
+      photo_id=2f690200-500b-4cfb-bf24-50b8738ca9c5
+
+[ 63] IMG_7072.jpg         status=query_generation_error words=34 attempts=2 repair=True
+      Low angle view of a tall cylindrical stone building on a wet cobblestone street corner, flanked by an LC Waikiki sign on the left and an ornate awning with hanging lanterns on the right.
+      photo_id=303e0e16-6435-4362-9ec1-4ae33b4150ca
+
+[ 67] IMG_6725.jpg         status=query_generation_error words=14 attempts=2 repair=True
+      White egret standing on mossy rocks preening with long plume against green rippling water
+      photo_id=34381745-9c07-48a0-bf92-6825200fbcc3
+
+[ 72] IMG_7230.jpg         status=query_generation_error words=22 attempts=2 repair=True
+      Wooden deck with beige lounge chairs, open white and navy umbrella, closed umbrella on left, orange lifebuoy on rope railing overlooking sea
+      photo_id=3bd1714f-6d62-4086-a69b-b13b1e36a537
+
+[ 75] IMG_5108.jpg         status=query_generation_error words=14 attempts=2 repair=True
+      Taxidermied white sheep standing on straw-covered base inside glass display case with metal posts
+      photo_id=3f61fdbf-3b0e-412f-9e9b-68896c636a3d
+
+[ 81] IMG_6456.jpg         status=query_generation_error words=18 attempts=2 repair=True
+      View through rough stone window of blue sea with small rocky island and gray rectangular box on patio
+      photo_id=42991099-b994-4a4e-830c-b6b703f98df6
+
+[ 82] IMG_6473.jpg         status=query_generation_error words=16 attempts=2 repair=True
+      Stone statue back view overlooking dense city and sea with white BARCELONA letters on terrace below
+      photo_id=42d31dd9-ade5-44dc-a059-3baca948636f
+
+[ 87] IMG_6977.jpg         status=query_generation_error words=22 attempts=2 repair=True
+      White chalk cliffs viewed over a garden of white irises and green bushes, with a small wind turbine on the left hillside.
+      photo_id=46f698e3-fccd-4f39-92be-da63a65e8736
+
+[ 93] 2.jpg                status=query_generation_error words=21 attempts=2 repair=True
+      Desk with purple 2025/26 calendar, laptop showing blonde woman on ABC News, two water bottles, and silver mouse on black mat
+      photo_id=4bf6cae2-c4de-4cc2-86db-d40be5ea40dd
+
+[ 97] 24.jpg               status=query_generation_error words=18 attempts=2 repair=True
+      Low angle view from textured yellow sofa looking toward blue curved couch and pink Unipol Donation Station screen
+      photo_id=5417574b-bd16-4755-9467-3a58b5159e18
+
+[102] IMG_6820.jpg         status=query_generation_error words=19 attempts=2 repair=True
+      Black Sony headphones connected via audio jack to DE1-SoC F36 FPGA development board with white USB cable on wood
+      photo_id=5898d910-9df9-4df3-a8f4-1ee086de4f0f
+
+[107] IMG_3589.JPG         status=query_generation_error words=14 attempts=2 repair=True
+      Stone arch viaduct spanning river with rowboats moored in foreground and hillside town buildings
+      photo_id=5ce18d0c-4df9-4937-97ce-e63a096dd2fd
+
+[109] IMG_6216.jpg         status=query_generation_error words=20 attempts=2 repair=True
+      Low angle interior view of faceted stone columns with red and green stained glass windows above a black ribbon railing
+      photo_id=5d818024-bd9a-46d7-bd90-ee37b3ec5fb7
+
+[114] 57.jpg               status=query_generation_error words=18 attempts=2 repair=True
+      Low angle shot of wood grain table surface with white paper towel roll on right and hallway background
+      photo_id=6259fe71-41c8-4fdf-9970-65ae8f25368a
+
+[118] IMG_3979.JPG         status=query_generation_error words=30 attempts=2 repair=True
+      Open spiral notebook with hand-drawn full-bridge DC-DC converter circuit diagrams and red handwritten notes on a light blue desk next to a black mouse and printed worksheet with a pen.
+      photo_id=66105754-421c-4508-b77b-a812815e2d46
+
+[120] 155.jpg              status=query_generation_error words=29 attempts=2 repair=True
+      First-person view of a silver laptop on a black mat, with a hand using a mouse, a glass of orange juice, and a paper towel roll on the left.
+      photo_id=66c33c06-1ab7-424d-9770-a600144da967
+
+[121] 23.jpg               status=query_generation_error words=17 attempts=2 repair=True
+      Low angle view from textured beige sofa showing blue curved couch and pink Unipol Donation Station screen
+      photo_id=66f5a68d-c849-4087-8d34-9af6cfe82b24
+
+[132] IMG_3642.JPG         status=query_generation_error words=29 attempts=2 repair=True
+      High-angle view of a grand arcade with a white lattice glass dome, colorful arched shop doors on the upper balcony, and a central circular staircase surrounded by cafe tables.
+      photo_id=7093b988-05b2-4e58-ba0e-88ea6d8afdc8
+
+[136] IMG_4738.jpg         status=query_generation_error words=18 attempts=2 repair=True
+      Low angle view of illuminated Eiffel Tower at dusk with bare tree branches silhouetted on the left side
+      photo_id=72bb70ef-8b44-4099-81c9-929b8341cf19
+
+[143] IMG_4953.jpg         status=query_generation_error words=23 attempts=2 repair=True
+      Stack of eight plastic meal prep containers with brown sauce next to a blue patterned bowl with chopsticks and a Haden induction hob
+      photo_id=7d815437-022b-4e66-a8fa-6454bdbc5a08
+
+[159] IMG_6653.jpg         status=query_generation_error words=23 attempts=2 repair=True
+      Ornate frescoed ceiling with illusionistic architecture above a large wall mural depicting a chaotic battle scene with horses and soldiers crossing a river.
+      photo_id=9019c9c4-9f94-4b34-988b-4b9751db3d41
+
+[174] IMG_6455.jpg         status=query_generation_error words=21 attempts=2 repair=True
+      View through rough stone archway showing blue sea, central reddish rock island, pine branches, and gray rectangular box on paved ground
+      photo_id=973f4d73-23e2-431e-a295-ad940430928c
+
+[176] IMG_3849.JPG         status=query_generation_error words=28 attempts=2 repair=True
+      Overhead view of a wooden mixed grill platter featuring a round burger patty, two reddish sausages, chicken wings, skewered meat, and sliced flatbread arranged along the bottom edge.
+      photo_id=9adc667d-70c4-414b-a8b0-c1ae46956129
+
+[199] IMG_7206.jpg         status=query_generation_error words=20 attempts=2 repair=True
+      Aerial view of rocky fairy chimney landscape with winding road and hot air balloons including one with vertical black stripes
+      photo_id=a8eacbf7-6533-4cc8-b3b7-52c20b6395d2
+
+[206] IMG_6660.jpg         status=query_generation_error words=0 attempts=2 repair=True
+      (no query generated)
+      photo_id=ae4ac1f7-b7da-42cb-befa-a3f7cbb9fd81
+
+[210] IMG_3691.JPG         status=query_generation_error words=23 attempts=2 repair=True
+      Sliced glossy roasted duck over white rice with chopped green onions and pale cabbage on a round white plate with a metal spoon.
+      photo_id=b0bbea12-0cca-4a09-a7cc-c01460fa8064
+
+[228] IMG_2671.JPG         status=query_generation_error words=27 attempts=2 repair=True
+      Dim sum table featuring bamboo steamer with three green buns, tripe topped with red and green chili slices, and red rice rolls beside a four-compartment sauce dish.
+      photo_id=c16fb33a-c3bb-42f9-a971-d298f43ed7b9
+
+[231] 62.jpg               status=query_generation_error words=21 attempts=2 repair=True
+      First-person view of hands spreading red sauce on toast next to a blue Flora butter tub and stainless steel cabinet handles
+      photo_id=c61663c8-02c5-4c3b-911e-b4d0353f88c5
+
+[240] IMG_6659.jpg         status=query_generation_error words=26 attempts=2 repair=True
+      Stone statue of veiled woman in profile with hands clasped near face, framed by rough tree bark on left and St. Peter's Basilica dome in background.
+      photo_id=cea22c4d-48dd-4ab6-9e6e-2e547e3cea49
+
+[244] DSCF0619.JPG         status=query_generation_error words=16 attempts=2 repair=True
+      Wide horseshoe waterfall cascading over dark layered basalt cliffs into turbulent white water under overcast sky
+      photo_id=d16549e1-0265-4f00-adc1-898f393b15c9
+
+[248] IMG_4606.jpg         status=query_generation_error words=17 attempts=2 repair=True
+      Low angle view of winged female sculpture holding sword aloft on stone arch pillar against blue sky
+      photo_id=d30676ee-1ccc-490e-b8d0-1d19f4487d62
+
+[249] DSCF0098.JPG         status=query_generation_error words=19 attempts=2 repair=True
+      Low angle view of white stone relief sculpture on arch pillar featuring winged figure holding spears against blue sky
+      photo_id=d5370587-2cf2-4ee7-a307-fb2f98d715a2
+
+[253] IMG_3635.JPG         status=query_generation_error words=21 attempts=2 repair=True
+      Buffet line featuring large tray of bone-in meat, beef stew with carrots, and server in black floral shirt using red-handled tongs.
+      photo_id=dde4970f-ae07-4418-89ab-73dd0fcd2f09
+
+[268] IMG_6578.jpg         status=query_generation_error words=13 attempts=2 repair=True
+      Man in red cap and plaid shirt standing on cobblestones before Pantheon columns
+      photo_id=e483e43e-3fa3-438d-b60c-5bd473c84e5f
+
+[274] IMG_2699.JPG         status=query_generation_error words=23 attempts=2 repair=True
+      Blurry highway view at sunset featuring a circular 40 speed limit sign on the left and a large glass building on the right.
+      photo_id=ec884230-1eac-41e1-86a1-2957d167e388
+
+[278] 152.jpg              status=query_generation_error words=22 attempts=2 repair=True
+      First-person view of hands typing on silver laptop on black desk mat, with glass of orange juice and purple-capped water bottle nearby
+      photo_id=ee8431a3-3f7c-4484-88b2-16e790aa13e5
+
+[282] IMG_4260.JPG         status=query_generation_error words=15 attempts=2 repair=True
+      Opened Budweiser can with newspaper print design sitting on grey mousepad next to laptop keyboard
+      photo_id=f17e8a3c-0f19-43c5-ac32-7dec96d4d9da
+
+[285] 6.jpg                status=query_generation_error words=23 attempts=2 repair=True
+      Office cubicle desk with purple and orange 2025/26 calendar poster above a tablet playing a video showing a man in a white shirt
+      photo_id=f25b9b63-ddbb-4c51-8708-45ad9bd919c0
+
+[288] IMG_6137.jpg         status=query_generation_error words=16 attempts=2 repair=True
+      Hand holding square black Gaudi Barcelona stained glass souvenir against blurred city buildings and blue sky
+      photo_id=f59a3018-d1a4-4db7-897d-721b0208a819
+
+[299] IMG_6758.jpg         status=query_generation_error words=19 attempts=2 repair=True
+      Giant white brain sculpture decorated with colorful flowers on a pedestal reading YOUR BRAIN WHEN YOU BELIEVE IN YOURSELF
+      photo_id=ffd5216c-cf0d-48d3-abce-30972e95d146
+

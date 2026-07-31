@@ -1,0 +1,19 @@
+{
+  "case_id": "hot_air_balloon_mood_case_v3",
+  "locked": true,
+  "preference": "B",
+  "protocol_version": "mood-blind-response-v3",
+  "reason": "",
+  "scores": {
+    "A": {
+      "coherence": 4,
+      "personalization": 3,
+      "trustworthiness": 3
+    },
+    "B": {
+      "coherence": 3,
+      "personalization": 4,
+      "trustworthiness": 3
+    }
+  }
+}

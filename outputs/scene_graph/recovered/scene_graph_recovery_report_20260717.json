@@ -1,0 +1,50 @@
+{
+  "album_root": "D:\\code\\vscode\\Msc-code\\smart-photo-narrative\\photos",
+  "album_snapshot_sha256": "13670dd24a78c51cefb6e36b2071cdcfe4227a8cf43360932d01ae282c0c1beb",
+  "blocking_issues": 0,
+  "counts": {
+    "album_image_files": 376,
+    "album_uncovered": 0,
+    "checksum_conflict": 0,
+    "covered_album_paths": 376,
+    "duplicate": 0,
+    "empty": 0,
+    "extra_result_path": 0,
+    "failed": 2,
+    "local_missing": 0,
+    "malformed": 0,
+    "modified_after_generation": 0,
+    "recovered": 374,
+    "storage_missing": 0,
+    "total_rows": 376,
+    "unsafe_path": 0,
+    "unsupported_source": 0
+  },
+  "database": "data\\smart_photo.db",
+  "dataset_id": "personal-main-v1-legacy-recovered-20260717",
+  "generation_sha256_verified": false,
+  "issues": [
+    {
+      "category": "failed",
+      "image_path": "IMG_0621.JPG",
+      "line_number": 93,
+      "message": "Expecting ',' delimiter: line 33 column 64 (char 2139); repair failed: Expecting ',' delimiter: line 33 column 64 (char 2139)"
+    },
+    {
+      "category": "failed",
+      "image_path": "IMG_6249.jpg",
+      "line_number": 287,
+      "message": "Expecting ',' delimiter: line 34 column 64 (char 2170); repair failed: Expecting ',' delimiter: line 34 column 64 (char 2170)"
+    }
+  ],
+  "provenance": "legacy_path_time_recovered",
+  "recovered_at": "2026-07-17T15:38:32.902145+00:00",
+  "source_counts": {
+    "failed": 2,
+    "remote": 373,
+    "remote_repaired": 1
+  },
+  "source_file": "D:\\code\\vscode\\Msc-code\\smart-photo-narrative\\outputs\\qwen_scene_graph_photos_full.jsonl",
+  "source_file_sha256": "f5ec5e2b6785f3637e8882b0bc5ecb465cddc65484634cd084c7cc4701e24e7b",
+  "user_confirmed_current_album_source": true
+}

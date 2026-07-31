@@ -1,0 +1,42 @@
+{
+  "region": "frankfurt",
+  "model_requested": "qwen3.7-plus-2026-05-26",
+  "models_echoed": [
+    "qwen3.7-plus-2026-05-26"
+  ],
+  "base_url": "https://ws-zy0hfmmgv5mmo64a.eu-central-1.maas.aliyuncs.com/compatible-mode/v1",
+  "runs": 10,
+  "warmup": 1,
+  "success_count": 10,
+  "success_rate": 1.0,
+  "latency_seconds": {
+    "p50": 3.7182758999988437,
+    "p95": 4.787021209999147,
+    "mean": 3.890204629999789,
+    "min": 3.2583040000026813,
+    "max": 4.940410999995947
+  },
+  "error_types": {},
+  "image_fingerprints": [
+    {
+      "path": "photos\\1.jpg",
+      "sha256": "5e35b2641097ec52cdded109f775a9579df3665e2c6bc6a247ec328f7047b5c0"
+    },
+    {
+      "path": "photos\\10.jpg",
+      "sha256": "817832379b3c034de4c8b08bfb89da020832248e585bce66ace71ea0f19c2be2"
+    },
+    {
+      "path": "photos\\12.jpg",
+      "sha256": "875cd99012785b426172a5cf2c8a95c36c7adc3b66502f3ba271c46cfc8a00ff"
+    },
+    {
+      "path": "photos\\135.jpg",
+      "sha256": "d5c10dd30bc3ad1629f5eacd558d417133f6c737baa48ac856c0531a11a4e619"
+    },
+    {
+      "path": "photos\\136.jpg",
+      "sha256": "6fd282237298b6b8218420baaa0d4b524eaf950266ff10e61864ae3a40094763"
+    }
+  ]
+}

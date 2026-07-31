@@ -1,0 +1,17 @@
+{
+  "count": 376,
+  "source_counts": {
+    "remote": 373,
+    "remote_repaired": 1,
+    "failed": 2
+  },
+  "successful_count": 374,
+  "failed_count": 2,
+  "failed_images": [
+    "IMG_0621.JPG",
+    "IMG_6249.jpg"
+  ],
+  "missing_count": 0,
+  "missing_images": [],
+  "extra_count": 0
+}
