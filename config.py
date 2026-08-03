@@ -235,7 +235,11 @@ GEOCODER_CACHE_SIZE = 1000  # LRU cache size
 COLLECTION_NAME = "photo_image_v2"
 SCENE_GRAPH_COLLECTION_NAME = "photo_scene_graph_v2"
 INDEX_SCHEMA_VERSION = 2
-RRF_K = 60
+# RRF constant. Was 60 (intuitive shipped baseline). Set to 1, the optimum from
+# the systematic search in retrieval_human_ablation.json::grid_b_all_channels.best
+# (Hit@1 0.720). The report still describes the 1.0/0.8/0.9, k=60 baseline as the
+# shipped config; this changes only the live demo, not the frozen experimental record.
+RRF_K = 1
 RETRIEVAL_CANDIDATE_K = 100
 
 

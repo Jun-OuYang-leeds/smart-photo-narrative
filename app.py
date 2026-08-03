@@ -812,9 +812,9 @@ def page_story() -> None:
                 "but does not confirm emotion, purpose, relationships, or causes."
             ),
         )
+        annotated_count = len(retriever().storage.get_photo_moods(photo_ids))
         if _is_mood_experiment_selection(photo_ids):
             _render_mood_editor(photo_ids)
-            annotated_count = len(retriever().storage.get_photo_moods(photo_ids))
             use_photographer_mood = st.checkbox(
                 "Use photographer mood metadata / 使用拍摄者心情 Metadata",
                 value=False,
@@ -829,6 +829,21 @@ def page_story() -> None:
                     f"Only {annotated_count}/{len(photo_ids)} photos have mood labels. "
                     "The formal M0/M1 case requires all five."
                 )
+        elif annotated_count > 0:
+            # A second case study that already carries saved mood labels (e.g.
+            # paris_20251218). The frozen editor is not shown — those labels were
+            # saved under their own annotation_set and editing here would rewrite
+            # the wrong set — but they can be used in a Creative story. The
+            # report's M0/M1 case stays on the experiment event.
+            use_photographer_mood = st.checkbox(
+                f"Use photographer mood metadata ({annotated_count}/{len(photo_ids)} labelled) "
+                "/ 使用拍摄者心情 Metadata",
+                value=False,
+                help=(
+                    "Mood is used only by Creative mode and refers to the photographer at capture time. "
+                    "Faithful Story and retrieval always ignore it."
+                ),
+            )
         elif photo_ids:
             st.caption(
                 "Mood annotation is limited to the frozen 2026-07-07 Event 1 five-photo experiment."

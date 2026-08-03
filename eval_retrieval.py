@@ -1,6 +1,6 @@
 """R0--R7 retrieval variants for the retrieval experiment.
 
-Each variant ranks the frozen 1,596-photo corpus for one English known-item
+Each variant ranks the frozen 1,596-photo corpus (current DB: 1,599 photos) for one English known-item
 query and returns a ranked photo-id list (the metric layer checks whether the
 target is in the top-k). Channels and weights are frozen by the protocol:
 

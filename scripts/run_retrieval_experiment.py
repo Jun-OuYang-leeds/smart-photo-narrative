@@ -2,7 +2,7 @@
 
 Two modes:
 
-* ``--prepare`` (offline, no LLM, no keys): freezes the 1,596-photo corpus,
+* ``--prepare`` (offline, no LLM, no keys): freezes the 1,599-photo corpus,
   samples the deterministic 300 targets (near-duplicates / events / metadata
   stratification), and builds the two read-only BLIP/BLIP2 FTS indexes. Writes a
   freeze manifest. Use this to validate the offline pipeline against the live DB.

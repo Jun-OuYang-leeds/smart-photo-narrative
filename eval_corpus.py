@@ -7,7 +7,7 @@ near-duplicate groups, and the stratified 300-target sample.
 
 Frozen data contract (verified against the live DB at freeze time):
 
-* Candidate library (corpus searched over) = the **1,596** photos that have all
+* Candidate library (corpus searched over) = the **1,599** photos that have all
   of: a CLIP vector, a base-BLIP caption, a BLIP2 caption, and a main Scene
   Graph.
 * Target pool = the **373** of the original **376** main-project personal photos
@@ -60,7 +60,7 @@ def seed_from_name(name: str = SEED_NAME) -> int:
 # A photo qualifies for the frozen corpus when all four model channels exist.
 # The captions table stores one row per (photo, model); the CLIP vector is
 # marked by a ``clip:`` tag source; the main Scene Graph lives in scene_graphs.
-# NOTE: the corpus intentionally INCLUDES the later ``pic2/`` batch (1,596
+# NOTE: the corpus intentionally INCLUDES the later ``pic2/`` batch (1,599
 # total); only the target pool excludes it.
 _ALL_CHANNEL_SQL = """
 SELECT p.photo_id
@@ -85,7 +85,7 @@ def frozen_corpus_photo_ids(
     blip_model: str = BLIP_MODEL_NAME,
     blip2_model: str = BLIP2_MODEL_NAME,
 ) -> list[str]:
-    """The 1,596-photo all-channel candidate library, deterministically ordered.
+    """The 1,599-photo all-channel candidate library, deterministically ordered.
 
     Includes the later ``pic2/`` batch; every photo has a CLIP vector, a
     base-BLIP caption, a BLIP2 caption, and a main Scene Graph.

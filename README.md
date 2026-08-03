@@ -15,7 +15,7 @@
 
 ## 当前真实数据状态
 
-下表为 2026-07-25 合并第二批照片 (pic2) 后 `scripts/report_index_state.py` 的实测状态，不是示例数字：
+下表为合并第二批照片 (pic2) 后 `scripts/report_index_state.py` 的实测状态（最近核对 2026-08-02），不是示例数字：
 
 | 项目 | 数量 | 说明 |
 |---|---:|---|
@@ -23,8 +23,8 @@
 | CLIP 图像向量 | 1599 | Chroma `photo_image_v2` |
 | BLIP Caption / FTS5 文档 | 1599 | 同时写入 SQLite FTS5 |
 | CLIP 索引标记照片 | 1599 | 非语义哨兵 `__clip_indexed__`，承载 CLIP 完成/版本身份；不进 FTS、不进 Story 证据 |
-| Scene Graph（成功） | 1597 | 374（主相册）+ 1223（pic2）；均为身份/哈希绑定的 legacy 恢复 |
-| Scene Graph 三元组 / 向量 | 22200 | SQLite 与 Chroma `photo_scene_graph_v2` 计数一致 |
+| Scene Graph（成功） | 1599 | 376（主相册）+ 1223（pic2）；均为身份/哈希绑定的 legacy 恢复 |
+| Scene Graph 三元组 / 向量 | 22230 | SQLite 与 Chroma `photo_scene_graph_v2` 计数一致 |
 | 自动事件 | 226 | 1579 张照片已分配，20 张低时间置信度照片暂不强制归入事件 |
 | 含 GPS 照片 | 317 | — |
 | 索引失败 | 0 | — |
@@ -390,7 +390,7 @@ conda run -n torchtest python scripts/run_mood_story_experiment.py --reveal
 
 ## 已知限制
 
-- 当前库有 1,597 个 Scene Graph 和 22,200 个三元组（376 主相册 + 1223 pic2），但关系向量的语义近邻不等于严格 S–P–O 命中；A2/A3/A4 的实际增益必须由冻结 qrels 的正式消融证明。
+- 当前库有 1,599 个 Scene Graph 和 22,230 个三元组（376 主相册 + 1223 pic2），但关系向量的语义近邻不等于严格 S–P–O 命中；A2/A3/A4 的实际增益必须由冻结 qrels 的正式消融证明。
 - A0–A4 v1 已完成，但只覆盖 2026-07-16 的 376 张个人照片和一个人工终审者；主相册此后扩充到 1599 张，但正式消融未在其上重跑，结论仍是 376 张个人相册 case study，不代表所有用户或通用图片检索。
 - BLIP Caption 与 Qwen Scene Graph 是模型观察，可能漏掉小物体、人物关系、文字和细粒度动作；FTS5 的精确词项能力受 Caption 质量影响。CLIP 零样本标签已于 2026-07-27 移除（§35），不再作为检索或叙事证据。
 - 中文查询会经过项目内的确定性解析/翻译规则，覆盖面不等于完整机器翻译；复杂口语可选 Ollama，但会降低严格复现性。

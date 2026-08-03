@@ -23,7 +23,11 @@ from storage import BM25Result, PhotoStorage
 from vector_store import ChromaVectorStore, VectorHit
 
 
-CHANNEL_WEIGHTS = {"clip": 1.0, "caption": 0.8, "scene_graph": 0.9}
+# Searched-optimal weights (clip 1.0, caption 0.4, scene_graph 0.2) from
+# retrieval_human_ablation.json::grid_b_all_channels.best. The report still
+# documents the intuitive baseline (clip 1.0, caption 0.8, scene_graph 0.9) as the
+# shipped config; this live override does not change the frozen evaluation tables.
+CHANNEL_WEIGHTS = {"clip": 1.0, "caption": 0.4, "scene_graph": 0.2}
 
 
 @dataclass(frozen=True)

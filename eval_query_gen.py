@@ -6,7 +6,7 @@ Protocol (per target photo):
    fixed seed). The query is 5--20 words with >=2 observable distinctive cues
    and must not leak filenames / UUIDs / timestamps / places / captions /
    triples / ranking, nor assert identity / emotion / intent / relations.
-2. **Select distractors**: the 4 CLIP-most-similar photos from the 1,596-photo
+2. **Select distractors**: the 4 CLIP-most-similar photos from the 1,599-photo
    corpus (the panel is the target + these 4).
 3. **Audit**: shuffle the 5 images anonymously and ask Qwen3.7 to pick the best
    match for the query by display index, and to judge query compliance.

@@ -1,0 +1,136 @@
+{
+  "note": "R6-M vs R7 on the 60-target metadata subset, re-fused with the searched-optimal three-channel weights. Two bases are reported: 'frozen' reuses the 1,596-corpus per-channel lists from retrieval_results_n300.json (identical to the deployed-weight run; the only variable is the RRF weights/k, so it is the fair optimal-vs-deployed comparison). 'live' re-queries the current 1,599-photo DB and is NOT comparable to the paper's deployed numbers.",
+  "weight_source": "retrieval_human_ablation.json::grid_b_all_channels.best",
+  "weights": {
+    "clip": 1.0,
+    "blip2": 0.4,
+    "scene": 0.2
+  },
+  "k": 1,
+  "n_subset": 60,
+  "frozen_1596_corpus": {
+    "r6m": {
+      "hits_1": 42,
+      "hit_at_1": 0.7,
+      "ci_95_hit_at_1": [
+        0.575,
+        0.801
+      ],
+      "hits_5": 47,
+      "hit_at_5": 0.7833,
+      "ci_95_hit_at_5": [
+        0.664,
+        0.869
+      ]
+    },
+    "r7": {
+      "hits_1": 46,
+      "hit_at_1": 0.7667,
+      "ci_95_hit_at_1": [
+        0.646,
+        0.856
+      ],
+      "hits_5": 48,
+      "hit_at_5": 0.8,
+      "ci_95_hit_at_5": [
+        0.682,
+        0.882
+      ],
+      "pool": {
+        "pool_before": 1599,
+        "n": 60,
+        "after_median": 3.0,
+        "after_mean": 4.92
+      }
+    },
+    "mcnemar_r6m_vs_r7": {
+      "1": {
+        "b": 1,
+        "c": 5,
+        "n_discordant": 6,
+        "p_value": 0.21875
+      },
+      "5": {
+        "b": 0,
+        "c": 1,
+        "n_discordant": 1,
+        "p_value": 1.0
+      }
+    }
+  },
+  "live_1599_corpus": {
+    "r6m": {
+      "hits_1": 48,
+      "hit_at_1": 0.8,
+      "ci_95_hit_at_1": [
+        0.682,
+        0.882
+      ],
+      "hits_5": 58,
+      "hit_at_5": 0.9667,
+      "ci_95_hit_at_5": [
+        0.886,
+        0.991
+      ]
+    },
+    "r7": {
+      "hits_1": 54,
+      "hit_at_1": 0.9,
+      "ci_95_hit_at_1": [
+        0.799,
+        0.953
+      ],
+      "hits_5": 60,
+      "hit_at_5": 1.0,
+      "ci_95_hit_at_5": [
+        0.94,
+        1.0
+      ],
+      "pool": {
+        "pool_before": 1599,
+        "n": 60,
+        "after_median": 3.0,
+        "after_mean": 4.92
+      }
+    },
+    "mcnemar_r6m_vs_r7": {
+      "1": {
+        "b": 0,
+        "c": 6,
+        "n_discordant": 6,
+        "p_value": 0.03125
+      },
+      "5": {
+        "b": 0,
+        "c": 2,
+        "n_discordant": 2,
+        "p_value": 0.5
+      }
+    }
+  },
+  "comparison_to_deployed": {
+    "r6m_deployed": {
+      "hit_at_1": 0.4167,
+      "hit_at_5": 0.75
+    },
+    "r7_deployed": {
+      "hit_at_1": 0.8,
+      "hit_at_5": 0.9833
+    },
+    "mcnemar_deployed": {
+      "1": {
+        "b": 1,
+        "c": 24,
+        "n_discordant": 25,
+        "p_value": 1.5497207641601562e-06
+      },
+      "5": {
+        "b": 0,
+        "c": 14,
+        "n_discordant": 14,
+        "p_value": 0.0001220703125
+      }
+    },
+    "source": "retrieval_human_ablation.json (1,596 corpus)"
+  }
+}

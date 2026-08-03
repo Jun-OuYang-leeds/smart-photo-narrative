@@ -8,5 +8,17 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 
-# Personal photo library — private images, far too large for a repo
-photos/
+# Personal photo library — private images, far too large for a repo.
+# Ignore every file inside (including the pic2 subfolder) but keep the
+# directory itself in the repo via a .gitkeep placeholder.
+photos/*
+!photos/.gitkeep
+
+# Working / thesis-draft clutter (contains full thesis text dumps)
+tmp/
+
+# Claude Code harness local config
+.claude/
+
+# Nested independent repo — see PROJECT_STRUCTURE.md
+Msc/
