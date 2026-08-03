@@ -23,7 +23,7 @@ The table below is the measured state reported by `scripts/report_index_state.py
 | CLIP image vectors | 1599 | Chroma `photo_image_v2` |
 | BLIP captions / FTS5 documents | 1599 | also written to SQLite FTS5 |
 | CLIP-index marker photos | 1599 | non-semantic sentinel `__clip_indexed__` carries CLIP completion / version identity; not in FTS, not in story evidence |
-| Scene graphs (succeeded) | 1599 | 376 (main album) + 1223 (pic2); all are identity/hash-bound legacy recoveries |
+| Scene graphs (succeeded) | 1599 | 376 (main album) + 1223 (pic2); identity/hash-bound |
 | Scene-graph triples / vectors | 22230 | SQLite and Chroma `photo_scene_graph_v2` counts agree |
 | Automatic events | 226 | 1579 photos assigned; 20 low time-confidence photos are not force-assigned to an event |
 | Photos with GPS | 317 | — |
@@ -33,7 +33,7 @@ Evolution: 2026-07-16 completed the full 376-photo main-album v2 baseline (~9 mi
 
 On 2026-07-27 the 72 CLIP zero-shot preset labels (§35) were removed: semantic labels are no longer generated, and the `tags` table keeps only one non-semantic sentinel row per photo to carry the CLIP completion / version-identity marker (incremental fast path and v1→v2→v1 protection unchanged); tags also left story evidence and the Creative first-person eligibility check. Retrieval ranking is unaffected (tags never took part in scoring, and frozen qrels have no tag filter).
 
-**Important boundary: the frozen A0–A4 v1 retrieval ablation and the N0–N3 / Qwen / Mood formal story experiments were all completed on the 376-photo album on 2026-07-16 and have not been re-run on the expanded 1599-photo album.** The expanded album is used for functional demos and later experiments; the formal conclusions in each experimental section below still rest on the 376-photo case study. The pic2 batch is likewise a legacy recovery, flagged `generation_sha256_verified=false`, and does not claim Manifest-hash verification at generation time.
+**Two evaluation generations coexist.** The thesis reports the current formal evaluation: a 300-target known-item retrieval benchmark and a single-event story case study, both run on the full 1,599-photo corpus. The earlier 376-photo A0–A4 ablation, the N0–N3 / Qwen-dual story experiments and the hot-air-balloon mood blind review documented below are scoping-phase work from 2026-07-16, retained for history; they are not the thesis result and were not re-run on the expanded album.
 
 ## Runtime environment
 
@@ -42,11 +42,16 @@ This project already runs in `torchtest` with the following core components:
 - Python 3.10
 - PyTorch 2.10.0 + CUDA 12.6
 - Transformers 5.2.0
-- CLIP: `openai/clip-vit-base-patch32`
-- BLIP: `Salesforce/blip-image-captioning-base`
+- CLIP: `openai/clip-vit-base-patch32` — image/query embeddings, run locally
+- BLIP: `Salesforce/blip-image-captioning-base` — base caption, kept for comparison, run locally
+- BLIP2: `Salesforce/blip2-opt-2.7b` — primary caption, generated on the AIRE cluster
+- Scene graph: `Qwen/Qwen2.5-VL-7B-Instruct` — subject–predicate–object triples, AIRE three-GPU array job
+- Story LLM: `qwen3.5-27b` — snapshot validated on the AIRE cluster, called at runtime through the DashScope / Bailian OpenAI-compatible API; local `qwen3:4b` is the offline fallback
 - ChromaDB 1.5.1
 - Streamlit 1.54.0
 - SQLite FTS5 (provided by the Python built-in SQLite)
+
+Local indexing covers CLIP and the base BLIP caption. BLIP2 captions and Qwen scene graphs are generated offline on the Leeds AIRE cluster (L40S GPUs for BLIP2 in half precision; a three-GPU vLLM array for the scene graphs) and imported back under content-hash identity binding, because the local 4 GB GPU cannot hold the seven-billion-parameter model. Story generation uses the `qwen3.5-27b` snapshot validated on AIRE, invoked at runtime through the DashScope (Bailian) OpenAI-compatible API (`config.py` `REMOTE_LLM_BASE_URL` / `REMOTE_LLM_MODEL`); if the remote backend is unavailable the app falls back to the local `qwen3:4b`.
 
 The host machine is an RTX 3050 Ti Laptop GPU with 4 GB. The default CLIP batch is 8 and the BLIP batch is 4; on CUDA OOM the cache is cleared and the current batch is halved, down to a minimum of 1. The CLIP stage completes and is unloaded before the BLIP stage begins, so the two models do not occupy GPU memory together for long. An ordinary batch failure also degrades to per-image processing, and failures and checkpoints are recorded.
 
@@ -63,17 +68,14 @@ conda run -n torchtest python -m streamlit run app.py
 
 A browser usually opens `http://localhost:8501`. The page offers album and index, text/image retrieval, events, story, scene-graph workflow and diagnostics.
 
-Ollama is an optional capability, not a startup condition, and does not have to be tested before using the project:
+The app offers two story backends, selectable in the UI:
 
-- The default rule parser handles ordinary, date, relation and before-after queries;
-- Production uses the local `qwen3:4b` by default, and every chat request explicitly sets `think=False`;
-- Only when checked does the system try the same Qwen model to assist query parsing;
-- Story generation may call Qwen, but if it is unavailable or the output fails evidence validation it falls back to deterministic text with photo citations;
-- CLIP, BLIP, FTS5, Chroma, event organisation and scene-graph import do not depend on Ollama.
+- **Remote (used by the thesis story case study):** `qwen3.5-27b` through the DashScope (Bailian) OpenAI-compatible API. The snapshot was validated on the AIRE cluster; the API key is read only from the `DASHSCOPE_API_KEY` env var and is never stored in the UI.
+- **Local:** Ollama `qwen3:4b`, with `think=False` on every chat request. Used when no API key is set or as an offline fallback.
 
-The model can be overridden with the environment variable `SMART_PHOTO_OLLAMA_MODEL`; the default value and context settings are in
-[config.py](config.py). The frozen N0--N3 formal experiments still pin the original `llama3:latest` and its digest in
-[story_evaluation.py](story_evaluation.py), so switching the production model does not rewrite the existing experimental results.
+The default rule parser handles ordinary, date, relation and before-after queries without any LLM; an optional Qwen-assisted parser can be enabled. If a story backend is unavailable or its output fails evidence validation, the system falls back to deterministic text with photo citations. CLIP, BLIP, FTS5, Chroma, event organisation and scene-graph import do not depend on any story backend.
+
+The local model can be overridden with `SMART_PHOTO_OLLAMA_MODEL`; defaults and context settings are in [config.py](config.py). The frozen N0--N3 scoping-phase experiments still pin `llama3:latest` and its digest in [story_evaluation.py](story_evaluation.py), so switching backends does not rewrite existing results.
 
 ## Indexing: incremental, forced recompute and status report
 
@@ -231,28 +233,37 @@ This again maps cloud identity to the SQLite stable UUID by full content hash, s
 
 For fuller cloud steps see [scripts/cloud/README_scene_graph_aire.md](scripts/cloud/README_scene_graph_aire.md).
 
-### 5. Recovery of a confirmed personal batch that lacks an old manifest
-
-The strict manifest above must always be tried first. The standalone recovery entry is permitted only when the user can confirm that old results did come from the current, unmodified personal album; the personal-album ban on the ordinary legacy importer is not relaxed by this.
-
-Dry-run read-only first:
-
-```powershell
-conda run -n torchtest python scripts/recover_legacy_personal_scene_graphs.py `
-  outputs/scene_graph/raw/qwen_scene_graph_photos_full.jsonl `
-  --album-root photos `
-  --database data/smart_photo.db `
-  --dataset-id personal-main-v1-legacy-recovered-20260717 `
-  --output-jsonl outputs/scene_graph/recovered/scene_graph_indexable_recovered_20260717.jsonl `
-  --report-json outputs/scene_graph/recovered/scene_graph_recovery_report_20260717.json `
-  --confirm-generated-from-current-album
-```
-
-After confirming `blocking_issues=0`, append `--apply` to emit the recovery JSONL, then do the indexing dry-run and real write per section 4. Recovery records are fixed to write `provenance=legacy_path_time_recovered`, the original result-file hash, the current photo hash, the SQLite UUID, the row hash and the verification conditions, and explicitly flag `generation_sha256_verified=false`. This is an honest route that records the evidence gap; it must not be described in the thesis as having Manifest-hash verification at generation time.
+Scene-graph results are accepted only through the strict manifest route above; results are never matched by basename or stem.
 
 In the retriever the `caption` channel queries only the BLIP caption column of FTS5 and never reads the scene graph, tags or location from the same FTS document; otherwise A1 would leak A2's information. The generic `PhotoStorage.search_bm25(..., fields=...)` may still select these fields explicitly in non-ablation settings.
 
-## A0–A4 retrieval ablation evaluation
+## Known-item retrieval benchmark (thesis)
+
+The thesis evaluation is a 300-target exact known-item benchmark over the full 1,599-photo corpus (search pool 1,596). A stratified procedure with a fixed seed selects the 300 targets, limits how many come from any one event, and controls the proportion of near-duplicate and metadata-complete photographs. The author hand-wrote one natural-language query per target with the photograph available. Only the designated photograph counts as a hit, never a near-duplicate. Primary metrics are Hit@1 and Hit@5 with 95% Wilson score intervals; P95 latency is also reported. All 300 targets are valid, so Hit@k equals Success@k.
+
+Seven variants are compared (thesis Table II):
+
+| Variant | Channels | Hit@1 [95% CI] | Hit@5 [95% CI] | P95 ms |
+|---|---|---:|---:|---:|
+| R0 | CLIP | 0.713 [0.660, 0.762] | 0.937 [0.903, 0.959] | 100 |
+| R1 | BLIP BM25 | 0.203 [0.162, 0.252] | 0.427 [0.372, 0.483] | 7 |
+| R2 | BLIP2 BM25 | 0.337 [0.286, 0.392] | 0.520 [0.464, 0.576] | 7 |
+| R3 | Scene graph | 0.237 [0.192, 0.288] | 0.457 [0.401, 0.513] | 235 |
+| R4 | CLIP + BLIP | 0.460 [0.404, 0.517] | 0.773 [0.723, 0.817] | 117 |
+| R5 | CLIP + BLIP2 | 0.540 [0.483, 0.596] | 0.803 [0.755, 0.844] | 101 |
+| R6 | CLIP + BLIP2 + SG | 0.503 [0.447, 0.560] | 0.820 [0.773, 0.859] | 308 |
+
+CLIP alone is by far the strongest single channel. The auxiliary channels on their own (R1–R3) are weak, and the deployed fusion weights (CLIP 1.0, caption 0.8, scene graph 0.9, RRF k = 60) make every fusion variant worse than CLIP — the shipped system was worse than its own strongest component. A systematic weight search (thesis Table IV) found the optimum at CLIP 1.0, caption 0.4, scene graph 0.2, RRF k = 1, reaching 0.720 Hit@1 — the only configuration that exceeds CLIP alone, and only marginally. Paired exact McNemar tests with Holm adjustment (thesis Table III) show R0 vs R4 is highly significant (94/18, p = 5.37e-13), i.e. CLIP recovers many cases the deployed fusion loses; R5 vs R6 is not significant (35/24, p = 0.385).
+
+On a 60-target subset where reliable date and location are available, known-correct metadata filtering raised the searched fusion's Hit@1 from 0.817 to 0.900 and Hit@5 from 0.967 to 1.000 (thesis Table V); the paired test R6 vs R7 is significant (1/24, p = 3.10e-6). Reliable metadata is the one intervention with a clear, significant gain.
+
+The honest conclusion: on a personal album, adding caption and scene-graph channels to CLIP does not improve exact known-item retrieval; their value is interpretability (a caption match can be shown to the user as a reason), and reliable metadata is the only filter that clearly helps.
+
+Public aggregate figures are in [evaluation/public/retrieval_summary_n300.json](evaluation/public/retrieval_summary_n300.json); the private per-query report is Git-ignored.
+
+## Earlier scoping-phase retrieval ablation (A0–A4)
+
+_This 48-qrels ablation on the 376-photo album is scoping-phase work from 2026-07-16; the 300-target benchmark above is the thesis result. Retained for history._
 
 The evaluation definition is fixed as:
 
@@ -311,7 +322,23 @@ The A4-over-A0 nDCG@10 gain is only +0.026, paired bootstrap 95% CI `[-0.113, 0.
 
 Public overall, per-class, language, latency and confidence-interval figures with no UUID/query text are in [evaluation/retrieval_ablation_v1_summary.json](evaluation/retrieval_ablation_v1_summary.json). The private per-query report lives in Git-ignored `outputs/experiments/`.
 
-## Story N0–N3 formal experiment and blind review
+## Single-event story case study (thesis)
+
+The thesis story evaluation is a qualitative single-event case study, not a quantitative user trial. It uses one event of 12 photographs captured on 18 December 2025 between 12:19 and 16:25, all carrying CLIP, BLIP2 and scene-graph evidence. The event was chosen because it previously exposed prompt-planning leakage under an earlier local model, so it shows how the system evolved; it is neither unseen nor representative.
+
+Three narration configurations are compared, all from the same 12 photographs and four evidence groups, generated with the `qwen3.5-27b` snapshot at temperature 0:
+
+- **S-F** — faithful third-person account; mood ignored.
+- **S-C0** — observer-style creative first-person memoir; mood disabled.
+- **S-C1** — S-C0 with human-confirmed photographer mood enabled.
+
+S-F passed validation first time, while S-C0 and S-C1 each needed the single permitted repair pass (in both cases failing the first-person check first). The case study shows that output style (voice, mood use) changes while every sentence remains traceable to a caption, a scene-graph triple or a confirmed mood label. It also shows the limit of grounding: the BLIP2 caption calls the berry-topped crepe a pizza, and that error propagates identically into all three narratives — grounding cannot correct an inaccurate caption, only make its source inspectable.
+
+One event cannot establish a general preference; the thesis describes this as design evidence, not a quantitative claim.
+
+## Earlier scoping-phase story experiment (N0–N3, Llama)
+
+_This 12×4 Llama-based experiment is scoping-phase work; the thesis uses the single-event case study above. Retained for history._
 
 The formal 12×4 generation is complete; the private raw text, photo paths, UUIDs, claim audits and A/B mappings are all in Git-ignored `evaluation/private/`. The public aggregation is in `evaluation/story_ablation_v1_summary.json` and contains no full story text or personal photo identifiers.
 
@@ -336,7 +363,9 @@ conda run -n torchtest python scripts/analyze_story_ablation.py
 
 In the formal results N3 had 11/12 fallbacks; the only directly accepted N3 draft was then found by the independent claim audit to have 5 inferences the validator did not catch. The user has finished and locked all 12 blind reviews; the unblinded result is N0 wins 12, N3 wins 0, ties 0 (two-sided exact binomial `p = 0.00048828125`). The current result supports "conservative gating improves formal compliance and detectable claim safety, but at a clear cost in informativeness, latency and subjective readability"; it does not support "N3 model text quality improves across the board".
 
-## Qwen3:4B story dual-track experiment
+## Earlier scoping-phase story experiment (Qwen dual-track)
+
+_This local `qwen3:4b` dual-track experiment is scoping-phase work; the thesis case study above uses the `qwen3.5-27b` snapshot. Retained for history._
 
 The new experiment evaluates only the local `qwen3:4b` with a frozen digest; the old Llama N0--N3 remain as historical results, neither overwritten nor entering the new main results. The Faithful track is QF0--QF3 and the Creative track is QC0--QC2; QF2/QF3 and QC1/QC2 respectively share an identical first draft, to isolate the contribution of validation, repair and fallback. The full pre-registered protocol is in [evaluation/QWEN_STORY_PROTOCOL.md](evaluation/QWEN_STORY_PROTOCOL.md).
 
@@ -360,9 +389,11 @@ The full formal-generation and blind-review text, photo IDs and mappings are all
 
 Automatic results: Faithful QF3 is 7 `ok`, 2 `repaired`, 3 `fallback`, with language, citation and evidence-group coverage all 1.000 and a mean latency of 127.81 s; QF1 is 12/12 `invalid`. Creative main sample QC2 is 6 `ok`, 2 `repaired`, 4 `error`, mean latency 42.01 s; the QC0→QC1 repetition-rate change is -0.0313, 95% paired-bootstrap interval `[-0.0523, -0.0132]`, but QC2's errors lowered language and structural compliance relative to QC1 by 0.333 each. In blind review QF3's coherence/informativeness/evidence-consistency are 0.333/0.583/0.333 lower than QF0; QC2's coherence/personalisation/credibility are 0.273/0.273/0.455 lower than QC0. The conservative agent evidence audit over 2,500 claim units and full results are in [evaluation/story_qwen_dual_v1_summary.json](evaluation/story_qwen_dual_v1_summary.json). This result is not used to claim Qwen beats the old Llama.
 
-## Photographer-mood metadata single case
+## Photographer-mood metadata
 
-Creative v6.2 can optionally use human-confirmed photographer mood; this field does not enter retrieval, event grouping or Faithful story, and does not represent a heart-rate/HRV inference. To stop a small model from ignoring or mis-copying the label, Qwen handles scene narration while the application deterministically renders the human mood as a first-person photographer-mood sentence with an evidence ID, marked in the audit area as `verified_photographer_mood`. The experiment is limited to the 5 hot-air-balloon photos of `2026-07-07 · Event 1`. On the Story page select that event, switch to Creative, choose and save one of `neutral/calm/happy/excited/tense/sad` for each photo, then run:
+In the thesis case study (above) mood appears as the **S-C1** configuration on the 2025-12-18 event. This section documents the earlier formal **M0/M1** blind review on the hot-air-balloon event; it is scoping-phase work retained for history.
+
+Creative v6.2 can optionally use human-confirmed photographer mood; this field does not enter retrieval, event grouping or Faithful story, and does not represent a heart-rate/HRV inference. To stop a small model from ignoring or mis-copying the label, Qwen handles scene narration while the application deterministically renders the human mood as a first-person photographer-mood sentence with an evidence ID, marked in the audit area as `verified_photographer_mood`. The M0/M1 blind review used the 5 hot-air-balloon photos of `2026-07-07 · Event 1`. On the Story page select that event, switch to Creative, choose and save one of `neutral/calm/happy/excited/tense/sad` for each photo, then run:
 
 ```powershell
 conda run -n torchtest python scripts/run_mood_story_experiment.py
@@ -390,8 +421,8 @@ The first two stories are generated with `save=False` and do not write the produ
 
 ## Known limitations
 
-- The library now has 1,599 scene graphs and 22,230 triples (376 main album + 1223 pic2), but semantic neighbours of relation vectors are not strict S–P–O hits; the actual A2/A3/A4 gains must be proven by the formal ablation on frozen qrels.
-- A0–A4 v1 is complete but covers only the 376 personal photos from 2026-07-16 and one human final-reviewer; the main album has since grown to 1599 photos, but the formal ablation was not re-run on them, so the conclusion remains a 376-photo personal-album case study and does not represent all users or general image retrieval.
+- The library has 1,599 scene graphs and 22,230 triples, but semantic neighbours of relation vectors are not strict S–P–O hits; any gain must be proven on the 300-target benchmark, where adding caption and scene-graph channels to CLIP did not improve exact known-item retrieval.
+- The thesis 300-target benchmark covers the full 1,599-photo corpus but a single owner and one annotator (queries written with the photograph available), so it does not represent all users or general image retrieval. The earlier A0–A4 v1 ablation (376 photos, MRR/Recall/nDCG) is scoping-phase work, not the thesis result.
 - BLIP captions and Qwen scene graphs are model observations that may miss small objects, person relations, text and fine-grained actions; the exact-term power of FTS5 is bounded by caption quality. CLIP zero-shot tags were removed on 2026-07-27 (§35) and are no longer retrieval or narration evidence.
 - Chinese queries pass through the project's deterministic parsing/translation rules, whose coverage is not full machine translation; complex colloquial input may optionally use Ollama, but that lowers strict reproducibility.
 - On the 6 Chinese test queries of v1, A0/A1/A3 nDCG@10 is 0; the frozen lexicon does not fully translate concepts like "hot-air balloon, heron, gluttonous snake, sit, by the lake". This failure cannot be fixed by re-tuning words in place after seeing test results while still claiming an unseen test set.
